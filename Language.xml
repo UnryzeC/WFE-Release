@@ -1,0 +1,1506 @@
+﻿<root>
+	<Translation>
+		<Locales>
+			<Locale>EN</Locale>
+			<Locale>RU</Locale>
+			<Locale>SE</Locale>
+			<Locale>DE</Locale>
+            <Locale>VN</Locale>
+			<Locale>CN</Locale>
+		</Locales>
+
+		<NewVersionAvailable>
+			<EN>New version available</EN>
+			<RU>Доступна новая версия</RU>
+			<SE>Ny version tillgänglig</SE>
+			<DE>Neue version verfügbar</DE>
+			<VN>Phiên bản mới có sẵn</VN>
+			<CN>新版本可用</CN>
+		</NewVersionAvailable>
+
+		<NoUpdatesAvailable>
+			<EN>No updates available</EN>
+			<RU>Нет доступных обновлений</RU>
+			<SE>Inga uppdateringar tillgängliga</SE>
+			<DE>Keine updates verfügbar</DE>
+			<VN>Không có bảng cập nhật có sẵn</VN>
+			<CN>没有可用的更新</CN>
+		</NoUpdatesAvailable>
+
+		<UpdateFinished>
+			<EN>Update finished</EN>
+			<RU>Обновление завершено</RU>
+			<SE>Uppdatering slutförd</SE>
+			<DE>Aktualisierung abgeschlossen</DE>
+			<VN>Cập nhật xong</VN>
+			<CN>更新完成</CN>
+		</UpdateFinished>
+
+		<DownloadRequest>
+			<EN>Start download</EN>
+			<RU>Начать загрузку</RU>
+			<SE>Starta nedladdning</SE>
+			<DE>Starte download</DE>
+			<VN>SBắt đầu tải về</VN>
+			<CN>开始下载</CN>
+		</DownloadRequest>
+
+		<UpdateRequest>
+			<EN>Press Yes to start downloading</EN>
+			<RU>Нажмите Да для начала скачивания</RU>
+			<SE>Tryck på Ja för att börja ladda ner</SE>
+			<DE>Drücken sie Ja, um den download zu starten</DE>
+			<VN>Nhấn yes để bắt đầu tải xuống</VN>
+			<CN>按是开始下载</CN>
+		</UpdateRequest>
+
+		<UpdateText>
+			<EN>Update:</EN>
+			<RU>Обновить:</RU>
+			<SE>Uppdateringar:</SE>
+			<DE>Aktualisieren:</DE>
+			<VN>Cập nhật:</VN>
+			<CN>更新:</CN>
+		</UpdateText>
+
+		<CloseText>
+			<EN>Close</EN>
+			<RU>Закрыть</RU>
+			<SE>Stänga</SE>
+			<DE>Schließen</DE>
+			<VN>Đóng</VN>
+			<CN>关闭</CN>
+		</CloseText>
+
+		<KeyBindsButton>
+			<EN>Keys</EN>
+			<RU>Клавиши</RU>
+			<SE>Kommandon</SE>
+			<DE>Tasten</DE>
+            <VN>Keys</VN>
+			<CN>按键</CN>
+		</KeyBindsButton>
+
+		<QuickMSGButton>
+			<EN>Messages</EN>
+			<RU>Сообщения</RU>
+			<SE>Meddelanden</SE>
+			<DE>Mitteilungen</DE>
+			<VN>Chat nhanh</VN>
+			<CN>快捷喊话</CN>
+		</QuickMSGButton>
+
+		<MSGHotkeyL>
+			<EN>HotKey:</EN>
+			<RU>Хоткей:</RU>
+			<SE>SnabbKmd:</SE>
+			<DE>Schnelltaste:</DE>
+			<VN>HotKey:</VN>
+			<CN>热键:</CN>
+		</MSGHotkeyL>
+
+		<MSGMessageL>
+			<EN>Message:</EN>
+			<RU>Сообщение:</RU>
+			<SE>Meddelande:</SE>
+			<DE>Mitteilung:</DE>
+			<VN>Tin nhắn:</VN>
+			<CN>消息:</CN>
+		</MSGMessageL>
+
+		<MSGAddL>
+			<EN>Add:</EN>
+			<RU>Добавить:</RU>
+			<SE>Lägg till:</SE>
+			<DE>Hinzufügen:</DE>
+			<VN>Thêm:</VN>
+			<CN>添加:</CN>
+		</MSGAddL>
+
+		<MSGDeleteL>
+			<EN>Delete:</EN>
+			<RU>Удалить:</RU>
+			<SE>Ta bort:</SE>
+			<DE>Entfernen:</DE>
+			<VN>Xóa:</VN>
+			<CN>删除:</CN>
+		</MSGDeleteL>
+
+		<MSGTextL>
+			<EN>Text:</EN>
+			<RU>Текст:</RU>
+			<SE>Text:</SE>
+			<DE>Text:</DE>
+			<VN>Tin nhắn:</VN>
+			<CN>文字:</CN>
+		</MSGTextL>
+
+		<SettingsButton>
+			<EN>Settings</EN>
+			<RU>Настройки</RU>
+			<SE>Inställningar</SE>
+			<DE>Einstellungen</DE>
+			<VN>Cài đặt</VN>
+			<CN>设置</CN>
+		</SettingsButton>
+
+		<HotKeysButton>
+			<EN>HotKeys</EN>
+			<RU>Хоткеи</RU>
+			<SE>SnabbKmd</SE>
+			<DE>Schnelltaste</DE>
+			<VN>HotKeys</VN>
+			<CN>热键</CN>
+		</HotKeysButton>
+
+		<CreditsButton>
+			<EN>Credits</EN>
+			<RU>Благодарности</RU>
+			<SE>Medverkare</SE>
+			<DE>Impressum</DE>
+			<VN>Credits</VN>
+			<CN>学分</CN>
+		</CreditsButton>
+
+		<SmartCastToolTip>
+			<EN>Smartcast On/Off</EN>
+			<RU>Смарткаст вкл/выкл</RU>
+			<SE>SnabbTangent På/Av</SE>
+			<DE>Smartcast Ein/Aus</DE>
+			<VN>Tắt/mở xài nhanh</VN>
+			<CN>快捷施法 开启/关闭</CN>
+		</SmartCastToolTip>
+
+		<WideScreen>
+			<EN>WideScreen</EN>
+			<RU>Широкоформат</RU>
+			<SE>Bred skärm</SE>
+			<DE>Breitbild</DE>
+			<VN>Màn hình rộng</VN>
+			<CN>宽屏</CN>
+		</WideScreen>
+
+		<WideScreenTip>
+			<EN>Can be turned on/off while in Game.</EN>
+			<RU>Может быть вкл/выкл во время игры.</RU>
+			<SE>Kan sättas på/av medans du spelar.</SE>
+			<DE>Kann während des Spiels ein-/ausgeschaltet werden.</DE>
+			<VN>Có thể bật/tắt khi đang chơi.</VN>
+			<CN>可在游戏中 开启/关闭</CN>
+		</WideScreenTip>
+
+		<MouseLock>
+			<EN>Mouse Lock</EN>
+			<RU>Удерживание Мыши</RU>
+			<SE>Fast mus</SE>
+			<DE>Maussperre</DE>
+			<VN>Khóa chuột</VN>
+			<CN>锁定鼠标</CN>
+		</MouseLock>
+
+		<MouseLockTip>
+			<EN>Can be turned on/off while in Game.</EN>
+			<RU>Может быть вкл/выкл во время игры.</RU>
+			<SE>Kan sättas på/av medans du spelar.</SE>
+			<DE>Kann während des Spiels ein-/ausgeschaltet werden.</DE>
+			<VN>Có thể bật/tắt khi đang chơi.</VN>
+			<CN>可在游戏中 开启/关闭</CN>
+		</MouseLockTip>
+
+		<DisablePause>
+			<EN>Disable Pause</EN>
+			<RU>Отключить Паузу</RU>
+			<SE>Stäng av Paus</SE>
+			<DE>Pause ausschalten</DE>
+			<VN>Vô hiệu Pause</VN>
+			<CN>禁用暂停</CN>
+		</DisablePause>
+
+		<DisableBLPLimit>
+			<EN>Remove BLP Limit</EN>
+			<RU>Убрать BLP лимит</RU>
+			<SE>Ta bort BLP begränsningen</SE>
+			<DE>BLP-limitierung entfernen</DE>
+			<VN>Bỏ giới hạn size Textures</VN>
+			<CN>移除BLP大小限制</CN>
+		</DisableBLPLimit>
+
+		<RemoveMapSizeLimit>
+			<EN>Unlock Map Size</EN>
+			<RU>Убрать Лимит Веса Карт</RU>
+			<SE>Lås upp kartstorlek</SE>
+			<DE>Unlock Kartengröße</DE>
+			<VN>Bỏ giới hạn dung lượng Map</VN>
+			<CN>移除地图大小限制</CN>
+		</RemoveMapSizeLimit>
+
+		<SmartCast>
+			<EN>SmartCast</EN>
+			<RU>СмартКаст</RU>
+			<SE>SnabbTangent</SE>
+			<DE>SmartCast</DE>
+			<VN>Xài nhanh</VN>
+			<CN>快捷施法</CN>
+		</SmartCast>
+
+		<AutoCast>
+			<EN>AutoCast</EN>
+			<RU>АвтоКаст</RU>
+			<SE>AutoTangent</SE>
+			<DE>AutoCast</DE>
+			<VN>Kỹ năng AutoCast</VN>
+			<CN>按住按键连续施法</CN>
+		</AutoCast>
+
+		<HPRegen>
+			<EN>HP Regen</EN>
+			<RU>ХП реген</RU>
+			<SE>HP Regen</SE>
+			<DE>LP Regen</DE>
+			<VN>Tốc độ hồi HP</VN>
+			<CN>显示 HP 恢复值</CN>
+		</HPRegen>
+
+		<MPRegen>
+			<EN>MP Regen</EN>
+			<RU>МП реген</RU>
+			<SE>MP Regen</SE>
+			<DE>MP Regen</DE>
+			<VN>Tốc độ hồi MP</VN>
+			<CN>显示 MP 恢复值</CN>
+		</MPRegen>
+
+		<Modifications>
+			<EN>Modifications:</EN>
+			<RU>Модификации:</RU>
+			<SE>Modifieringar:</SE>
+			<DE>Modifikationen:</DE>
+			<VN>Các sửa đổi:</VN>
+			<CN>修改:</CN>
+		</Modifications>
+
+		<OnlyInLobby>
+			<EN>Only in Lobby:</EN>
+			<RU>Только в Лобби:</RU>
+			<SE>Bara i Lobby:</SE>
+			<DE>Nur in Lobby:</DE>
+			<VN>Chỉ trong phòng đợi:</VN>
+			<CN>仅在大厅中:</CN>
+		</OnlyInLobby>
+
+		<SendToAll>
+			<EN>Send to All</EN>
+			<RU>Послать Всем</RU>
+			<SE>Skicka till alla</SE>
+			<DE>An alle senden</DE>
+			<VN>Send to All</VN>
+			<CN>发送给所有人</CN>
+		</SendToAll>
+
+		<ManaBar>
+			<EN>Mana Bar:</EN>
+			<RU>Мана Бар:</RU>
+			<SE>Mana Bar:</SE>
+			<DE>Mana Bar:</DE>
+			<VN>Thanh Mana</VN>
+			<CN>魔法值显示</CN>
+		</ManaBar>
+
+		<HeroOnly>
+			<EN>Hero Only:</EN>
+			<RU>Только Герой:</RU>
+			<SE>Endast Hjälte:</SE>
+			<DE>Nur Held:</DE>
+			<VN>Chỉ Hero:</VN>
+			<CN>仅限英雄:</CN>
+		</HeroOnly>
+
+		<All>
+			<EN>All</EN>
+			<RU>Все</RU>
+			<SE>Allt</SE>
+			<DE>Alle</DE>
+			<VN>Tất cả:</VN>
+			<CN>所有单位:</CN>
+		</All>
+
+		<Ally>
+			<EN>Ally</EN>
+			<RU>Союзник</RU>
+			<SE>Verbündete</SE>
+			<DE>Alliera</DE>
+			<VN>Đồng minh:</VN>
+			<CN>友军:</CN>
+		</Ally>
+
+		<Enemy>
+			<EN>Enemy</EN>
+			<RU>Враг</RU>
+			<SE>Fiende</SE>
+			<DE>Feind</DE>
+			<VN>Kẻ thù:</VN>
+			<CN>敌人:</CN>
+		</Enemy>
+
+		<My>
+			<EN>My</EN>
+			<RU>Мой</RU>
+			<SE>Min</SE>
+			<DE>Meine</DE>
+			<VN>Bản thân:</VN>
+			<CN>自己:</CN>
+		</My>
+
+		<Colour>
+			<EN>Colour:</EN>
+			<RU>Цвет:</RU>
+			<SE>Färg:</SE>
+			<DE>Farbe:</DE>
+			<VN>Màu sắc:</VN>
+			<CN>颜色:</CN>
+		</Colour>
+
+		<ManaTextColourL>
+			<EN>Mana Text Colour:</EN>
+			<RU>Цвет Мана Текста:</RU>
+			<SE>Mana Text Färg:</SE>
+			<DE>Mana Text Farbe:</DE>
+			<VN>Màu sắc Cỡ sắc:</VN>
+			<CN>法力文本颜色:</CN>
+		</ManaTextColourL>
+
+		<LoadingNotification>
+			<EN>Loading Notification</EN>
+			<RU>Уведомление о Загрузке</RU>
+			<SE>Laddar Avisering</SE>
+			<DE>Laden Benachrichtigung</DE>
+			<VN>Thông báo load game</VN>
+			<CN>地图加载完成弹窗</CN>
+		</LoadingNotification>
+
+		<ManaBarTip>
+			<EN>Can only be turned on/off in Lobby/Menu.</EN>
+			<RU>Может быть вкл./выкл. только в Лобби/Меню.</RU>
+			<SE>Kan bara sättas på/av i Lobby/Meny.</SE>
+			<DE>Kann nur in der Lobby/Menü ein-/ausgeschaltet werden..</DE>
+            <VN>Chỉ có thể tắt/mở trong phòng chờ/Menu.</VN>
+			<CN>仅可在 大厅/菜单 中 开启/关闭</CN>
+		</ManaBarTip>
+
+		<CooldownUI>
+			<EN>Cooldown UI:</EN>
+			<RU>UI Перезарядки:</RU>
+			<SE>Svalna UI:</SE>
+			<DE>Abkühlen UI:</DE>
+			<VN>Thời gian hồi skill:</VN>
+			<CN>冷却时间UI</CN>
+		</CooldownUI>
+
+		<ShowIndicator>
+			<EN>Show Indicator:</EN>
+			<RU>Отображать Индикатор:</RU>
+			<SE>Visa Indikator:</SE>
+			<DE>Indikator Anzeigen:</DE>
+			<VN>Hiển thị chỉ báo:</VN>
+			<CN>显示指标:</CN>
+		</ShowIndicator>
+		
+		<OverrideIndicator>
+			<EN>Override Indicator:</EN>
+			<RU>Перехватить Индикатор:</RU>
+			<SE>Överskrid Indikator:</SE>
+			<DE>Überschreiben Anzeigen:</DE>
+			<VN>Ghi đè chỉ báo:</VN>
+			<CN>覆盖指标:</CN>
+		</OverrideIndicator>
+
+		<DisplayMinutes>
+			<EN>Display Minutes:</EN>
+			<RU>Отображать Минуты:</RU>
+			<SE>Förevisa Minuter:</SE>
+			<DE>Anzeige Protokoll:</DE>
+			<VN>Hiển thị phút:</VN>
+			<CN>以分钟显示:</CN>
+		</DisplayMinutes>
+
+		<TextSize>
+			<EN>Text Size:</EN>
+			<RU>Размер Текста:</RU>
+			<SE>Textstorlek:</SE>
+			<DE>Textgröße:</DE>
+			<VN>Cỡ chữ:</VN>
+			<CN>文字大小:</CN>
+		</TextSize>
+
+		<RefreshTime>
+			<EN>Refresh Time (ms):</EN>
+			<RU>Время Обновления (мс):</RU>
+			<SE>Uppdateringstid (ms):</SE>
+			<DE>Aktualisierungszeit (ms):</DE>
+			<VN>Tốc độ làm tươi (ms):</VN>
+			<CN>检查刷新间隔 (毫秒):</CN>
+		</RefreshTime>
+
+		<Text>
+			<EN>Text:</EN>
+			<RU>Текст:</RU>
+			<SE>Text:</SE>
+			<DE>Text:</DE>
+			<VN>Màu chữ:</VN>
+			<CN>文字:</CN>
+		</Text>
+
+		<Shadow>
+			<EN>Shadow:</EN>
+			<RU>Тень:</RU>
+			<SE>Skugga:</SE>
+			<DE>Schatten:</DE>
+			<VN>Màu viền chữ:</VN>
+			<CN>阴影:</CN>
+		</Shadow>
+
+		<BarColours>
+			<EN>Health Colours:</EN>
+			<RU>Цвета Здоровья:</RU>
+			<SE>Hälso Färg:</SE>
+			<DE>Gesundheitsfarben:</DE>
+			<VN>Màu sắc thanh máu:</VN>
+			<CN>生命值显示</CN>
+		</BarColours>
+
+		<YourHPBar>
+			<EN>Your:</EN>
+			<RU>Ваше:</RU>
+			<SE>Din:</SE>
+			<DE>Ihre:</DE>
+			<VN>Bản thân:</VN>
+			<CN>你的:</CN>
+		</YourHPBar>
+
+		<AllyHPBar>
+			<EN>Ally:</EN>
+			<RU>Союзное:</RU>
+			<SE>Allierade:</SE>
+			<DE>Verbündete:</DE>
+			<VN>Đồng minh:</VN>
+			<CN>友军:</CN>
+		</AllyHPBar>
+
+		<EnemyHPBar>
+			<EN>Enemy:</EN>
+			<RU>Вражеское:</RU>
+			<SE>Fiender:</SE>
+			<DE>Feindliche:</DE>
+			<VN>Kẻ thù:</VN>
+			<CN>敌人:</CN>
+		</EnemyHPBar>
+
+		<PassiveHPBar>
+			<EN>Passive:</EN>
+			<RU>Пассивный:</RU>
+			<SE>Passiv:</SE>
+			<DE>Passiv:</DE>
+			<VN>Cửa hàng:</VN>
+			<CN>中立被动:</CN>
+		</PassiveHPBar>
+
+		<AggressiveHPBar>
+			<EN>Aggressive:</EN>
+			<RU>Агрессивный:</RU>
+			<SE>Aggressiv:</SE>
+			<DE>Aggressiv:</DE>
+			<VN>Quái rừng:</VN>
+			<CN>中立敌对:</CN>
+		</AggressiveHPBar>
+
+		<CustomIndicatorColoursText>
+			<EN>Custom Indicator Colours:</EN>
+			<RU>Цвета Настраиваемых Индикаторов:</RU>
+			<SE>Anpassade Indikatorfärger:</SE>
+			<DE>Benutzerdefinierte Indikatorfarben:</DE>
+			<VN>Màu sắc vòng phạm vi:</VN>
+			<CN>自定义指示器颜色:</CN>
+		</CustomIndicatorColoursText>
+		
+		<AttackIndicatorColourText>
+			<EN>Attack:</EN>
+			<RU>Атака:</RU>
+			<SE>Ge Sig På:</SE>
+			<DE>Attacke:</DE>
+			<VN>Tấn công:</VN>
+			<CN>攻击:</CN>
+		</AttackIndicatorColourText>
+		
+		<SpellAoEIndicatorColourText>
+			<EN>Spell AoE:</EN>
+			<RU>AoE Заклинания:</RU>
+			<SE>Stava AoE:</SE>
+			<DE>Zauber AoE:</DE>
+			<VN>Kỹ năng:</VN>
+			<CN>技能:</CN>
+		</SpellAoEIndicatorColourText>
+
+		<SightIndicatorColourLabelText>
+			<EN>Sight Radius:</EN>
+			<RU>Радиус Обзора:</RU>
+			<SE>Siktradie:</SE>
+			<DE>Visierradius:</DE>
+			<VN>Tầm nhìn:</VN>
+			<CN>视野范围:</CN>
+		</SightIndicatorColourLabelText>
+
+		<DamageDraw>
+			<EN>Damage Draw:</EN>
+			<RU>Прорисовка Урона:</RU>
+			<SE>Siktradie:</SE>
+			<DE>Schadensziehung:</DE>
+			<VN>Hiển thị sát thương:</VN>
+			<CN>显示伤害数值:</CN>>
+		</DamageDraw>
+
+		<PhysicalColour>
+			<EN>Physical Colour:</EN>
+			<RU>Физический Цвет:</RU>
+			<SE>Fysisk Färg:</SE>
+			<DE>Physische Farbe:</DE>
+			<VN>Màu sát thương vật lí:</VN>
+			<CN>物理伤害颜色:</CN>
+		</PhysicalColour>
+
+		<PhysicalOffset>
+			<EN>Physical Offset:</EN>
+			<RU>Физический Сдвиг:</RU>
+			<SE>Fysisk Förskjutning:</SE>
+			<DE>Physische Versatz:</DE>
+			<VN>Độ lệch:</VN>
+			<CN>物理伤害显示位置:</CN>
+		</PhysicalOffset>
+
+		<MagicalColour>
+			<EN>Magical Colour:</EN>
+			<RU>Магический Цвет:</RU>
+			<SE>Magisk Färg:</SE>
+			<DE>Magische Farbe:</DE>
+			<VN>Màu sát thương phép:</VN>
+			<CN>魔法伤害颜色:</CN>
+		</MagicalColour>
+
+		<MagicalOffset>
+			<EN>Magical Offset:</EN>
+			<RU>Магический Сдвиг:</RU>
+			<SE>Magisk Förskjutning:</SE>
+			<DE>Magische Versatz:</DE>
+			<VN>Độ lệch:</VN>
+			<CN>魔法伤害显示位置:</CN>
+		</MagicalOffset>
+
+		<InstantRMC>
+			<EN>Repeat Right Mouse Click:</EN>
+			<RU>Повтор Правой Кнопки Мыши:</RU>
+			<SE>Upprepa Högerklick:</SE>
+			<DE>Wiederholen Rechtsklick:</DE>
+			<VN>Lặp lại click chuột</VN>
+			<CN>按住鼠标右键重复点击</CN>
+		</InstantRMC>
+
+		<EnforceHotkeys>
+			<EN>Enforce Hotkeys</EN>
+			<RU>Перекрыть Хоткеи</RU>
+			<SE>Förstärk Snabbkommandon</SE>
+			<DE>Tastaturkürzel durchsetzen</DE>
+			<VN>Áp dụng Hotkeys</VN>
+			<CN>强制使用热键</CN>
+		</EnforceHotkeys>
+
+		<LegacyConfig>
+			<EN>Save to WC3 Folder</EN>
+			<RU>Сохранить в Папку Вар 3</RU>
+			<SE>Spara till WC3 mapp</SE>
+			<DE>In WC3-Ordner speichern</DE>
+			<VN>Lưu vào thư mục War3</VN>
+			<CN>保存到WAR3文件夹</CN>
+		</LegacyConfig>
+
+		<CustomAttackTip>
+			<EN>Detailed Attack Tip</EN>
+			<RU>Подробная Подсказка Атаки</RU>
+			<SE>Detaljerad Attacktip</SE>
+			<DE>Detaillierter Angriffstipp</DE>
+			<VN>Chi tiết tốc độ đánh</VN>
+			<CN>详细的攻击信息提示</CN>
+		</CustomAttackTip>
+
+		<ExtendedAttackTip>
+			<EN>Extended Attack Tip</EN>
+			<RU>Расширенная Подсказка Атаки</RU>
+			<SE>Utökat Attacktips</SE>
+			<DE>Erweiterter Angriffstipp</DE>
+			<VN>Chi tiết tốc độ đánh</VN>
+			<CN>更多攻击信息提示</CN>
+		</ExtendedAttackTip>
+
+		<CustomDefenseTip>
+			<EN>Detailed Defense Tip</EN>
+			<RU>Подробная Подсказка Защиты</RU>
+			<SE>Detaljerad Försvarstips</SE>
+			<DE>Detaillierter Verteidigungstipp</DE>
+			<VN>Chi tiết phòng thủ</VN>
+			<CN>详细的防御信息提示</CN>
+		</CustomDefenseTip>
+
+		<ExtendedDefenseTip>
+			<EN>Extended Defense Tip</EN>
+			<RU>Расширенная Подсказка Защиты</RU>
+			<SE>Utökat Försvarstips</SE>
+			<DE>Erweiterter Verteidigungstipp</DE>
+			<VN>Chi tiết phòng thủ</VN>
+			<CN>更多防御信息提示</CN>
+		</ExtendedDefenseTip>
+
+		<WriteMagicResist>
+			<EN>Write Magic Resist</EN>
+			<RU>Писать Сопротивление Магии</RU>
+			<SE>Skriva Magic Resist</SE>
+			<DE>Schreiben Magieresistenz</DE>
+			<VN>Chi tiết kháng phép</VN>
+			<CN>防御信息显示魔抗</CN>
+		</WriteMagicResist>
+
+		<DisplaySettings>
+			<EN>Display:</EN>
+			<RU>Изображение:</RU>
+			<SE>Förevisa:</SE>
+			<DE>Anzeige:</DE>
+			<VN>Màn hình:</VN>
+			<CN>显示器</CN>
+		</DisplaySettings>
+
+		<FPSStatusLabel>
+			<EN>Status:</EN>
+			<RU>Статус:</RU>
+			<SE>Status:</SE>
+			<DE>Status:</DE>
+			<VN>Kiểu:</VN>
+			<CN>状态:</CN>
+		</FPSStatusLabel>
+
+		<FPSLimit>
+			<EN>FPS Limit:</EN>
+			<RU>ФПС Лимит:</RU>
+			<SE>FPS begräns:</SE>
+			<DE>FPS-Grenze:</DE>
+			<VN>Giới hạn FPS:</VN>
+			<CN>FPS上限:</CN>
+		</FPSLimit>
+
+		<FPSAdvancedInfoL>
+			<EN>FPS Advanced Info:</EN>
+			<RU>ФПС Доп. Информация:</RU>
+			<SE>FPS Avancerad Info:</SE>
+			<DE>FPS-Erweiterte Info:</DE>
+			<VN>Thông tin nâng cao FPS:</VN>
+			<CN>FPS高级信息:</CN>
+		</FPSAdvancedInfoL>
+
+		<RefreshRate>
+			<EN>Refresh Rate:</EN>
+			<RU>Частота Обновления:</RU>
+			<SE>Uppdateringshastighet:</SE>
+			<DE>Bildwiederholrate:</DE>
+			<VN>Tốc độ làm tươi:</VN>
+			<CN>刷新率:</CN>
+		</RefreshRate>
+
+		<DelaySettings>
+			<EN>Delay (ms):</EN>
+			<RU>Задержка (мс):</RU>
+			<SE>Dröjsmål (ms):</SE>
+			<DE>Verzögerung (ms):</DE>
+			<VN>Độ trễ (ms):</VN>
+			<CN>延迟 (毫秒):</CN>
+		</DelaySettings>
+
+		<Action>
+			<EN>Action:</EN>
+			<RU>Действия:</RU>
+			<SE>Handling:</SE>
+			<DE>Aktion:</DE>
+			<VN>Action:</VN>
+			<CN>动作:</CN>
+		</Action>
+
+		<GameStartDelay>
+			<EN>Game Start:</EN>
+			<RU>Старт Игры:</RU>
+			<SE>Starta Spel:</SE>
+			<DE>Spielbeginn:</DE>
+			<VN>Chạy Game:</VN>
+			<CN>游戏开始倒数:</CN>
+		</GameStartDelay>
+
+		<CamSteps>
+			<EN>Camera Steps:</EN>
+			<RU>Шаги Камеры:</RU>
+			<SE>Kamera Steg:</SE>
+			<DE>Kamera-Stufen:</DE>
+			<VN>Bước Camera:</VN>
+			<CN>镜头设置</CN>
+		</CamSteps>
+
+		<Distance>
+			<EN>Distance:</EN>
+			<RU>Дальность:</RU>
+			<SE>Distans:</SE>
+			<DE>Entfernung:</DE>
+			<VN>Độ xa:</VN>
+			<CN>距离:</CN>
+		</Distance>
+
+		<Angle>
+			<EN>Angle:</EN>
+			<RU>Угол:</RU>
+			<SE>Vinkel:</SE>
+			<DE>Winkel:</DE>
+			<VN>Góc:</VN>
+			<CN>角度:</CN>
+		</Angle>
+
+		<Height>
+			<EN>Height:</EN>
+			<RU>Высота:</RU>
+			<SE>Höjd:</SE>
+			<DE>Höhe:</DE>
+			<VN>Độ cao:</VN>
+			<CN>高度:</CN>
+		</Height>
+
+		<Speed>
+			<EN>Speed:</EN>
+			<RU>Скорость:</RU>
+			<SE>Hastighet:</SE>
+			<DE>Geschwindigkeit:</DE>
+			<VN>Tốc độ:</VN>
+			<CN>速度:</CN>
+		</Speed>
+
+		<Size>
+			<EN>Size:</EN>
+			<RU>Размер:</RU>
+			<SE>Storlek:</SE>
+			<DE>Größe:</DE>
+			<VN>Kích cỡ:</VN>
+			<CN>大小:</CN>
+		</Size>
+
+		<Duration>
+			<EN>Duration:</EN>
+			<RU>Длительность:</RU>
+			<SE>Varaktighet:</SE>
+			<DE>Dauer:</DE>
+			<VN>Thời gian:</VN>
+			<CN>持续时间:</CN>
+		</Duration>
+
+		<Pitch>
+			<EN>Incline:</EN>
+			<RU>Наклон:</RU>
+			<SE>Lutning:</SE>
+			<DE>Neigung:</DE>
+			<VN>Độ nghiêng:</VN>
+			<CN>倾斜:</CN>
+		</Pitch>
+
+		<Yaw>
+			<EN>Rotation:</EN>
+			<RU>Поворот:</RU>
+			<SE>Rotation:</SE>
+			<DE>Drehung:</DE>
+			<VN>Góc xoay:</VN>
+			<CN>旋转:</CN>
+		</Yaw>
+
+		<FarZ>
+			<EN>FarZ:</EN>
+			<RU>ДальностьZ:</RU>
+			<SE>LångtZ</SE>
+			<DE>EntfernungZ</DE>
+			<VN>Tầm nhìn:</VN>
+			<CN>远的Z:</CN>
+		</FarZ>
+
+		<FogZ>
+			<EN>FogZ:</EN>
+			<RU>ТуманZ:</RU>
+			<SE>DimmaZ</SE>
+			<DE>NebelZ</DE>
+			<VN>Sương mù:</VN>
+			<CN>雾Z:</CN>
+		</FogZ>
+
+		<Abilities>
+			<EN>Abilities</EN>
+			<RU>Способности</RU>
+			<SE>Förmågor</SE>
+			<DE>Fähigkeiten</DE>
+			<VN>Kỹ năng</VN>
+			<CN>技能</CN>
+		</Abilities>
+
+		<Items>
+			<EN>Items</EN>
+			<RU>Предметы</RU>
+			<SE>Föremål</SE>
+			<DE>Gegenstände</DE>
+			<VN>Items</VN>
+			<CN>物品</CN>
+		</Items>
+
+		<UtilityL>
+			<EN>Utility:</EN>
+			<RU>Утилиты:</RU>
+			<SE>Verktyg:</SE>
+			<DE>Hilfsmittel:</DE>
+			<VN>Các tiện ích:</VN>
+			<CN>辅助:</CN>
+		</UtilityL>
+
+		<SelfCastKeyL>
+			<EN>Self Cast Key:</EN>
+			<RU>Клавиша Каста на Себя:</RU>
+			<SE>Själv Snabb Tangent:</SE>
+			<DE>Selbst-Cast Taste:</DE>
+			<VN>Self Cast Key:</VN>
+			<CN>对自身施法按键:</CN>
+		</SelfCastKeyL>
+
+		<AutoCastKeyL>
+			<EN>Autocast Toggle Key:</EN>
+			<RU>Клавиша Вкл/Выкл автокаста:</RU>
+			<SE>AutoTangent Växel Nyckel:</SE>
+			<DE>Autocast-Umschalttaste:</DE>
+			<VN>Autocast Toggle Key:</VN>
+			<CN>自动施法开关按键:</CN>
+		</AutoCastKeyL>
+
+		<SpellBookModeL>
+			<EN>Spellbook/Learn Mode:</EN>
+			<RU>Режим Спелбука/Изучения:</RU>
+			<SE>Spellbok/Lär Läge:</SE>
+			<DE>Zauberbuch/Lernmodus:</DE>
+			<VN>Học kỹ năng:</VN>
+			<CN>魔法书/技能学习 模式:</CN>
+		</SpellBookModeL>
+
+		<NeutralUnitModeL>
+			<EN>Neutral Unit Mode:</EN>
+			<RU>Режим Нейтрального Юнита:</RU>
+			<SE>Neutral Enhet Läge:</SE>
+			<DE>Neutrale Einheit Modus:</DE>
+			<VN>Neutral Unit Mode:</VN>
+			<CN>中立单位模式:</CN>
+		</NeutralUnitModeL>
+
+		<MouseAutoCastDelay>
+			<EN>Mouse AutoCast Delay (ms):</EN>
+			<RU>Задержка Автокаста Мыши (мс):</RU>
+			<SE>Mus AutoTangent Dröjsmål (ms):</SE>
+			<DE>Maussperre AutoCast Verzögerung (ms):</DE>
+			<VN>Mouse AutoCast Delay:</VN>
+			<CN>鼠标自动施法延迟 (毫秒):</CN>
+		</MouseAutoCastDelay>
+
+		<UpdateDataL>
+			<EN>Update Data:</EN>
+			<RU>Обновить Данные:</RU>
+			<SE>Uppdaterings Data:</SE>
+			<DE>Daten aktualisieren:</DE>
+			<VN>Cập nhật dữ liệu:</VN>
+			<CN>更新数据:</CN>
+		</UpdateDataL>
+
+		<WindowModeL>
+			<EN>Window/Borderless:</EN>
+			<RU>Оконный/Без Границ:</RU>
+			<SE>Window/Borderless:</SE>
+			<DE>Fenster/Randlos:</DE>
+			<VN>Chuyển đổi cửa sổ/Không viền:</VN>
+			<CN>窗口/无边框:</CN>
+		</WindowModeL>
+
+		<MouseLockL>
+			<EN>Mouse Lock On/Off:</EN>
+			<RU>Удержание Мыши Вкл/Выкл:</RU>
+			<SE>Mus Lås På/Av:</SE>
+			<DE>Maussperre Ein/Aus:</DE>
+			<VN>Bật/tắt khoá chuột:</VN>
+			<CN>鼠标 锁定/解锁:</CN>
+		</MouseLockL>
+
+		<WideScreenL>
+			<EN>Widescreen On/Off:</EN>
+			<RU>Широкоформат Вкл/Выкл:</RU>
+			<SE>Widescreen På/Av:</SE>
+			<DE>Breitbildschirm Ein/Aus:</DE>
+			<VN>Bật/tắt chế độ màn hình rộng:</VN>
+			<CN>宽屏 开启/关闭:</CN>
+		</WideScreenL>
+		
+		<PauseL>
+			<EN>Pause On/Off:</EN>
+			<RU>Пауза Вкл/Выкл:</RU>
+			<SE>Paus På/Av:</SE>
+			<DE>Pause Ein/Aus:</DE>
+			<VN>Bật/tắt Pause:</VN>
+			<CN>暂停 开启/关闭:</CN>
+		</PauseL>
+
+		<UIL>
+			<EN>UI Hide/Show:</EN>
+			<RU>UI Скрыть/Показать:</RU>
+			<SE>UI Göm/Visa:</SE>
+			<DE>UI Ausblenden/Anzeigen:</DE>
+			<VN>Ẩn/hiện khung giao diện Game:</VN>
+			<CN>UI 显示/隐藏:</CN>
+		</UIL>
+
+		<ToggleMultiboardL>
+			<EN>Toggle Multiboard State:</EN>
+			<RU>Переключить Состояние Мультиборда:</RU>
+			<SE>Växla Multiboard State:</SE>
+			<DE>Multiboard-Status Umschalten:</DE>
+			<VN>Thu/phóng bảng công trạng:</VN>
+			<CN>开关多面板状态:</CN>
+		</ToggleMultiboardL>
+
+		<ShowHideMultiboardL>
+			<EN>Show/Hide Multiboard:</EN>
+			<RU>Показать/Скрыть Мультиборд:</RU>
+			<SE>Visa/Dölj multiboard:</SE>
+			<DE>Multiboard Ausblenden/Anzeigen:</DE>
+			<VN>Ẩn/hiện bảng công trạng:</VN>
+			<CN>显示/隐藏 多面板:</CN>
+		</ShowHideMultiboardL>
+
+		<MultiboardText>
+			<EN>Multiboard</EN>
+			<RU>Мультиборд</RU>
+			<SE>Multiboard</SE>
+			<DE>Multiboard</DE>
+			<VN>Công Trạng</VN>
+			<CN>多面板</CN>
+		</MultiboardText>
+
+		<MultiboardDisplaceText>
+			<EN>Multiboard Displace</EN>
+			<RU>Смещение Мультиборд</RU>
+			<SE>Multiboard Förflytta</SE>
+			<DE>Multiboard Verdrängen</DE>
+			<VN>Công Trạng Dịch chuyển</VN>
+			<CN>多面板移位</CN>
+		</MultiboardDisplaceText>
+
+		<ClearMessagesL>
+			<EN>Clear Messages:</EN>
+			<RU>Очистить Сообщения:</RU>
+			<SE>Rensa Meddelanden:</SE>
+			<DE>Nachrichten löschen:</DE>
+			<VN>Xóa tin nhắn:</VN>
+			<CN>清除消息:</CN>
+		</ClearMessagesL>
+
+		<CameraL>
+			<EN>Camera:</EN>
+			<RU>Камера:</RU>
+			<SE>Kamera:</SE>
+			<DE>Kamera:</DE>
+			<VN>Máy ảnh:</VN>
+			<CN>镜头:</CN>
+		</CameraL>
+
+		<OverrideL>
+			<EN>Override:</EN>
+			<RU>Перехватить:</RU>
+			<SE>Överskrid:</SE>
+			<DE>Überschreiben:</DE>
+			<VN>Ghi đè:</VN>
+			<CN>覆盖:</CN>
+		</OverrideL>
+
+		<RestoreL>
+			<EN>Restore:</EN>
+			<RU>Восстановить:</RU>
+			<SE>Återställ:</SE>
+			<DE>Wiederherstellen:</DE>
+			<VN>Phục hồi:</VN>
+			<CN>恢复:</CN>
+		</RestoreL>
+
+		<UnitL>
+			<EN>Unit:</EN>
+			<RU>Юнит:</RU>
+			<SE>Enhet:</SE>
+			<DE>Einheit:</DE>
+			<VN>Điều khiển đơn vị lính:</VN>
+			<CN>单位:</CN>
+		</UnitL>
+
+		<SaveL>
+			<EN>Save:</EN>
+			<RU>Сохранить:</RU>
+			<SE>Spara:</SE>
+			<DE>Speichern:</DE>
+			<VN>Lưu chọn:</VN>
+			<CN>保存:</CN>
+		</SaveL>
+
+		<SelectL>
+			<EN>Select:</EN>
+			<RU>Выбрать:</RU>
+			<SE>Välj:</SE>
+			<DE>Auswählen:</DE>
+			<VN>Chọn:</VN>
+			<CN>选择:</CN>
+		</SelectL>
+
+		<AutoSelectL>
+			<EN>Autoselect On/Off:</EN>
+			<RU>Автовыбор Вкл/Выкл:</RU>
+			<SE>Autovälj På/Av:</SE>
+			<DE>Automatische Auswahl Ein/Aus:</DE>
+			<VN>Bật/tắt tự động chọn:</VN>
+			<CN>自动选择 开启/关闭:</CN>
+		</AutoSelectL>
+
+		<ClearL>
+			<EN>Clear Selection:</EN>
+			<RU>Очистить Выделение:</RU>
+			<SE>Rensa selektion:</SE>
+			<DE>Auswahl löschen:</DE>
+			<VN>Bỏ chọn:</VN>
+			<CN>清除选择:</CN>
+		</ClearL>
+
+		<Save>
+			<EN>Save</EN>
+			<RU>Окей</RU>
+			<SE>Spara</SE>
+			<DE>Speichern</DE>
+			<VN>Lưu</VN>
+			<CN>保存</CN>
+		</Save>
+
+		<Inject>
+			<EN>Inject</EN>
+			<RU>Инжект</RU>
+			<SE>Injicera</SE>
+			<DE>Injizieren</DE>
+			<VN>Áp dụng</VN>
+			<CN>注入</CN>
+		</Inject>
+
+		<HideToTrayBox>
+			<EN>Hide to Tray</EN>
+			<RU>Скрыть в Трей</RU>
+			<SE>Dölj Till Fack</SE>
+			<DE>Verstecken Tray</DE>
+			<VN>Ẩn xuống</VN>
+			<CN>隐藏到托盘</CN>
+		</HideToTrayBox>
+
+		<DllName>
+			<EN>DLL Name:</EN>
+			<RU>Имя DLL:</RU>
+			<SE>DLL Namn:</SE>
+			<DE>DLL Name:</DE>
+			<VN>DLL Name:</VN>
+			<CN>DLL 名称:</CN>
+		</DllName>
+
+		<AutoInjectBox>
+			<EN>Auto-Inject</EN>
+			<RU>Авто-Инжект</RU>
+			<SE>Auto-Injicera</SE>
+			<DE>Auto-Injektion</DE>
+			<VN>Auto áp dụng</VN>
+			<CN>自动注入</CN>
+		</AutoInjectBox>
+
+		<LauncherButton>
+			<EN>Launcher</EN>
+			<RU>Лаунчер</RU>
+			<SE>Startplatta</SE>
+			<DE>Launcher</DE>
+			<VN>Launcher</VN>
+			<CN>启动器</CN>
+		</LauncherButton>
+
+		<GameSettingsLabel>
+			<EN>Game Settings</EN>
+			<RU>Настройки Игры</RU>
+			<SE>Spelets Inställningar</SE>
+			<DE>Spiel Einstellungen</DE>
+			<VN>Cài đặt Game</VN>
+			<CN>游戏设置</CN>
+		</GameSettingsLabel>
+
+		<LaunchButton>
+			<EN>Launch</EN>
+			<RU>Запуск</RU>
+			<SE>Starta</SE>
+			<DE>Start</DE>
+			<VN>Chạy Game</VN>
+			<CN>启动魔兽</CN>
+		</LaunchButton>
+
+		<GamePathLabel>
+			<EN>Game Path:</EN>
+			<RU>Путь Игры:</RU>
+			<SE>Spelets Sökväg:</SE>
+			<DE>Spiel-Pfad:</DE>
+			<VN>Đường dẫn Game:</VN>
+			<CN>游戏路径:</CN>
+		</GamePathLabel>
+
+		<LaunchArgumentsLabel>
+			<EN>Launch Arguments:</EN>
+			<RU>Аргументы Запуска:</RU>
+			<SE>Start Argument:</SE>
+			<DE>Startargumente:</DE>
+			<VN>Thông số khởi động:</VN>
+			<CN>启动参数:</CN>
+		</LaunchArgumentsLabel>
+		
+		<BorderlessCheckBox>
+			<EN>Borderless</EN>
+			<RU>Без Границ</RU>
+			<SE>Gränslös</SE>
+			<DE>Grenzenlos</DE>
+			<VN>Cửa sổ không viền</VN>
+			<CN>无边框</CN>
+		</BorderlessCheckBox>
+
+		<InjectorSettingsLabel>
+			<EN>Injector Settings</EN>
+			<RU>Настройки Подгрузчика</RU>
+			<SE>Injektorinställningar</SE>
+			<DE>Injektoreinstellungen</DE>
+			<VN>Cài đặt tự động áp dụng</VN>
+			<CN>注入器设置</CN>
+		</InjectorSettingsLabel>
+
+		<ProcessNameLabel>
+			<EN>Process Name:</EN>
+			<RU>Имя Процесса:</RU>
+			<SE>Process Namn:</SE>
+			<DE>Vorgangsname:</DE>
+			<VN>Tên cửa sổ:</VN>
+			<CN>进程名称:</CN>
+		</ProcessNameLabel>
+
+		<AutoInjectorText>
+			<EN>Auto Injector</EN>
+			<RU>Авто Инжектор</RU>
+			<SE>Auto Injektor</SE>
+			<DE>Auto Injektor</DE>
+			<VN>Tự động áp dụng</VN>
+			<CN>自动注入器</CN>
+		</AutoInjectorText>
+
+		<LoadAddLibrariesText>
+			<EN>Load Additional Libraries</EN>
+			<RU>Загрузить Доп. Библиотек</RU>
+			<SE>Ladda Ytterligare Bibliotek</SE>
+			<DE>Zusätzliche Bibliotheken Laden</DE>
+			<VN>Tải các thư viện bổ sung</VN>
+			<CN>加载附加库</CN>
+		</LoadAddLibrariesText>
+
+		<LibrariesSettingsLabel>
+			<EN>Libraries Settings</EN>
+			<RU>Настройки Библиотек</RU>
+			<SE>Bibliotek Inställningar</SE>
+			<DE>Bibliotheken Einstellungen</DE>
+			<VN>Cài đặt Libraries</VN>
+			<CN>库设置</CN>
+		</LibrariesSettingsLabel>
+
+		<AdditionalLibrariesPath>
+			<EN>Additional Libraries Path:</EN>
+			<RU>Путь к Дополнительным Библиотекам:</RU>
+			<SE>Ytterligare bibliotek:</SE>
+			<DE>Pfad für zusätzliche Bibliotheken:</DE>
+			<VN>Đường dẫn Libraries:</VN>
+			<CN>附加库路径:</CN>
+		</AdditionalLibrariesPath>
+		
+		<ChangeButton>
+			<EN>Change:</EN>
+			<RU>Изменить:</RU>
+			<SE>Förändra:</SE>
+			<DE>Ändern:</DE>
+			<VN>Tìm:</VN>
+			<CN>更改</CN>
+		</ChangeButton>
+
+		<DefaultText>
+			<EN>Default</EN>
+			<RU>Стандартные</RU>
+			<SE>Standard</SE>
+			<DE>Default</DE>
+			<VN>Mặc định</VN>
+			<CN>默认</CN>
+		</DefaultText>
+
+		<SpellBookLabelText>
+			<EN>Spellbook / Ability Learn</EN>
+			<RU>Книга Заклинаний / Изучение Способностей</RU>
+			<SE>Spellbook / Förmåga Lär</SE>
+			<DE>Zauberbuch / Fähigkeit lernen</DE>
+			<VN>Học kỹ năng</VN>
+			<CN>魔法书/技能学习</CN>
+		</SpellBookLabelText>
+
+		<ShopsLabelText>
+			<EN>Shops</EN>
+			<RU>Магазины</RU>
+			<SE>Butiker</SE>
+			<DE>Geschäfte</DE>
+			<VN>Cửa hàng</VN>
+			<CN>商店</CN>
+		</ShopsLabelText>
+
+		<NeutralUnitLabelText>
+			<EN>Neutral Unit / Shop</EN>
+			<RU>Нейтральные юниты / Магазины</RU>
+			<SE>Neutral Enhet / Butik</SE>
+			<DE>Neutrale Einheit / Laden</DE>
+			<VN>Cửa hàng</VN>
+			<CN>中立单位/商店</CN>
+		</NeutralUnitLabelText>
+
+		<CustomIndicatorsText>
+			<EN>Custom Indicators</EN>
+			<RU>Пользовательские Индикаторы</RU>
+			<SE>Anpassade Indikatorer</SE>
+			<DE>Benutzerdefinierte Indikatoren</DE>
+			<VN>Hotkeys vòng phạm vi</VN>
+			<CN>自定义指示器</CN>
+		</CustomIndicatorsText>
+
+		<DrawAttackOnHoverText>
+			<EN>Draw Attack on hover:</EN>
+			<RU>Рисовать Атаку при наведении</RU>
+			<SE>Rita Attack på Svävar:</SE>
+			<DE>Zeichnen Sie Angriff auf Schweben:</DE>
+			<VN>Hiện vòng tầm đánh khi rê chuột:</VN>
+			<CN>鼠标悬停时绘制攻击范围:</CN>
+		</DrawAttackOnHoverText>
+
+		<DrawAttackText>
+			<EN>Draw Attack:</EN>
+			<RU>Рисовать Атаку:</RU>
+			<SE>Rita attack:</SE>
+			<DE>Zeichnen Sie Attack:</DE>
+			<VN>Hiện vòng phạm vi tầm đánh:</VN>
+			<CN>绘制攻击范围:</CN>
+		</DrawAttackText>
+
+		<DrawSpellAoEOnHoverText>
+			<EN>Draw Spell AoE on hover:</EN>
+			<RU>Рисовать AoE Наведённого Заклинания:</RU>
+			<SE>Rita Spell AoE på svävaren:</SE>
+			<DE>Zeichnen Sie AoE Zauber auf Schweben:</DE>
+			<VN>Hiện vòng kỹ năng khi rê chuột:</VN>
+			<CN>鼠标悬停时绘制技能AoE范围:</CN>
+		</DrawSpellAoEOnHoverText>
+
+		<DrawBoundSpellText>
+			<EN>Draw Bound Spell:</EN>
+			<RU>Рисовать Связанное Заклинание:</RU>
+			<SE>Rita Bunden Stavning:</SE>
+			<DE>Gebundenen Zauber Ziehen:</DE>
+			<VN>Hiện vòng phạm vi kỹ năng:</VN>
+			<CN>绘制绑定技能:</CN>
+		</DrawBoundSpellText>
+
+		<DrawSightKeyLabelText>
+			<EN>Draw Sight Radius:</EN>
+			<RU>Рисовать радиус обзора:</RU>
+			<SE>Rita Sight Radius:</SE>
+			<DE>Visierradius Zeichnen:</DE>
+			<VN>Hiện vòng tầm nhìn:</VN>
+			<CN>绘制视野范围:</CN>
+		</DrawSightKeyLabelText>
+
+		<InterfaceMenuText>
+			<EN>Interface</EN>
+			<RU>Интерфейс</RU>
+			<SE>Gränssnitt</SE>
+			<DE>Schnittstelle</DE>
+			<VN>Giao diện</VN>
+			<CN>界面</CN>
+		</InterfaceMenuText>
+
+		<CustomUIDrawText>
+			<EN>Enable UI Modification</EN>
+			<RU>Включить Модификации UI</RU>
+			<SE>Aktivera UI-Modifiering</SE>
+			<DE>Aktivieren Sie die UI-Änderung</DE>
+			<EN>Bật sửa đổi giao diện</EN>
+			<CN>启用UI修改器</CN>
+		</CustomUIDrawText>
+
+		<BlackBarsText>
+			<EN>Black Bars</EN>
+			<RU>Черные Полосы</RU>
+			<SE>Svarta Barer</SE>
+			<DE>Schwarze Balken</DE>
+			<VN>Black Bars</VN>
+			<CN>黑边</CN>
+		</BlackBarsText>
+
+		<AttachTooltipText>
+			<EN>Mouse Tooltip</EN>
+			<RU>Подсказка Мыши</RU>
+			<SE>Mus Verktygstips</SE>
+			<DE>Maus-Tooltip</DE>
+			<VN>Mouse Tooltip</VN>
+			<CN>鼠标附着提示</CN>
+		</AttachTooltipText>
+
+		<ItemBarText>
+			<EN>Item Buttons</EN>
+			<RU>Кнопки Предметов</RU>
+			<SE>Artikelknappar</SE>
+			<DE>Artikel Buttons</DE>
+			<VN>Item Buttons</VN>
+			<CN>物品按钮</CN>
+		</ItemBarText>
+
+		<AbilityBarText>
+			<EN>Ability Buttons</EN>
+			<RU>Кнопки Способностей</RU>
+			<SE>Förmåga Knappar</SE>
+			<DE>Fähigkeitsschaltflächen</DE>
+			<VN>Ability Buttons</VN>
+			<CN>技能按钮</CN>
+		</AbilityBarText>
+
+		<TimeOfDayIndicatorText>
+			<EN>Time Indicator</EN>
+			<RU>Индикатор Времени</RU>
+			<SE>Tidsindikator</SE>
+			<DE>Zeitanzeige</DE>
+			<VN>Time Indicator</VN>
+			<CN>时间指示器</CN>
+		</TimeOfDayIndicatorText>
+
+		<InventoryCoverText>
+			<EN>Inventory Cover</EN>
+			<RU>Обложка Инвентаря</RU>
+			<SE>Lageromslag</SE>
+			<DE>Inventarabdeckung</DE>
+			<VN>Inventory Cover</VN>
+			<CN>物品栏封面</CN>
+		</InventoryCoverText>
+
+		<HeroBarText>
+			<EN>Hero Icons</EN>
+			<RU>Иконки Героев</RU>
+			<SE>Hjälteikoner</SE>
+			<DE>Heldenikonen</DE>
+			<VN>Hero Icons</VN>
+			<CN>英雄图标</CN>
+		</HeroBarText>
+
+		<PeonBarText>
+			<EN>Peon Icon</EN>
+			<RU>Иконка Рабочего</RU>
+			<SE>Peon-Ikon</SE>
+			<DE>Peon-Symbol</DE>
+			<VN>Peon Icon</VN>
+			<CN>工人图标</CN>
+		</PeonBarText>
+
+		<PortraitText>
+			<EN>Portrait</EN>
+			<RU>Портрет</RU>
+			<SE>Porträtt</SE>
+			<DE>Porträt</DE>
+			<VN>Portrait</VN>
+			<CN>立绘</CN>
+		</PortraitText>
+
+		<SimpleConsoleText>
+			<EN>Console</EN>
+			<RU>Консоль</RU>
+			<SE>Konsol</SE>
+			<DE>Konsole</DE>
+			<VN>Console</VN>
+			<CN>控制台</CN>
+		</SimpleConsoleText>
+
+		<ResourceBarText>
+			<EN>Resource Bar</EN>
+			<RU>Панель Ресурсов</RU>
+			<SE>Resursfält</SE>
+			<DE>Ressourcenleiste</DE>
+			<VN>Resource Bar</VN>
+			<CN>资源栏</CN>
+		</ResourceBarText>
+
+		<UpperMenuBarText>
+			<EN>Upper Menu Bar</EN>
+			<RU>Панель Верхнего Меню</RU>
+			<SE>Övre Menyraden</SE>
+			<DE>Obere Menüleiste</DE>
+			<VN>Upper Menu Bar</VN>
+			<CN>上方菜单栏</CN>
+		</UpperMenuBarText>
+
+		<MiniMapText>
+			<EN>Minimap</EN>
+			<RU>Миникарта</RU>
+			<SE>Minikarta</SE>
+			<DE>Minikarte</DE>
+			<VN>Minimap</VN>
+			<CN>小地图</CN>
+		</MiniMapText>
+
+		<MiniMapButtonsText>
+			<EN>Minimap Buttons</EN>
+			<RU>Кнопки Миникарты</RU>
+			<SE>Minikarta Knappar</SE>
+			<DE>Minikarte Buttons</DE>
+			<VN>Minimap Buttons</VN>
+			<CN>小地图按钮</CN>
+		</MiniMapButtonsText>
+
+		<InfoBarText>
+			<EN>Info Bar</EN>
+			<RU>Инфо Панель</RU>
+			<SE>Info Bar</SE>
+			<DE>Info Bar</DE>
+			<VN>Info Bar</VN>
+			<CN>单位信息栏</CN>
+		</InfoBarText>
+
+		<TooltipText>
+			<EN>Tooltip</EN>
+			<RU>Подсказка</RU>
+			<SE>Verktygstips</SE>
+			<DE>Tooltip</DE>
+			<VN>Tooltip</VN>
+			<CN>工具提示</CN>
+		</TooltipText>
+
+		<Language>
+			<EN>Language:</EN>
+			<RU>Язык:</RU>
+			<SE>Språk:</SE>
+			<DE>Sprache:</DE>
+			<VN>Ngôn ngữ:</VN>
+			<CN>语言:</CN>
+		</Language>
+	</Translation>
+</root>
