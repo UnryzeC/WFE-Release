@@ -1,9 +1,3 @@
-Edlib
-&middot;
-[![Latest Github release](https://img.shields.io/github/release/Martinsos/edlib.svg)](https://github.com/Martinsos/edlib/releases/latest)
-[![Build status of the master branch on Windows](https://img.shields.io/appveyor/build/Martinsos/edlib/master?label=Windows%20build)](https://ci.appveyor.com/project/Martinsos/edlib/branch/master)
-=====
-
 # WFE - Warcraft Feature Extender
 
 ![WFE_Main_Picture](https://user-images.githubusercontent.com/95709901/154843938-b174a754-64f2-4f9d-90fe-bab9be178aab.png)
