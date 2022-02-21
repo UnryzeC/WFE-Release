@@ -164,6 +164,7 @@ You don't have to click Inject again.
 
 ## Credits
 
+### Creator/Developer:
 * Unryze (me) - creating and maintaining WFE.
 
 ### Special thanks to:
