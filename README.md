@@ -164,13 +164,37 @@ You don't have to click Inject again.
 
 ## Credits
 
+* Unryze (me) - creating and maintaining WFE.
+
+### Special thanks to:
 * Karaul0v - for the initial tool called Quickcast, from which everything started and for helping me with many questions that I had.
 * ENAleksey - for RenderEdge source code, from which I've taken many ideas and also for assisting me on some issues.
-* Tomoya...Aki
-* Bergi_Bear
+
+### Testers:
+* Andutrache
+* Yeran
 * quq_CCCP
-* VladBmw530 - bug reports and tests.
-* And to all users for using my tool!
+* Tomoya...Aki
+* JackFastGame
+* Ham5terzilla
+* Karolson
+* MalcolmRU
+* Bergi_Bear
+* VladBmw530
+* Dam3w
+* S_Prince_A
+* GoodlyHero
+* ThisName232
+* Падиниц
+* AshtonLee
+* Artwork_DT
+* Vinsera
+
+### Translators:
+* Moon (Swedish)
+* DSY (German)
+* Artwork_DT (Vietnamese)
+* EdgarL (Chinese)
 
 ## FAQ
 
