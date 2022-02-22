@@ -210,7 +210,6 @@ You don't have to click Inject again.
 
 #### What is Hero Only in Keys Section?
     This option will make WFE Keybinds to only work on Units of type Hero.
-===============================================
 
 ## HotKeys Section
 ### Utility:
@@ -582,9 +581,9 @@ You don't have to click Inject again.
 
 ## Contacts
 
-Discord: Unryze#4087
-VK: https://vk.com/unryze/
-VK Group: https://vk.com/unryzeworkshop/
+- Discord: Unryze#4087
+- VK: https://vk.com/unryze/
+- VK Group: https://vk.com/unryzeworkshop/
 
 ## Want to donate?
 
