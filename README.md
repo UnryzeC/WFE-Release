@@ -5,7 +5,6 @@
 ## Contents
 - [About](#about)
   - [Supported patches](#supported-patches)
-  - [Additional download URLs](#additional-download-urls)
 - [Features](#features)
 - [How to use](#how-to-use)
   - [Method 1](#method-1)
@@ -23,12 +22,6 @@ Reserved for in-depth explanation...
 * 1.27a
 * 1.27b
 * 1.28f
-
-### Additional download URLs:
-
-* [Google](https://drive.google.com/drive/folders/1iqKaNc6qL_aTRRBuUH0r_OGBLT9Rr0_S?usp=sharing)
-* [Yandex](https://disk.yandex.ru/d/ZGbj4W15kamRMg)
-* Yandex: https://disk.yandex.ru/d/ZGbj4W15kamRMg
 
 ## Features
 * Live updating options, without the need of relaunching the game!
