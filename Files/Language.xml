@@ -7,15 +7,27 @@
 			<Locale>DE</Locale>
             <Locale>VN</Locale>
 			<Locale>CN</Locale>
+			<Locale>KR</Locale>
 		</Locales>
+
+		<Progress>
+			<EN>Progress</EN>
+			<RU>Прогресс</RU>
+			<SE>Framsteg</SE>
+			<DE>Progress</DE>
+			<VN>Tiến độ</VN>
+			<CN>进度</CN>
+			<KR>설정</KR>
+		</Progress>
 
 		<NewVersionAvailable>
 			<EN>New version available</EN>
 			<RU>Доступна новая версия</RU>
 			<SE>Ny version tillgänglig</SE>
 			<DE>Neue version verfügbar</DE>
-			<VN>Phiên bản mới có sẵn</VN>
+			<VN>Đã có phiên bản mới</VN>
 			<CN>新版本可用</CN>
+			<KR>신규 버전 사용 가능</KR>
 		</NewVersionAvailable>
 
 		<NoUpdatesAvailable>
@@ -23,8 +35,9 @@
 			<RU>Нет доступных обновлений</RU>
 			<SE>Inga uppdateringar tillgängliga</SE>
 			<DE>Keine updates verfügbar</DE>
-			<VN>Không có bảng cập nhật có sẵn</VN>
+			<VN>Chưa có bản cập nhật mới</VN>
 			<CN>没有可用的更新</CN>
+			<KR>사용 가능한 업데이트 없음</KR>
 		</NoUpdatesAvailable>
 
 		<UpdateFinished>
@@ -34,6 +47,7 @@
 			<DE>Aktualisierung abgeschlossen</DE>
 			<VN>Cập nhật xong</VN>
 			<CN>更新完成</CN>
+			<KR>업데이트 완료</KR>
 		</UpdateFinished>
 
 		<DownloadRequest>
@@ -41,19 +55,101 @@
 			<RU>Начать загрузку</RU>
 			<SE>Starta nedladdning</SE>
 			<DE>Starte download</DE>
-			<VN>SBắt đầu tải về</VN>
+			<VN>Bắt đầu tải về</VN>
 			<CN>开始下载</CN>
+			<KR>다운로드 시작</KR>
 		</DownloadRequest>
+
+		<CheckUpdates>
+			<EN>Check Updates</EN>
+			<RU>Проверять Обновления</RU>
+			<SE>Kontrollera Uppdateringar</SE>
+			<DE>Auf Updates Prüfen</DE>
+			<VN>Kiểm tra cập nhật</VN>
+			<CN>检查更新</CN>
+			<KR>업데이트 검사</KR>
+		</CheckUpdates>
 
 		<UpdateRequest>
 			<EN>Press Yes to start downloading</EN>
 			<RU>Нажмите Да для начала скачивания</RU>
 			<SE>Tryck på Ja för att börja ladda ner</SE>
 			<DE>Drücken sie Ja, um den download zu starten</DE>
-			<VN>Nhấn yes để bắt đầu tải xuống</VN>
-			<CN>按是开始下载</CN>
+			<VN>Nhấn Yes để bắt đầu tải xuống</VN>
+			<CN>点击【是】开始下载</CN>
+			<KR>'예'를 눌러 다운로드 시작</KR>
 		</UpdateRequest>
 
+		<CustomHealthManaTextCB>
+			<EN>Custom Health/Mana Text:</EN>
+			<RU>Пользовательский Текст Зоровья/Маны:</RU>
+			<SE>Anpassad Hälsa/Mana Text:</SE>
+			<DE>Benutzerdefinierter Gesundheits/Mana Text:</DE>
+			<VN>Tùy chỉnh text hiển thị Máu/Mana:</VN>
+			<CN>自定义生命值/魔法值文本:</CN>
+			<KR>사용자 정의 체력/마나 텍스트</KR>
+		</CustomHealthManaTextCB>
+
+		<PercentageText>
+			<EN>Percentage</EN>
+			<RU>Проценты</RU>
+			<SE>Procentsats</SE>
+			<DE>Prozentsatz</DE>
+			<VN>Phần trăm</VN>
+			<CN>百分比</CN>
+			<KR>백분율</KR>
+		</PercentageText>
+
+		<ShortenInfo>
+			<EN>Shorten Info</EN>
+			<RU>Сократить Информацию</RU>
+			<SE>Förkorta Info</SE>
+			<DE>Infos Kürzen</DE>
+			<VN>Rút gọn thông số</VN>
+			<CN>缩短信息</CN>
+			<KR>단축키 정보</KR>
+		</ShortenInfo>
+
+		<HP_MP_TruncateDigitsCB>
+			<EN>Truncate Digits</EN>
+			<RU>Обрезать Цифры</RU>
+			<SE>Trunkera Siffror</SE>
+			<DE>Ziffern Abschneiden</DE>
+			<VN>Cắt bớt chữ số</VN>
+			<CN>截断数字</CN>
+			<KR>자릿수 자르기</KR>
+		</HP_MP_TruncateDigitsCB>
+
+		<CustomBarsCB>
+			<EN>Custom Bars:</EN>
+			<RU>Пользовательские Полосы:</RU>
+			<SE>Anpassade Barer:</SE>
+			<DE>Benutzerdefinierte Balken:</DE>
+			<VN>Tùy chỉnh thanh Máu/Mana:</VN>
+			<CN>自定义条块:</CN>
+			<KR>커스텀 바</KR>
+		</CustomBarsCB>
+
+		<Extended>
+			<EN>Extended</EN>
+			<RU>Расширенный</RU>
+			<SE>Förlängd</SE>
+			<DE>Erweitert</DE>
+			<VN>Hiển thị cấp độ</VN>
+			<CN>扩展的</CN>
+			<KR>확장</KR>
+		</Extended>
+
+		<PlayerColour>
+			<EN>Player Colour</EN>
+			<RU>Цвет Игрока</RU>
+			<SE>Spelarens Färg</SE>
+			<DE>Spielerfarbe</DE>
+			<VN>Màu theo người chơi</VN>
+			<CN>按玩家颜色显示</CN>
+			<KR>플레이어 색</KR>
+		</PlayerColour>
+		
 		<UpdateText>
 			<EN>Update:</EN>
 			<RU>Обновить:</RU>
@@ -61,6 +157,7 @@
 			<DE>Aktualisieren:</DE>
 			<VN>Cập nhật:</VN>
 			<CN>更新:</CN>
+			<KR>업데이트:</KR>
 		</UpdateText>
 
 		<CloseText>
@@ -70,6 +167,7 @@
 			<DE>Schließen</DE>
 			<VN>Đóng</VN>
 			<CN>关闭</CN>
+			<KR>닫기</KR>
 		</CloseText>
 
 		<KeyBindsButton>
@@ -79,6 +177,7 @@
 			<DE>Tasten</DE>
             <VN>Keys</VN>
 			<CN>按键</CN>
+			<KR>키</KR>
 		</KeyBindsButton>
 
 		<QuickMSGButton>
@@ -88,6 +187,7 @@
 			<DE>Mitteilungen</DE>
 			<VN>Chat nhanh</VN>
 			<CN>快捷喊话</CN>
+			<KR>메세지</KR>
 		</QuickMSGButton>
 
 		<MSGHotkeyL>
@@ -97,6 +197,7 @@
 			<DE>Schnelltaste:</DE>
 			<VN>HotKey:</VN>
 			<CN>热键:</CN>
+			<KR>키 설정:</KR>
 		</MSGHotkeyL>
 
 		<MSGMessageL>
@@ -106,6 +207,7 @@
 			<DE>Mitteilung:</DE>
 			<VN>Tin nhắn:</VN>
 			<CN>消息:</CN>
+			<KR>메세지:</KR>
 		</MSGMessageL>
 
 		<MSGAddL>
@@ -115,6 +217,7 @@
 			<DE>Hinzufügen:</DE>
 			<VN>Thêm:</VN>
 			<CN>添加:</CN>
+			<KR>추가:</KR>
 		</MSGAddL>
 
 		<MSGDeleteL>
@@ -124,6 +227,7 @@
 			<DE>Entfernen:</DE>
 			<VN>Xóa:</VN>
 			<CN>删除:</CN>
+			<KR>삭제:</KR>
 		</MSGDeleteL>
 
 		<MSGTextL>
@@ -133,6 +237,7 @@
 			<DE>Text:</DE>
 			<VN>Tin nhắn:</VN>
 			<CN>文字:</CN>
+			<KR>텍스트:</KR>
 		</MSGTextL>
 
 		<SettingsButton>
@@ -142,6 +247,7 @@
 			<DE>Einstellungen</DE>
 			<VN>Cài đặt</VN>
 			<CN>设置</CN>
+			<KR>세팅</KR>
 		</SettingsButton>
 
 		<HotKeysButton>
@@ -151,6 +257,7 @@
 			<DE>Schnelltaste</DE>
 			<VN>HotKeys</VN>
 			<CN>热键</CN>
+			<KR>키 설정</KR>
 		</HotKeysButton>
 
 		<CreditsButton>
@@ -159,7 +266,8 @@
 			<SE>Medverkare</SE>
 			<DE>Impressum</DE>
 			<VN>Credits</VN>
-			<CN>学分</CN>
+			<CN>Credits</CN>
+			<KR>도와준 이들</KR>
 		</CreditsButton>
 
 		<SmartCastToolTip>
@@ -168,9 +276,30 @@
 			<SE>SnabbTangent På/Av</SE>
 			<DE>Smartcast Ein/Aus</DE>
 			<VN>Tắt/mở xài nhanh</VN>
-			<CN>快捷施法 开启/关闭</CN>
+			<CN>快捷施法【开启/关闭】</CN>
+			<KR>자동시전 켜기/끄기</KR>
 		</SmartCastToolTip>
 
+		<UpgradedInterface>
+			<EN>Upgraded Interface</EN>
+			<RU>Обновленный Интерфейс</RU>
+			<SE>Uppgraderat Gränssnitt</SE>
+			<DE>Verbesserte Schnittstelle</DE>
+			<VN>Upgraded Interface</VN>
+			<CN>显示升级版界面</CN>
+			<KR>인터페이스 업그레이드</KR>
+		</UpgradedInterface>
+
+		<HeroOverheadTip>
+			<EN>Hero Overhead Tip</EN>
+			<RU>Информация Героя Над Головой</RU>
+			<SE>Hero Overhead Tip</SE>
+			<DE>Hero Überkopftipp</DE>
+			<VN>Hero Overhead Tip</VN>
+			<CN>显示英雄顶头提示</CN>
+			<KR>영웅 상태</KR>
+		</HeroOverheadTip>
+		
 		<WideScreen>
 			<EN>WideScreen</EN>
 			<RU>Широкоформат</RU>
@@ -178,6 +307,7 @@
 			<DE>Breitbild</DE>
 			<VN>Màn hình rộng</VN>
 			<CN>宽屏</CN>
+			<KR>와이드 스크린</KR>
 		</WideScreen>
 
 		<WideScreenTip>
@@ -186,7 +316,8 @@
 			<SE>Kan sättas på/av medans du spelar.</SE>
 			<DE>Kann während des Spiels ein-/ausgeschaltet werden.</DE>
 			<VN>Có thể bật/tắt khi đang chơi.</VN>
-			<CN>可在游戏中 开启/关闭</CN>
+			<CN>可在游戏中【开启/关闭】.</CN>
+			<KR>게임 중 설정/해제 가능.</KR>
 		</WideScreenTip>
 
 		<MouseLock>
@@ -196,6 +327,7 @@
 			<DE>Maussperre</DE>
 			<VN>Khóa chuột</VN>
 			<CN>锁定鼠标</CN>
+			<KR>마우스 가두기</KR>
 		</MouseLock>
 
 		<MouseLockTip>
@@ -204,7 +336,8 @@
 			<SE>Kan sättas på/av medans du spelar.</SE>
 			<DE>Kann während des Spiels ein-/ausgeschaltet werden.</DE>
 			<VN>Có thể bật/tắt khi đang chơi.</VN>
-			<CN>可在游戏中 开启/关闭</CN>
+			<CN>可在游戏中【开启/关闭】.</CN>
+			<KR>게임 중 설정/해제 가능.</KR>
 		</MouseLockTip>
 
 		<DisablePause>
@@ -214,6 +347,7 @@
 			<DE>Pause ausschalten</DE>
 			<VN>Vô hiệu Pause</VN>
 			<CN>禁用暂停</CN>
+			<KR>일시중지 사용 안 함</KR>
 		</DisablePause>
 
 		<DisableBLPLimit>
@@ -223,6 +357,7 @@
 			<DE>BLP-limitierung entfernen</DE>
 			<VN>Bỏ giới hạn size Textures</VN>
 			<CN>移除BLP大小限制</CN>
+			<KR>BLP 제한 해제</KR>
 		</DisableBLPLimit>
 
 		<RemoveMapSizeLimit>
@@ -232,6 +367,7 @@
 			<DE>Unlock Kartengröße</DE>
 			<VN>Bỏ giới hạn dung lượng Map</VN>
 			<CN>移除地图大小限制</CN>
+			<KR>맵 사이즈 제한 해제</KR>
 		</RemoveMapSizeLimit>
 
 		<SmartCast>
@@ -241,6 +377,7 @@
 			<DE>SmartCast</DE>
 			<VN>Xài nhanh</VN>
 			<CN>快捷施法</CN>
+			<KR>스마트키</KR>
 		</SmartCast>
 
 		<AutoCast>
@@ -250,24 +387,27 @@
 			<DE>AutoCast</DE>
 			<VN>Kỹ năng AutoCast</VN>
 			<CN>按住按键连续施法</CN>
+			<KR>자동 사용</KR>
 		</AutoCast>
 
 		<HPRegen>
-			<EN>HP Regen</EN>
-			<RU>ХП реген</RU>
-			<SE>HP Regen</SE>
-			<DE>LP Regen</DE>
-			<VN>Tốc độ hồi HP</VN>
-			<CN>显示 HP 恢复值</CN>
+			<EN>Health Regen</EN>
+			<RU>Регенерация Здоровья</RU>
+			<SE>Hälsa Regen</SE>
+			<DE>Gesundheit Regen</DE>
+			<VN>Tốc độ hồi Máu</VN>
+			<CN>显示生命恢复值</CN>
+			<KR>체력 재생</KR>
 		</HPRegen>
 
 		<MPRegen>
-			<EN>MP Regen</EN>
-			<RU>МП реген</RU>
-			<SE>MP Regen</SE>
-			<DE>MP Regen</DE>
-			<VN>Tốc độ hồi MP</VN>
-			<CN>显示 MP 恢复值</CN>
+			<EN>Mana Regen</EN>
+			<RU>Регенерация Маны</RU>
+			<SE>Mana Regen</SE>
+			<DE>Mana Regen</DE>
+			<VN>Tốc độ hồi Mana</VN>
+			<CN>显示魔法恢复值</CN>
+			<KR>마나 리젠</KR>
 		</MPRegen>
 
 		<Modifications>
@@ -277,6 +417,7 @@
 			<DE>Modifikationen:</DE>
 			<VN>Các sửa đổi:</VN>
 			<CN>修改:</CN>
+			<KR>수정사항:</KR>
 		</Modifications>
 
 		<OnlyInLobby>
@@ -286,6 +427,7 @@
 			<DE>Nur in Lobby:</DE>
 			<VN>Chỉ trong phòng đợi:</VN>
 			<CN>仅在大厅中:</CN>
+			<KR>로비안에서만 사용가능:</KR>
 		</OnlyInLobby>
 
 		<SendToAll>
@@ -293,17 +435,29 @@
 			<RU>Послать Всем</RU>
 			<SE>Skicka till alla</SE>
 			<DE>An alle senden</DE>
-			<VN>Send to All</VN>
+			<VN>Chat All</VN>
 			<CN>发送给所有人</CN>
+			<KR>모두에게</KR>
 		</SendToAll>
 
+		<HealthBar>
+			<EN>Health Bar:</EN>
+			<RU>Полоса Здоровья:</RU>
+			<SE>Hälsa Bar:</SE>
+			<DE>Gesundheits Bar:</DE>
+			<VN>Thanh Máu</VN>
+			<CN>生命值显示</CN>
+			<KR>체력 바:</KR>
+		</HealthBar>
+		
 		<ManaBar>
 			<EN>Mana Bar:</EN>
-			<RU>Мана Бар:</RU>
+			<RU>Полоса Маны:</RU>
 			<SE>Mana Bar:</SE>
 			<DE>Mana Bar:</DE>
 			<VN>Thanh Mana</VN>
 			<CN>魔法值显示</CN>
+			<KR>마나 바:</KR>
 		</ManaBar>
 
 		<HeroOnly>
@@ -313,6 +467,7 @@
 			<DE>Nur Held:</DE>
 			<VN>Chỉ Hero:</VN>
 			<CN>仅限英雄:</CN>
+			<KR>영웅만 설정:</KR>
 		</HeroOnly>
 
 		<All>
@@ -322,6 +477,7 @@
 			<DE>Alle</DE>
 			<VN>Tất cả:</VN>
 			<CN>所有单位:</CN>
+			<KR>전체:</KR>
 		</All>
 
 		<Ally>
@@ -331,6 +487,7 @@
 			<DE>Alliera</DE>
 			<VN>Đồng minh:</VN>
 			<CN>友军:</CN>
+			<KR>동맹:</KR>
 		</Ally>
 
 		<Enemy>
@@ -340,6 +497,7 @@
 			<DE>Feind</DE>
 			<VN>Kẻ thù:</VN>
 			<CN>敌人:</CN>
+			<KR>적:</KR>
 		</Enemy>
 
 		<My>
@@ -349,6 +507,7 @@
 			<DE>Meine</DE>
 			<VN>Bản thân:</VN>
 			<CN>自己:</CN>
+			<KR>자신:</KR>
 		</My>
 
 		<Colour>
@@ -358,6 +517,7 @@
 			<DE>Farbe:</DE>
 			<VN>Màu sắc:</VN>
 			<CN>颜色:</CN>
+			<KR>색:</KR>
 		</Colour>
 
 		<ManaTextColourL>
@@ -365,8 +525,9 @@
 			<RU>Цвет Мана Текста:</RU>
 			<SE>Mana Text Färg:</SE>
 			<DE>Mana Text Farbe:</DE>
-			<VN>Màu sắc Cỡ sắc:</VN>
-			<CN>法力文本颜色:</CN>
+			<VN>Màu text Mana:</VN>
+			<CN>魔法值文本颜色:</CN>
+			<KR>마나 글씨 색:</KR>
 		</ManaTextColourL>
 
 		<LoadingNotification>
@@ -376,15 +537,17 @@
 			<DE>Laden Benachrichtigung</DE>
 			<VN>Thông báo load game</VN>
 			<CN>地图加载完成弹窗</CN>
+			<KR>로딩 완료 팝업</KR>
 		</LoadingNotification>
 
 		<ManaBarTip>
 			<EN>Can only be turned on/off in Lobby/Menu.</EN>
 			<RU>Может быть вкл./выкл. только в Лобби/Меню.</RU>
 			<SE>Kan bara sättas på/av i Lobby/Meny.</SE>
-			<DE>Kann nur in der Lobby/Menü ein-/ausgeschaltet werden..</DE>
+			<DE>Kann nur in der Lobby/Menü ein-/ausgeschaltet werden.</DE>
             <VN>Chỉ có thể tắt/mở trong phòng chờ/Menu.</VN>
-			<CN>仅可在 大厅/菜单 中 开启/关闭</CN>
+			<CN>仅可在【大厅/菜单】中【开启/关闭】</CN>
+			<KR>로딩 메뉴에서만 설정/해제할 수 있습니다.</KR>
 		</ManaBarTip>
 
 		<CooldownUI>
@@ -394,6 +557,7 @@
 			<DE>Abkühlen UI:</DE>
 			<VN>Thời gian hồi skill:</VN>
 			<CN>冷却时间UI</CN>
+			<KR>쿨타임 UI</KR>
 		</CooldownUI>
 
 		<ShowIndicator>
@@ -401,8 +565,9 @@
 			<RU>Отображать Индикатор:</RU>
 			<SE>Visa Indikator:</SE>
 			<DE>Indikator Anzeigen:</DE>
-			<VN>Hiển thị chỉ báo:</VN>
-			<CN>显示指标:</CN>
+			<VN>Hiển thị đếm:</VN>
+			<CN>显示指示器:</CN>
+			<KR>시계:</KR>
 		</ShowIndicator>
 		
 		<OverrideIndicator>
@@ -410,8 +575,9 @@
 			<RU>Перехватить Индикатор:</RU>
 			<SE>Överskrid Indikator:</SE>
 			<DE>Überschreiben Anzeigen:</DE>
-			<VN>Ghi đè chỉ báo:</VN>
-			<CN>覆盖指标:</CN>
+			<VN>Ghi đè đếm có sẵn:</VN>
+			<CN>覆盖指示器:</CN>
+			<KR>덮어쓰기:</KR>
 		</OverrideIndicator>
 
 		<DisplayMinutes>
@@ -419,8 +585,9 @@
 			<RU>Отображать Минуты:</RU>
 			<SE>Förevisa Minuter:</SE>
 			<DE>Anzeige Protokoll:</DE>
-			<VN>Hiển thị phút:</VN>
+			<VN>Chế độ hiển thị phút:</VN>
 			<CN>以分钟显示:</CN>
+			<KR>시간표기:</KR>
 		</DisplayMinutes>
 
 		<TextSize>
@@ -430,6 +597,7 @@
 			<DE>Textgröße:</DE>
 			<VN>Cỡ chữ:</VN>
 			<CN>文字大小:</CN>
+			<KR>텍스트 크기:</KR>
 		</TextSize>
 
 		<RefreshTime>
@@ -439,6 +607,7 @@
 			<DE>Aktualisierungszeit (ms):</DE>
 			<VN>Tốc độ làm tươi (ms):</VN>
 			<CN>检查刷新间隔 (毫秒):</CN>
+			<KR>새로고침 시간 (ms):</KR>
 		</RefreshTime>
 
 		<Text>
@@ -448,6 +617,7 @@
 			<DE>Text:</DE>
 			<VN>Màu chữ:</VN>
 			<CN>文字:</CN>
+			<KR>텍스트:</KR>
 		</Text>
 
 		<Shadow>
@@ -457,6 +627,7 @@
 			<DE>Schatten:</DE>
 			<VN>Màu viền chữ:</VN>
 			<CN>阴影:</CN>
+			<KR>그림자:</KR>
 		</Shadow>
 
 		<BarColours>
@@ -464,8 +635,9 @@
 			<RU>Цвета Здоровья:</RU>
 			<SE>Hälso Färg:</SE>
 			<DE>Gesundheitsfarben:</DE>
-			<VN>Màu sắc thanh máu:</VN>
-			<CN>生命值显示</CN>
+			<VN>Màu sắc thanh Máu:</VN>
+			<CN>生命值颜色</CN>
+			<KR>체력 바 색상:</KR>
 		</BarColours>
 
 		<YourHPBar>
@@ -475,6 +647,7 @@
 			<DE>Ihre:</DE>
 			<VN>Bản thân:</VN>
 			<CN>你的:</CN>
+			<KR>자신:</KR>
 		</YourHPBar>
 
 		<AllyHPBar>
@@ -484,6 +657,7 @@
 			<DE>Verbündete:</DE>
 			<VN>Đồng minh:</VN>
 			<CN>友军:</CN>
+			<KR>동맹:</KR>
 		</AllyHPBar>
 
 		<EnemyHPBar>
@@ -493,6 +667,7 @@
 			<DE>Feindliche:</DE>
 			<VN>Kẻ thù:</VN>
 			<CN>敌人:</CN>
+			<KR>적:</KR>
 		</EnemyHPBar>
 
 		<PassiveHPBar>
@@ -502,6 +677,7 @@
 			<DE>Passiv:</DE>
 			<VN>Cửa hàng:</VN>
 			<CN>中立被动:</CN>
+			<KR>패시브:</KR>
 		</PassiveHPBar>
 
 		<AggressiveHPBar>
@@ -511,6 +687,7 @@
 			<DE>Aggressiv:</DE>
 			<VN>Quái rừng:</VN>
 			<CN>中立敌对:</CN>
+			<KR>중립:</KR>
 		</AggressiveHPBar>
 
 		<CustomIndicatorColoursText>
@@ -520,6 +697,7 @@
 			<DE>Benutzerdefinierte Indikatorfarben:</DE>
 			<VN>Màu sắc vòng phạm vi:</VN>
 			<CN>自定义指示器颜色:</CN>
+			<KR>사용자 지정 표시 색상:</KR>
 		</CustomIndicatorColoursText>
 		
 		<AttackIndicatorColourText>
@@ -529,6 +707,7 @@
 			<DE>Attacke:</DE>
 			<VN>Tấn công:</VN>
 			<CN>攻击:</CN>
+			<KR>공격:</KR>
 		</AttackIndicatorColourText>
 		
 		<SpellAoEIndicatorColourText>
@@ -537,7 +716,8 @@
 			<SE>Stava AoE:</SE>
 			<DE>Zauber AoE:</DE>
 			<VN>Kỹ năng:</VN>
-			<CN>技能:</CN>
+			<CN>技能AoE:</CN>
+			<KR>범위스킬:</KR>
 		</SpellAoEIndicatorColourText>
 
 		<SightIndicatorColourLabelText>
@@ -547,6 +727,7 @@
 			<DE>Visierradius:</DE>
 			<VN>Tầm nhìn:</VN>
 			<CN>视野范围:</CN>
+			<KR>시야 범위:</KR>
 		</SightIndicatorColourLabelText>
 
 		<DamageDraw>
@@ -555,7 +736,8 @@
 			<SE>Siktradie:</SE>
 			<DE>Schadensziehung:</DE>
 			<VN>Hiển thị sát thương:</VN>
-			<CN>显示伤害数值:</CN>>
+			<CN>显示伤害数值:</CN>
+			<KR>데미지 표시:</KR>
 		</DamageDraw>
 
 		<PhysicalColour>
@@ -563,8 +745,9 @@
 			<RU>Физический Цвет:</RU>
 			<SE>Fysisk Färg:</SE>
 			<DE>Physische Farbe:</DE>
-			<VN>Màu sát thương vật lí:</VN>
+			<VN>Màu sát thương tay:</VN>
 			<CN>物理伤害颜色:</CN>
+			<KR>체력 색상:</KR>
 		</PhysicalColour>
 
 		<PhysicalOffset>
@@ -574,6 +757,7 @@
 			<DE>Physische Versatz:</DE>
 			<VN>Độ lệch:</VN>
 			<CN>物理伤害显示位置:</CN>
+			<KR>체력 소모 표시 위치:</KR>
 		</PhysicalOffset>
 
 		<MagicalColour>
@@ -581,8 +765,9 @@
 			<RU>Магический Цвет:</RU>
 			<SE>Magisk Färg:</SE>
 			<DE>Magische Farbe:</DE>
-			<VN>Màu sát thương phép:</VN>
+			<VN>Màu sát thương khác:</VN>
 			<CN>魔法伤害颜色:</CN>
+			<KR>마나 색상:</KR>
 		</MagicalColour>
 
 		<MagicalOffset>
@@ -592,6 +777,7 @@
 			<DE>Magische Versatz:</DE>
 			<VN>Độ lệch:</VN>
 			<CN>魔法伤害显示位置:</CN>
+			<KR>마나 소모 표시 위치:</KR>
 		</MagicalOffset>
 
 		<InstantRMC>
@@ -601,6 +787,7 @@
 			<DE>Wiederholen Rechtsklick:</DE>
 			<VN>Lặp lại click chuột</VN>
 			<CN>按住鼠标右键重复点击</CN>
+			<KR>우클릭 오토마우스</KR>
 		</InstantRMC>
 
 		<EnforceHotkeys>
@@ -610,6 +797,7 @@
 			<DE>Tastaturkürzel durchsetzen</DE>
 			<VN>Áp dụng Hotkeys</VN>
 			<CN>强制使用热键</CN>
+			<KR>단축키 적용</KR>
 		</EnforceHotkeys>
 
 		<LegacyConfig>
@@ -618,7 +806,8 @@
 			<SE>Spara till WC3 mapp</SE>
 			<DE>In WC3-Ordner speichern</DE>
 			<VN>Lưu vào thư mục War3</VN>
-			<CN>保存到WAR3文件夹</CN>
+			<CN>保存设置到WAR3目录</CN>
+			<KR>워크래프트 폴더에 저장</KR>
 		</LegacyConfig>
 
 		<CustomAttackTip>
@@ -628,6 +817,7 @@
 			<DE>Detaillierter Angriffstipp</DE>
 			<VN>Chi tiết tốc độ đánh</VN>
 			<CN>详细的攻击信息提示</CN>
+			<KR>자세한 공격력 정보</KR>
 		</CustomAttackTip>
 
 		<ExtendedAttackTip>
@@ -635,8 +825,9 @@
 			<RU>Расширенная Подсказка Атаки</RU>
 			<SE>Utökat Attacktips</SE>
 			<DE>Erweiterter Angriffstipp</DE>
-			<VN>Chi tiết tốc độ đánh</VN>
-			<CN>更多攻击信息提示</CN>
+			<VN>Chi tiết tốc độ đánh nâng cao</VN>
+			<CN>扩展的攻击信息提示</CN>
+			<KR>추가 공격력 정보</KR>
 		</ExtendedAttackTip>
 
 		<CustomDefenseTip>
@@ -646,6 +837,7 @@
 			<DE>Detaillierter Verteidigungstipp</DE>
 			<VN>Chi tiết phòng thủ</VN>
 			<CN>详细的防御信息提示</CN>
+			<KR>자세한 방어력 정보</KR>
 		</CustomDefenseTip>
 
 		<ExtendedDefenseTip>
@@ -653,8 +845,9 @@
 			<RU>Расширенная Подсказка Защиты</RU>
 			<SE>Utökat Försvarstips</SE>
 			<DE>Erweiterter Verteidigungstipp</DE>
-			<VN>Chi tiết phòng thủ</VN>
-			<CN>更多防御信息提示</CN>
+			<VN>Chi tiết phòng thủ nâng cao</VN>
+			<CN>扩展的防御信息提示</CN>
+			<KR>추가 방어력 정보</KR>
 		</ExtendedDefenseTip>
 
 		<WriteMagicResist>
@@ -664,6 +857,7 @@
 			<DE>Schreiben Magieresistenz</DE>
 			<VN>Chi tiết kháng phép</VN>
 			<CN>防御信息显示魔抗</CN>
+			<KR>마법 저항력 표시</KR>
 		</WriteMagicResist>
 
 		<DisplaySettings>
@@ -672,7 +866,8 @@
 			<SE>Förevisa:</SE>
 			<DE>Anzeige:</DE>
 			<VN>Màn hình:</VN>
-			<CN>显示器</CN>
+			<CN>显示器:</CN>
+			<KR>디스플레이:</KR>
 		</DisplaySettings>
 
 		<FPSStatusLabel>
@@ -682,8 +877,19 @@
 			<DE>Status:</DE>
 			<VN>Kiểu:</VN>
 			<CN>状态:</CN>
+			<KR>스테이터스:</KR>
 		</FPSStatusLabel>
 
+		<FPSActiveInLobbyL>
+			<EN>Active in Lobby:</EN>
+			<RU>Активно в Лобби:</RU>
+			<SE>Aktiv i Lobbyn:</SE>
+			<DE>Aktiv in der Lobby:</DE>
+			<VN>Kích hoạt ngoài phòng chờ:</VN>
+			<CN>在大厅中激活:</CN>
+			<KR>로비에서 활성화:</KR>
+		</FPSActiveInLobbyL>
+		
 		<FPSLimit>
 			<EN>FPS Limit:</EN>
 			<RU>ФПС Лимит:</RU>
@@ -691,6 +897,7 @@
 			<DE>FPS-Grenze:</DE>
 			<VN>Giới hạn FPS:</VN>
 			<CN>FPS上限:</CN>
+			<KR>프레임 제한:</KR>
 		</FPSLimit>
 
 		<FPSAdvancedInfoL>
@@ -698,8 +905,9 @@
 			<RU>ФПС Доп. Информация:</RU>
 			<SE>FPS Avancerad Info:</SE>
 			<DE>FPS-Erweiterte Info:</DE>
-			<VN>Thông tin nâng cao FPS:</VN>
+			<VN>Thông tin FPS nâng cao:</VN>
 			<CN>FPS高级信息:</CN>
+			<KR>프레임 고급 정보:</KR>
 		</FPSAdvancedInfoL>
 
 		<RefreshRate>
@@ -709,6 +917,7 @@
 			<DE>Bildwiederholrate:</DE>
 			<VN>Tốc độ làm tươi:</VN>
 			<CN>刷新率:</CN>
+			<KR>새로고침 속도:</KR>
 		</RefreshRate>
 
 		<DelaySettings>
@@ -718,6 +927,7 @@
 			<DE>Verzögerung (ms):</DE>
 			<VN>Độ trễ (ms):</VN>
 			<CN>延迟 (毫秒):</CN>
+			<KR>딜레이 (ms):</KR>
 		</DelaySettings>
 
 		<Action>
@@ -727,6 +937,7 @@
 			<DE>Aktion:</DE>
 			<VN>Action:</VN>
 			<CN>动作:</CN>
+			<KR>행동:</KR>
 		</Action>
 
 		<GameStartDelay>
@@ -736,6 +947,7 @@
 			<DE>Spielbeginn:</DE>
 			<VN>Chạy Game:</VN>
 			<CN>游戏开始倒数:</CN>
+			<KR>게임 시작:</KR>
 		</GameStartDelay>
 
 		<CamSteps>
@@ -744,7 +956,8 @@
 			<SE>Kamera Steg:</SE>
 			<DE>Kamera-Stufen:</DE>
 			<VN>Bước Camera:</VN>
-			<CN>镜头设置</CN>
+			<CN>镜头设置:</CN>
+			<KR>카메라 설정:</KR>
 		</CamSteps>
 
 		<Distance>
@@ -754,6 +967,7 @@
 			<DE>Entfernung:</DE>
 			<VN>Độ xa:</VN>
 			<CN>距离:</CN>
+			<KR>거리:</KR>
 		</Distance>
 
 		<Angle>
@@ -763,6 +977,7 @@
 			<DE>Winkel:</DE>
 			<VN>Góc:</VN>
 			<CN>角度:</CN>
+			<KR>앵글:</KR>
 		</Angle>
 
 		<Height>
@@ -772,6 +987,7 @@
 			<DE>Höhe:</DE>
 			<VN>Độ cao:</VN>
 			<CN>高度:</CN>
+			<KR>높이:</KR>
 		</Height>
 
 		<Speed>
@@ -781,6 +997,7 @@
 			<DE>Geschwindigkeit:</DE>
 			<VN>Tốc độ:</VN>
 			<CN>速度:</CN>
+			<KR>속도:</KR>
 		</Speed>
 
 		<Size>
@@ -790,6 +1007,7 @@
 			<DE>Größe:</DE>
 			<VN>Kích cỡ:</VN>
 			<CN>大小:</CN>
+			<KR>크기:</KR>
 		</Size>
 
 		<Duration>
@@ -799,6 +1017,7 @@
 			<DE>Dauer:</DE>
 			<VN>Thời gian:</VN>
 			<CN>持续时间:</CN>
+			<KR>지속:</KR>
 		</Duration>
 
 		<Pitch>
@@ -808,6 +1027,7 @@
 			<DE>Neigung:</DE>
 			<VN>Độ nghiêng:</VN>
 			<CN>倾斜:</CN>
+			<KR>경사:</KR>
 		</Pitch>
 
 		<Yaw>
@@ -817,6 +1037,7 @@
 			<DE>Drehung:</DE>
 			<VN>Góc xoay:</VN>
 			<CN>旋转:</CN>
+			<KR>회전:</KR>
 		</Yaw>
 
 		<FarZ>
@@ -825,7 +1046,8 @@
 			<SE>LångtZ</SE>
 			<DE>EntfernungZ</DE>
 			<VN>Tầm nhìn:</VN>
-			<CN>远的Z:</CN>
+			<CN>远Z:</CN>
+			<KR>시야 줌:</KR>
 		</FarZ>
 
 		<FogZ>
@@ -835,6 +1057,7 @@
 			<DE>NebelZ</DE>
 			<VN>Sương mù:</VN>
 			<CN>雾Z:</CN>
+			<KR>안개 줌:</KR>
 		</FogZ>
 
 		<Abilities>
@@ -844,6 +1067,7 @@
 			<DE>Fähigkeiten</DE>
 			<VN>Kỹ năng</VN>
 			<CN>技能</CN>
+			<KR>스킬</KR>
 		</Abilities>
 
 		<Items>
@@ -853,6 +1077,7 @@
 			<DE>Gegenstände</DE>
 			<VN>Items</VN>
 			<CN>物品</CN>
+			<KR>아이템</KR>
 		</Items>
 
 		<UtilityL>
@@ -862,6 +1087,7 @@
 			<DE>Hilfsmittel:</DE>
 			<VN>Các tiện ích:</VN>
 			<CN>辅助:</CN>
+			<KR>아이템</KR>
 		</UtilityL>
 
 		<SelfCastKeyL>
@@ -871,6 +1097,7 @@
 			<DE>Selbst-Cast Taste:</DE>
 			<VN>Self Cast Key:</VN>
 			<CN>对自身施法按键:</CN>
+			<KR>자신에게 사용:</KR>
 		</SelfCastKeyL>
 
 		<AutoCastKeyL>
@@ -880,6 +1107,7 @@
 			<DE>Autocast-Umschalttaste:</DE>
 			<VN>Autocast Toggle Key:</VN>
 			<CN>自动施法开关按键:</CN>
+			<KR>스마트키 켜기/끄기:</KR>
 		</AutoCastKeyL>
 
 		<SpellBookModeL>
@@ -887,8 +1115,9 @@
 			<RU>Режим Спелбука/Изучения:</RU>
 			<SE>Spellbok/Lär Läge:</SE>
 			<DE>Zauberbuch/Lernmodus:</DE>
-			<VN>Học kỹ năng:</VN>
-			<CN>魔法书/技能学习 模式:</CN>
+			<VN>Kỹ năng con/Học kỹ năng:</VN>
+			<CN>【魔法书/技能学习】模式:</CN>
+			<KR>스펠북/스킬 배우기 모드:</KR>
 		</SpellBookModeL>
 
 		<NeutralUnitModeL>
@@ -898,6 +1127,7 @@
 			<DE>Neutrale Einheit Modus:</DE>
 			<VN>Neutral Unit Mode:</VN>
 			<CN>中立单位模式:</CN>
+			<KR>중립 유닛 모드:</KR>
 		</NeutralUnitModeL>
 
 		<MouseAutoCastDelay>
@@ -905,8 +1135,9 @@
 			<RU>Задержка Автокаста Мыши (мс):</RU>
 			<SE>Mus AutoTangent Dröjsmål (ms):</SE>
 			<DE>Maussperre AutoCast Verzögerung (ms):</DE>
-			<VN>Mouse AutoCast Delay:</VN>
+			<VN>Mouse AutoCast Delay (ms):</VN>
 			<CN>鼠标自动施法延迟 (毫秒):</CN>
+			<KR>마우스 자동 캐스팅 딜레이 (ms):</KR>
 		</MouseAutoCastDelay>
 
 		<UpdateDataL>
@@ -915,7 +1146,8 @@
 			<SE>Uppdaterings Data:</SE>
 			<DE>Daten aktualisieren:</DE>
 			<VN>Cập nhật dữ liệu:</VN>
-			<CN>更新数据:</CN>
+			<CN>更新设置:</CN>
+			<KR>업데이트 데이터:</KR>
 		</UpdateDataL>
 
 		<WindowModeL>
@@ -924,7 +1156,8 @@
 			<SE>Window/Borderless:</SE>
 			<DE>Fenster/Randlos:</DE>
 			<VN>Chuyển đổi cửa sổ/Không viền:</VN>
-			<CN>窗口/无边框:</CN>
+			<CN>切换【窗口/无边框】:</CN>
+			<KR>창모드/테두리 없음:</KR>
 		</WindowModeL>
 
 		<MouseLockL>
@@ -933,7 +1166,8 @@
 			<SE>Mus Lås På/Av:</SE>
 			<DE>Maussperre Ein/Aus:</DE>
 			<VN>Bật/tắt khoá chuột:</VN>
-			<CN>鼠标 锁定/解锁:</CN>
+			<CN>鼠标【锁定/解锁】:</CN>
+			<KR>마우스 가두기 켜기/끄기:</KR>
 		</MouseLockL>
 
 		<WideScreenL>
@@ -942,7 +1176,8 @@
 			<SE>Widescreen På/Av:</SE>
 			<DE>Breitbildschirm Ein/Aus:</DE>
 			<VN>Bật/tắt chế độ màn hình rộng:</VN>
-			<CN>宽屏 开启/关闭:</CN>
+			<CN>宽屏【开启/关闭】:</CN>
+			<KR>와이드 스크린 켜기/끄기:</KR>
 		</WideScreenL>
 		
 		<PauseL>
@@ -951,7 +1186,8 @@
 			<SE>Paus På/Av:</SE>
 			<DE>Pause Ein/Aus:</DE>
 			<VN>Bật/tắt Pause:</VN>
-			<CN>暂停 开启/关闭:</CN>
+			<CN>暂停【开启/关闭】:</CN>
+			<KR>일시정지 켜기/끄기:</KR>
 		</PauseL>
 
 		<UIL>
@@ -960,7 +1196,8 @@
 			<SE>UI Göm/Visa:</SE>
 			<DE>UI Ausblenden/Anzeigen:</DE>
 			<VN>Ẩn/hiện khung giao diện Game:</VN>
-			<CN>UI 显示/隐藏:</CN>
+			<CN>UI【显示/隐藏】:</CN>
+			<KR>UI 끄기/보기:</KR>
 		</UIL>
 
 		<ToggleMultiboardL>
@@ -969,7 +1206,8 @@
 			<SE>Växla Multiboard State:</SE>
 			<DE>Multiboard-Status Umschalten:</DE>
 			<VN>Thu/phóng bảng công trạng:</VN>
-			<CN>开关多面板状态:</CN>
+			<CN>多面板【打开/关闭】:</CN>
+			<KR>멀티보드 보기/끄기:</KR>
 		</ToggleMultiboardL>
 
 		<ShowHideMultiboardL>
@@ -978,7 +1216,8 @@
 			<SE>Visa/Dölj multiboard:</SE>
 			<DE>Multiboard Ausblenden/Anzeigen:</DE>
 			<VN>Ẩn/hiện bảng công trạng:</VN>
-			<CN>显示/隐藏 多面板:</CN>
+			<CN>多面板【显示/隐藏】:</CN>
+			<KR>멀티보드 표시:</KR>
 		</ShowHideMultiboardL>
 
 		<MultiboardText>
@@ -986,8 +1225,8 @@
 			<RU>Мультиборд</RU>
 			<SE>Multiboard</SE>
 			<DE>Multiboard</DE>
-			<VN>Công Trạng</VN>
-			<CN>多面板</CN>
+			<VN>Multiboard</VN>
+			<CN>显示多面板</CN>
 		</MultiboardText>
 
 		<MultiboardDisplaceText>
@@ -995,8 +1234,9 @@
 			<RU>Смещение Мультиборд</RU>
 			<SE>Multiboard Förflytta</SE>
 			<DE>Multiboard Verdrängen</DE>
-			<VN>Công Trạng Dịch chuyển</VN>
+			<VN>Multiboard Displace</VN>
 			<CN>多面板移位</CN>
+			<KR>멀티보드 바꾸기</KR>
 		</MultiboardDisplaceText>
 
 		<ClearMessagesL>
@@ -1006,6 +1246,7 @@
 			<DE>Nachrichten löschen:</DE>
 			<VN>Xóa tin nhắn:</VN>
 			<CN>清除消息:</CN>
+			<KR>글자 지우기:</KR>
 		</ClearMessagesL>
 
 		<CameraL>
@@ -1013,8 +1254,9 @@
 			<RU>Камера:</RU>
 			<SE>Kamera:</SE>
 			<DE>Kamera:</DE>
-			<VN>Máy ảnh:</VN>
+			<VN>Camera:</VN>
 			<CN>镜头:</CN>
+			<KR>카메라:</KR>
 		</CameraL>
 
 		<OverrideL>
@@ -1024,6 +1266,7 @@
 			<DE>Überschreiben:</DE>
 			<VN>Ghi đè:</VN>
 			<CN>覆盖:</CN>
+			<KR>무효:</KR>
 		</OverrideL>
 
 		<RestoreL>
@@ -1033,6 +1276,7 @@
 			<DE>Wiederherstellen:</DE>
 			<VN>Phục hồi:</VN>
 			<CN>恢复:</CN>
+			<KR>복구:</KR>
 		</RestoreL>
 
 		<UnitL>
@@ -1042,6 +1286,7 @@
 			<DE>Einheit:</DE>
 			<VN>Điều khiển đơn vị lính:</VN>
 			<CN>单位:</CN>
+			<KR>유닛:</KR>
 		</UnitL>
 
 		<SaveL>
@@ -1051,6 +1296,7 @@
 			<DE>Speichern:</DE>
 			<VN>Lưu chọn:</VN>
 			<CN>保存:</CN>
+			<KR>저장:</KR>
 		</SaveL>
 
 		<SelectL>
@@ -1060,6 +1306,7 @@
 			<DE>Auswählen:</DE>
 			<VN>Chọn:</VN>
 			<CN>选择:</CN>
+			<KR>선택:</KR>
 		</SelectL>
 
 		<AutoSelectL>
@@ -1068,7 +1315,8 @@
 			<SE>Autovälj På/Av:</SE>
 			<DE>Automatische Auswahl Ein/Aus:</DE>
 			<VN>Bật/tắt tự động chọn:</VN>
-			<CN>自动选择 开启/关闭:</CN>
+			<CN>自动选择【开启/关闭】:</CN>
+			<KR>자동클릭 켜기/끄기:</KR>
 		</AutoSelectL>
 
 		<ClearL>
@@ -1078,15 +1326,17 @@
 			<DE>Auswahl löschen:</DE>
 			<VN>Bỏ chọn:</VN>
 			<CN>清除选择:</CN>
+			<KR>선택 항목 지우기:</KR>
 		</ClearL>
 
 		<Save>
 			<EN>Save</EN>
-			<RU>Окей</RU>
+			<RU>Сохранить</RU>
 			<SE>Spara</SE>
 			<DE>Speichern</DE>
 			<VN>Lưu</VN>
-			<CN>保存</CN>
+			<CN>保存设置</CN>
+			<KR>저장</KR>
 		</Save>
 
 		<Inject>
@@ -1096,6 +1346,7 @@
 			<DE>Injizieren</DE>
 			<VN>Áp dụng</VN>
 			<CN>注入</CN>
+			<KR>설치</KR>
 		</Inject>
 
 		<HideToTrayBox>
@@ -1105,6 +1356,7 @@
 			<DE>Verstecken Tray</DE>
 			<VN>Ẩn xuống</VN>
 			<CN>隐藏到托盘</CN>
+			<KR>트레이 숨기기</KR>
 		</HideToTrayBox>
 
 		<DllName>
@@ -1114,6 +1366,7 @@
 			<DE>DLL Name:</DE>
 			<VN>DLL Name:</VN>
 			<CN>DLL 名称:</CN>
+			<KR>DLL 이름:</KR>
 		</DllName>
 
 		<AutoInjectBox>
@@ -1123,6 +1376,7 @@
 			<DE>Auto-Injektion</DE>
 			<VN>Auto áp dụng</VN>
 			<CN>自动注入</CN>
+			<KR>자동 설치</KR>
 		</AutoInjectBox>
 
 		<LauncherButton>
@@ -1132,6 +1386,7 @@
 			<DE>Launcher</DE>
 			<VN>Launcher</VN>
 			<CN>启动器</CN>
+			<KR>프로그램 실행</KR>
 		</LauncherButton>
 
 		<GameSettingsLabel>
@@ -1141,6 +1396,7 @@
 			<DE>Spiel Einstellungen</DE>
 			<VN>Cài đặt Game</VN>
 			<CN>游戏设置</CN>
+			<KR>게임 설정</KR>
 		</GameSettingsLabel>
 
 		<LaunchButton>
@@ -1150,6 +1406,7 @@
 			<DE>Start</DE>
 			<VN>Chạy Game</VN>
 			<CN>启动魔兽</CN>
+			<KR>실행</KR>
 		</LaunchButton>
 
 		<GamePathLabel>
@@ -1159,6 +1416,7 @@
 			<DE>Spiel-Pfad:</DE>
 			<VN>Đường dẫn Game:</VN>
 			<CN>游戏路径:</CN>
+			<KR>게임 패치:</KR>
 		</GamePathLabel>
 
 		<LaunchArgumentsLabel>
@@ -1168,6 +1426,7 @@
 			<DE>Startargumente:</DE>
 			<VN>Thông số khởi động:</VN>
 			<CN>启动参数:</CN>
+			<KR>변수 시작:</KR>
 		</LaunchArgumentsLabel>
 		
 		<BorderlessCheckBox>
@@ -1177,6 +1436,7 @@
 			<DE>Grenzenlos</DE>
 			<VN>Cửa sổ không viền</VN>
 			<CN>无边框</CN>
+			<KR>테두리 없음</KR>
 		</BorderlessCheckBox>
 
 		<InjectorSettingsLabel>
@@ -1186,6 +1446,7 @@
 			<DE>Injektoreinstellungen</DE>
 			<VN>Cài đặt tự động áp dụng</VN>
 			<CN>注入器设置</CN>
+			<KR>설치기 설정</KR>
 		</InjectorSettingsLabel>
 
 		<ProcessNameLabel>
@@ -1195,6 +1456,7 @@
 			<DE>Vorgangsname:</DE>
 			<VN>Tên cửa sổ:</VN>
 			<CN>进程名称:</CN>
+			<KR>프로그램 이름:</KR>
 		</ProcessNameLabel>
 
 		<AutoInjectorText>
@@ -1204,6 +1466,7 @@
 			<DE>Auto Injektor</DE>
 			<VN>Tự động áp dụng</VN>
 			<CN>自动注入器</CN>
+			<KR>자동 설치</KR>
 		</AutoInjectorText>
 
 		<LoadAddLibrariesText>
@@ -1211,8 +1474,9 @@
 			<RU>Загрузить Доп. Библиотек</RU>
 			<SE>Ladda Ytterligare Bibliotek</SE>
 			<DE>Zusätzliche Bibliotheken Laden</DE>
-			<VN>Tải các thư viện bổ sung</VN>
+			<VN>Load các Libraries bổ sung</VN>
 			<CN>加载附加库</CN>
+			<KR>추가 라이브러리 불러오기</KR>
 		</LoadAddLibrariesText>
 
 		<LibrariesSettingsLabel>
@@ -1222,6 +1486,7 @@
 			<DE>Bibliotheken Einstellungen</DE>
 			<VN>Cài đặt Libraries</VN>
 			<CN>库设置</CN>
+			<KR>라이브러리 세팅</KR>
 		</LibrariesSettingsLabel>
 
 		<AdditionalLibrariesPath>
@@ -1231,6 +1496,7 @@
 			<DE>Pfad für zusätzliche Bibliotheken:</DE>
 			<VN>Đường dẫn Libraries:</VN>
 			<CN>附加库路径:</CN>
+			<KR>추가 라이브러리 경로:</KR>
 		</AdditionalLibrariesPath>
 		
 		<ChangeButton>
@@ -1239,7 +1505,8 @@
 			<SE>Förändra:</SE>
 			<DE>Ändern:</DE>
 			<VN>Tìm:</VN>
-			<CN>更改</CN>
+			<CN>更改:</CN>
+			<KR>변경:</KR>
 		</ChangeButton>
 
 		<DefaultText>
@@ -1249,6 +1516,7 @@
 			<DE>Default</DE>
 			<VN>Mặc định</VN>
 			<CN>默认</CN>
+			<KR>기본</KR>
 		</DefaultText>
 
 		<SpellBookLabelText>
@@ -1256,8 +1524,9 @@
 			<RU>Книга Заклинаний / Изучение Способностей</RU>
 			<SE>Spellbook / Förmåga Lär</SE>
 			<DE>Zauberbuch / Fähigkeit lernen</DE>
-			<VN>Học kỹ năng</VN>
+			<VN>Kỹ năng con / Học kỹ năng</VN>
 			<CN>魔法书/技能学习</CN>
+			<KR>스펠북 / 스킬 배우기</KR>
 		</SpellBookLabelText>
 
 		<ShopsLabelText>
@@ -1267,6 +1536,7 @@
 			<DE>Geschäfte</DE>
 			<VN>Cửa hàng</VN>
 			<CN>商店</CN>
+			<KR>상점</KR>
 		</ShopsLabelText>
 
 		<NeutralUnitLabelText>
@@ -1276,6 +1546,7 @@
 			<DE>Neutrale Einheit / Laden</DE>
 			<VN>Cửa hàng</VN>
 			<CN>中立单位/商店</CN>
+			<KR>중립 유닛/상점</KR>
 		</NeutralUnitLabelText>
 
 		<CustomIndicatorsText>
@@ -1285,6 +1556,7 @@
 			<DE>Benutzerdefinierte Indikatoren</DE>
 			<VN>Hotkeys vòng phạm vi</VN>
 			<CN>自定义指示器</CN>
+			<KR>중립 유닛/상점</KR>
 		</CustomIndicatorsText>
 
 		<DrawAttackOnHoverText>
@@ -1294,6 +1566,7 @@
 			<DE>Zeichnen Sie Angriff auf Schweben:</DE>
 			<VN>Hiện vòng tầm đánh khi rê chuột:</VN>
 			<CN>鼠标悬停时绘制攻击范围:</CN>
+			<KR>표시 설정:</KR>
 		</DrawAttackOnHoverText>
 
 		<DrawAttackText>
@@ -1303,6 +1576,7 @@
 			<DE>Zeichnen Sie Attack:</DE>
 			<VN>Hiện vòng phạm vi tầm đánh:</VN>
 			<CN>绘制攻击范围:</CN>
+			<KR>마우스에 공격 범위 표시:</KR>
 		</DrawAttackText>
 
 		<DrawSpellAoEOnHoverText>
@@ -1312,6 +1586,7 @@
 			<DE>Zeichnen Sie AoE Zauber auf Schweben:</DE>
 			<VN>Hiện vòng kỹ năng khi rê chuột:</VN>
 			<CN>鼠标悬停时绘制技能AoE范围:</CN>
+			<KR>마우스에 스킬 범위 표시:</KR>
 		</DrawSpellAoEOnHoverText>
 
 		<DrawBoundSpellText>
@@ -1321,6 +1596,7 @@
 			<DE>Gebundenen Zauber Ziehen:</DE>
 			<VN>Hiện vòng phạm vi kỹ năng:</VN>
 			<CN>绘制绑定技能:</CN>
+			<KR>바인딩 스킬 표시:</KR>
 		</DrawBoundSpellText>
 
 		<DrawSightKeyLabelText>
@@ -1330,6 +1606,7 @@
 			<DE>Visierradius Zeichnen:</DE>
 			<VN>Hiện vòng tầm nhìn:</VN>
 			<CN>绘制视野范围:</CN>
+			<KR>시야 범위 표시:</KR>
 		</DrawSightKeyLabelText>
 
 		<InterfaceMenuText>
@@ -1339,6 +1616,7 @@
 			<DE>Schnittstelle</DE>
 			<VN>Giao diện</VN>
 			<CN>界面</CN>
+			<KR>인터페이스</KR>
 		</InterfaceMenuText>
 
 		<CustomUIDrawText>
@@ -1348,6 +1626,7 @@
 			<DE>Aktivieren Sie die UI-Änderung</DE>
 			<EN>Bật sửa đổi giao diện</EN>
 			<CN>启用UI修改器</CN>
+			<KR>UI 변경 사용</KR>
 		</CustomUIDrawText>
 
 		<BlackBarsText>
@@ -1356,7 +1635,8 @@
 			<SE>Svarta Barer</SE>
 			<DE>Schwarze Balken</DE>
 			<VN>Black Bars</VN>
-			<CN>黑边</CN>
+			<CN>显示黑边</CN>
+			<KR>검정 바</KR>
 		</BlackBarsText>
 
 		<AttachTooltipText>
@@ -1366,6 +1646,7 @@
 			<DE>Maus-Tooltip</DE>
 			<VN>Mouse Tooltip</VN>
 			<CN>鼠标附着提示</CN>
+			<KR>마우스 툴팁</KR>
 		</AttachTooltipText>
 
 		<ItemBarText>
@@ -1374,7 +1655,8 @@
 			<SE>Artikelknappar</SE>
 			<DE>Artikel Buttons</DE>
 			<VN>Item Buttons</VN>
-			<CN>物品按钮</CN>
+			<CN>显示物品按钮</CN>
+			<KR>아이템 버튼</KR>
 		</ItemBarText>
 
 		<AbilityBarText>
@@ -1383,8 +1665,29 @@
 			<SE>Förmåga Knappar</SE>
 			<DE>Fähigkeitsschaltflächen</DE>
 			<VN>Ability Buttons</VN>
-			<CN>技能按钮</CN>
+			<CN>显示技能按钮</CN>
+			<KR>스킬 버튼</KR>
 		</AbilityBarText>
+
+		<IsAllyAbilityBarCB>
+			<EN>Ally Ability Buttons</EN>
+			<RU>Союзные Способности</RU>
+			<SE>Ally Förmåga Knappar</SE>
+			<DE>Ally Fähigkeitsschaltflächen</DE>
+			<VN>Ally Ability Buttons</VN>
+			<CN>盟友技能按钮</CN>
+			<KR>동맹 스킬 버튼</KR>
+		</IsAllyAbilityBarCB>
+
+		<IsReplayPanelCB>
+			<EN>Replay Panel</EN>
+			<RU>Панель Повтора</RU>
+			<SE>Uppspelningspanel</SE>
+			<DE>Wiedergabebereich</DE>
+			<VN>Replay Panel</VN>
+			<CN>重播面板</CN>
+			<KR>리플레이 패널</KR>
+		</IsReplayPanelCB>
 
 		<TimeOfDayIndicatorText>
 			<EN>Time Indicator</EN>
@@ -1392,7 +1695,8 @@
 			<SE>Tidsindikator</SE>
 			<DE>Zeitanzeige</DE>
 			<VN>Time Indicator</VN>
-			<CN>时间指示器</CN>
+			<CN>显示时间指示器</CN>
+			<KR>시간 표시기</KR>
 		</TimeOfDayIndicatorText>
 
 		<InventoryCoverText>
@@ -1401,7 +1705,8 @@
 			<SE>Lageromslag</SE>
 			<DE>Inventarabdeckung</DE>
 			<VN>Inventory Cover</VN>
-			<CN>物品栏封面</CN>
+			<CN>显示物品栏封面</CN>
+			<KR>인벤토리 커버</KR>
 		</InventoryCoverText>
 
 		<HeroBarText>
@@ -1410,7 +1715,8 @@
 			<SE>Hjälteikoner</SE>
 			<DE>Heldenikonen</DE>
 			<VN>Hero Icons</VN>
-			<CN>英雄图标</CN>
+			<CN>显示英雄头像</CN>
+			<KR>영웅 아이콘</KR>
 		</HeroBarText>
 
 		<PeonBarText>
@@ -1419,7 +1725,8 @@
 			<SE>Peon-Ikon</SE>
 			<DE>Peon-Symbol</DE>
 			<VN>Peon Icon</VN>
-			<CN>工人图标</CN>
+			<CN>显示工人头像</CN>
+			<KR>피언 아이콘</KR>
 		</PeonBarText>
 
 		<PortraitText>
@@ -1428,7 +1735,8 @@
 			<SE>Porträtt</SE>
 			<DE>Porträt</DE>
 			<VN>Portrait</VN>
-			<CN>立绘</CN>
+			<CN>显示模型立绘</CN>
+			<KR>포트레잇</KR>
 		</PortraitText>
 
 		<SimpleConsoleText>
@@ -1437,7 +1745,8 @@
 			<SE>Konsol</SE>
 			<DE>Konsole</DE>
 			<VN>Console</VN>
-			<CN>控制台</CN>
+			<CN>显示控制面板框</CN>
+			<KR>제어판 상자 표시</KR>
 		</SimpleConsoleText>
 
 		<ResourceBarText>
@@ -1446,7 +1755,8 @@
 			<SE>Resursfält</SE>
 			<DE>Ressourcenleiste</DE>
 			<VN>Resource Bar</VN>
-			<CN>资源栏</CN>
+			<CN>显示资源栏</CN>
+			<KR>리소스 표시줄</KR>
 		</ResourceBarText>
 
 		<UpperMenuBarText>
@@ -1455,7 +1765,8 @@
 			<SE>Övre Menyraden</SE>
 			<DE>Obere Menüleiste</DE>
 			<VN>Upper Menu Bar</VN>
-			<CN>上方菜单栏</CN>
+			<CN>显示上方菜单栏</CN>
+			<KR>상단 메뉴 모음</KR>
 		</UpperMenuBarText>
 
 		<MiniMapText>
@@ -1464,7 +1775,8 @@
 			<SE>Minikarta</SE>
 			<DE>Minikarte</DE>
 			<VN>Minimap</VN>
-			<CN>小地图</CN>
+			<CN>显示小地图</CN>
+			<KR>미니맵</KR>
 		</MiniMapText>
 
 		<MiniMapButtonsText>
@@ -1473,7 +1785,8 @@
 			<SE>Minikarta Knappar</SE>
 			<DE>Minikarte Buttons</DE>
 			<VN>Minimap Buttons</VN>
-			<CN>小地图按钮</CN>
+			<CN>显示小地图按钮</CN>
+			<KR>미니맵 버튼</KR>
 		</MiniMapButtonsText>
 
 		<InfoBarText>
@@ -1482,7 +1795,8 @@
 			<SE>Info Bar</SE>
 			<DE>Info Bar</DE>
 			<VN>Info Bar</VN>
-			<CN>单位信息栏</CN>
+			<CN>显示单位信息栏</CN>
+			<KR>디스플레이 유닛 정보 표시</KR>
 		</InfoBarText>
 
 		<TooltipText>
@@ -1491,8 +1805,49 @@
 			<SE>Verktygstips</SE>
 			<DE>Tooltip</DE>
 			<VN>Tooltip</VN>
-			<CN>工具提示</CN>
+			<CN>显示工具提示</CN>
+			<KR>툴팁 표시</KR>
 		</TooltipText>
+
+		<IsBuffBarBoxText>
+			<EN>Buff Bar</EN>
+			<RU>Бафф Бар</RU>
+			<SE>Buff Bar</SE>
+			<DE>Buff Bar</DE>
+			<VN>Thanh Buff</VN>
+			<CN>增益酒吧</CN>
+			<KR>버프 바</KR>
+		</IsBuffBarBoxText>
+
+		<IsUpgradedBuffBarText>
+			<EN>Upgraded Buff Bar</EN>
+			<RU>Обновлённый Бафф Бар</RU>
+			<SE>Uppgraderad Buff Bar</SE>
+			<DE>Verbesserte Buff Bar</DE>
+			<VN>Thanh Buff chi tiết</VN>
+			<CN>升级的增益条</CN>
+			<KR>업그레이드 된 버프 바</KR>
+		</IsUpgradedBuffBarText>
+
+		<IsBuffDrawDurationText>
+			<EN>Draw Buff Duration</EN>
+			<RU>Прорисовка Длительности Баффа</RU>
+			<SE>Draw Buff Duration</SE>
+			<DE>Draw Buff Zeichnen</DE>
+			<VN>Thời gian còn lại của Buff</VN>
+			<CN>绘制增益持续时间</CN>
+			<KR>버프 지속시간 보이기</KR>
+		</IsBuffDrawDurationText>
+
+		<TEXT_BLOCK>
+			<EN>TEXT</EN>
+			<RU>TEXT</RU>
+			<SE>TEXT</SE>
+			<DE>TEXT</DE>
+			<VN>TEXT</VN>
+			<CN>TEXT</CN>
+			<KR>TEXT</KR>
+		</TEXT_BLOCK>
 
 		<Language>
 			<EN>Language:</EN>
@@ -1501,6 +1856,7 @@
 			<DE>Sprache:</DE>
 			<VN>Ngôn ngữ:</VN>
 			<CN>语言:</CN>
+			<KR>언어:</KR>
 		</Language>
 	</Translation>
 </root>
