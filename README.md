@@ -149,9 +149,7 @@ This will update data in config and in-game.
 You don't have to click Inject again.
 
 ### Method #2:
-#### 1. Extract all files to the MAIN folder of Warcraft 3 as shown on screenshot below.
-
-![WFE_Extract_To_Folder](https://user-images.githubusercontent.com/95709901/154843697-879e295a-0f06-45f1-ad18-8f69f10dc695.png)
+#### 1. Extract all files to the MAIN folder of Warcraft 3.
 #### 2. Launch WFE.exe and choose parameters you desire and then push Okay to save changes to conf.ini or simply edit conf.ini directly.
 
 ![WFE_Config_Example](https://user-images.githubusercontent.com/95709901/154843696-f0229a09-e30e-42e7-9501-9885975c03b6.png)
