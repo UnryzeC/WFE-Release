@@ -5,7 +5,7 @@
 			<Locale>RU</Locale>
 			<Locale>SE</Locale>
 			<Locale>DE</Locale>
-            <Locale>VN</Locale>
+      		<Locale>VN</Locale>
 			<Locale>CN</Locale>
 			<Locale>KR</Locale>
 			<Locale>ES</Locale>
@@ -50,7 +50,7 @@
 			<SE>WFE är aktuell</SE>
 			<DE>WFE ist aktuell</DE>
 			<VN>WFE đã được cập nhật</VN>
-			<CN>WFE 是最新的</CN>
+			<CN>WFE 已是最新版</CN>
 			<KR>WFE 가 최신입니다</KR>
 			<ES>WFE está actualizado</ES>
 		</WFEUpToDate>
@@ -127,7 +127,7 @@
 			<SE>Procentsats</SE>
 			<DE>Prozentsatz</DE>
 			<VN>Phần trăm</VN>
-			<CN>百分比</CN>
+			<CN>按百分比显示</CN>
 			<KR>백분율</KR>
 			<ES>Porcentaje</ES>
 		</PercentageText>
@@ -335,7 +335,7 @@
 			<RU>Обновленный Интерфейс</RU>
 			<SE>Uppgraderat Gränssnitt</SE>
 			<DE>Verbesserte Schnittstelle</DE>
-			<VN>Upgraded Interface</VN>
+			<VN>Giao diện màn hình rộng</VN>
 			<CN>显示升级版界面</CN>
 			<KR>인터페이스 업그레이드</KR>
 			<ES>Interfaz Mejorada</ES>
@@ -346,7 +346,7 @@
 			<RU>Информация Героя Над Головой</RU>
 			<SE>Hero Overhead Tip</SE>
 			<DE>Hero Überkopftipp</DE>
-			<VN>Hero Overhead Tip</VN>
+			<VN>Mô tả trên đầu Hero</VN>
 			<CN>显示英雄顶头提示</CN>
 			<KR>영웅 상태</KR>
 			<ES>Tip Sobre Héroe</ES>
@@ -512,7 +512,7 @@
 			<SE>Hälsa Bar:</SE>
 			<DE>Gesundheits Bar:</DE>
 			<VN>Thanh Máu</VN>
-			<CN>生命值显示</CN>
+			<CN>生命值条块</CN>
 			<KR>체력 바:</KR>
 			<ES>Barra de Vida:</ES>
 		</HealthBar>
@@ -523,7 +523,7 @@
 			<SE>Mana Bar:</SE>
 			<DE>Mana Bar:</DE>
 			<VN>Thanh Mana</VN>
-			<CN>魔法值显示</CN>
+			<CN>魔法值条块</CN>
 			<KR>마나 바:</KR>
 			<ES>Barra de Mana:</ES>
 		</ManaBar>
@@ -639,36 +639,36 @@
 		</CooldownUI>
 
 		<ShowIndicator>
-			<EN>Show Indicator:</EN>
-			<RU>Отображать Индикатор:</RU>
-			<SE>Visa Indikator:</SE>
-			<DE>Indikator Anzeigen:</DE>
-			<VN>Hiển thị đếm:</VN>
-			<CN>显示指示器:</CN>
-			<KR>시계:</KR>
-			<ES>Mostrar indicador:</ES>
+			<EN>Show Indicator</EN>
+			<RU>Отображать Индикатор</RU>
+			<SE>Visa Indikator</SE>
+			<DE>Indikator Anzeigen</DE>
+			<VN>Hiển thị đếm</VN>
+			<CN>显示指示器</CN>
+			<KR>시계</KR>
+			<ES>Mostrar indicador</ES>
 		</ShowIndicator>
 		
 		<OverrideIndicator>
-			<EN>Override Indicator:</EN>
-			<RU>Перехватить Индикатор:</RU>
-			<SE>Överskrid Indikator:</SE>
-			<DE>Überschreiben Anzeigen:</DE>
-			<VN>Ghi đè đếm có sẵn:</VN>
-			<CN>覆盖指示器:</CN>
-			<KR>덮어쓰기:</KR>
-			<ES>Remplazar indicador:</ES>
+			<EN>Override Indicator</EN>
+			<RU>Перехватить Индикатор</RU>
+			<SE>Överskrid Indikator</SE>
+			<DE>Überschreiben Anzeigen</DE>
+			<VN>Ghi đè đếm có sẵn</VN>
+			<CN>覆盖指示器</CN>
+			<KR>덮어쓰기</KR>
+			<ES>Remplazar indicador</ES>
 		</OverrideIndicator>
 
 		<DisplayMinutes>
-			<EN>Display Minutes:</EN>
-			<RU>Отображать Минуты:</RU>
-			<SE>Förevisa Minuter:</SE>
-			<DE>Anzeige Protokoll:</DE>
-			<VN>Chế độ hiển thị phút:</VN>
-			<CN>以分钟显示:</CN>
-			<KR>시간표기:</KR>
-			<ES>Mostrar minutos:</ES>
+			<EN>Display Minutes</EN>
+			<RU>Отображать Минуты</RU>
+			<SE>Förevisa Minuter</SE>
+			<DE>Anzeige Protokoll</DE>
+			<VN>Chế độ hiển thị phút</VN>
+			<CN>以分钟显示</CN>
+			<KR>시간표기</KR>
+			<ES>Mostrar minutos</ES>
 		</DisplayMinutes>
 
 		<TextSize>
@@ -1039,7 +1039,11 @@
 			<SE></SE>
 			<DE></DE>
 			<VN></VN>
-			<CN></CN>
+			<CN>启用时，这将会释放一些被垂直同步或其他功能所占用/预留的缓存空间。
+			也就是说，这会提升一些性能，因而提高FPS。如果同时启用了WFE的【解锁FPS】选项，提升将会更加明显。
+			    
+			这对【非DirectX】图形绘制无效，如果你开启了OpenGL来运行游戏，这个功能是无效的。
+			启用后，这可能会影响你的鼠标移动方式。你可以在NVidia/ATI控制面板关闭垂直同步来解决这个问题。</CN>
 			<KR></KR>
 			<ES>Una vez activado, esto liberará algo de espacio ocupado/reservado para Vsync y algunas otras características.
 				Lo que significa que esto mejorará el rendimiento, y de ahí un aumento de FPS, esto es gratamente acentuado al remover el límite de FPS a traves la característica de Desbloquear FPS de WFE.
@@ -1071,6 +1075,17 @@
 			<ES>Índice de refresco:</ES>
 		</RefreshRate>
 
+		<RefreshGraphicsSettingsB>
+			<EN>Refresh Graphics Settings</EN>
+			<RU>Обновить Настройки Графики</RU>
+			<SE>Uppdatera Grafikinställningar</SE>
+			<DE>Grafikeinstellungen Aktualisieren</DE>
+			<VN>Làm mới cài đặt đồ họa</VN>
+			<CN>刷新图形设置</CN>
+			<KR>그래픽 설정 새로 고침</KR>
+			<ES>Refrescar Configuración de Gráficos</ES>
+		</RefreshGraphicsSettingsB>
+    
 		<DelaySettings>
 			<EN>Delay (ms):</EN>
 			<RU>Задержка (мс):</RU>
@@ -1209,7 +1224,7 @@
 			<SE>LångtZ:</SE>
 			<DE>EntfernungZ</DE>
 			<VN>Tầm nhìn:</VN>
-			<CN>远Z:</CN>
+			<CN>FarZ:</CN>
 			<KR>시야 줌:</KR>
 			<ES>Lejura-Z:</ES>
 		</FarZ>
@@ -1220,7 +1235,7 @@
 			<SE>DimmaZ:</SE>
 			<DE>NebelZ:</DE>
 			<VN>Sương mù:</VN>
-			<CN>雾Z:</CN>
+			<CN>FogZ:</CN>
 			<KR>안개 줌:</KR>
 			<ES>Niebla-Z:</ES>
 		</FogZ>
@@ -1406,7 +1421,7 @@
 			<RU>Лидерборд</RU>
 			<SE>Leaderboard</SE>
 			<DE>Leaderboard</DE>
-			<VN>Leaderboard</VN>
+			<VN>Bảng xếp hạng</VN>
 			<CN>排行榜</CN>
 			<KR>리더보드</KR>
 			<ES>Tabla de Ranking</ES>
@@ -1417,7 +1432,7 @@
 			<RU>Мультиборд</RU>
 			<SE>Multiboard</SE>
 			<DE>Multiboard</DE>
-			<VN>Multiboard</VN>
+			<VN>Bảng công trạng</VN>
 			<CN>显示多面板</CN>
 			<KR>멀티보드</KR>
 			<ES>Multitabla</ES>
@@ -1532,6 +1547,17 @@
 			<KR>선택 항목 지우기:</KR>
 			<ES>Limpiar selección:</ES>
 		</ClearL>
+
+		<MoveCameraL>
+			<EN>Move Camera:</EN>
+			<RU>Передвигать Камеру:</RU>
+			<SE>Flytta Kameran:</SE>
+			<DE>Kamera Bewegen:</DE>
+			<VN>Di huyển máy ảnh:</VN>
+			<CN>移动相机:</CN>
+			<KR>카메라 이동:</KR>
+			<ES>Mover Cámara:</ES>
+		</MoveCameraL>
 
 		<Save>
 			<EN>Save</EN>
@@ -1858,7 +1884,7 @@
 			<RU>Включить Модификации UI</RU>
 			<SE>Aktivera UI-Modifiering</SE>
 			<DE>Aktivieren Sie die UI-Änderung</DE>
-			<EN>Bật sửa đổi giao diện</EN>
+			<VN>Bật sửa đổi giao diện</VN>
 			<CN>启用UI修改器</CN>
 			<KR>UI 변경 사용</KR>
 			<ES>Habilitar Modificación de la IU</ES>
@@ -1869,7 +1895,7 @@
 			<RU>Черные Полосы</RU>
 			<SE>Svarta Barer</SE>
 			<DE>Schwarze Balken</DE>
-			<VN>Black Bars</VN>
+			<VN>Viền đen</VN>
 			<CN>显示黑边</CN>
 			<KR>검정 바</KR>
 			<ES>Barras Negras</ES>
@@ -1880,7 +1906,7 @@
 			<RU>Подсказка Мыши</RU>
 			<SE>Mus Verktygstips</SE>
 			<DE>Maus-Tooltip</DE>
-			<VN>Mouse Tooltip</VN>
+			<VN>Mô tả di chuyển theo chuột</VN>
 			<CN>鼠标附着提示</CN>
 			<KR>마우스 툴팁</KR>
 			<ES>Ayuda en Ratón</ES>
@@ -1891,7 +1917,7 @@
 			<RU>Кнопки Предметов</RU>
 			<SE>Artikelknappar</SE>
 			<DE>Artikel Buttons</DE>
-			<VN>Item Buttons</VN>
+			<VN>Các ô Item</VN>
 			<CN>显示物品按钮</CN>
 			<KR>아이템 버튼</KR>
 			<ES>Botones de Ítems</ES>
@@ -1902,7 +1928,7 @@
 			<RU>Кнопки Способностей</RU>
 			<SE>Förmåga Knappar</SE>
 			<DE>Fähigkeitsschaltflächen</DE>
-			<VN>Ability Buttons</VN>
+			<VN>Các ô kỹ năng</VN>
 			<CN>显示技能按钮</CN>
 			<KR>스킬 버튼</KR>
 			<ES>Botones de Habilidades</ES>
@@ -1913,8 +1939,8 @@
 			<RU>Союзные Способности</RU>
 			<SE>Ally Förmåga Knappar</SE>
 			<DE>Ally Fähigkeitsschaltflächen</DE>
-			<VN>Ally Ability Buttons</VN>
-			<CN>盟友技能按钮</CN>
+			<VN>Xem kỹ năng đồng minh</VN>
+			<CN>显示盟友技能按钮</CN>
 			<KR>동맹 스킬 버튼</KR>
 			<ES>Botones de Habilidades Aliadas</ES>
 		</IsAllyAbilityBarCB>
@@ -1924,8 +1950,8 @@
 			<RU>Панель Повтора</RU>
 			<SE>Uppspelningspanel</SE>
 			<DE>Wiedergabebereich</DE>
-			<VN>Replay Panel</VN>
-			<CN>重播面板</CN>
+			<VN>Bảng Replay</VN>
+			<CN>显示录像回放面板</CN>
 			<KR>리플레이 패널</KR>
 			<ES>Panel de Repetición</ES>
 		</IsReplayPanelCB>
@@ -1935,7 +1961,7 @@
 			<RU>Индикатор Времени</RU>
 			<SE>Tidsindikator</SE>
 			<DE>Zeitanzeige</DE>
-			<VN>Time Indicator</VN>
+			<VN>Đồng hồ</VN>
 			<CN>显示时间指示器</CN>
 			<KR>시간 표시기</KR>
 			<ES>Indicador de Tiempo</ES>
@@ -1946,7 +1972,7 @@
 			<RU>Обложка Инвентаря</RU>
 			<SE>Lageromslag</SE>
 			<DE>Inventarabdeckung</DE>
-			<VN>Inventory Cover</VN>
+			<VN>Khung che hành trang</VN>
 			<CN>显示物品栏封面</CN>
 			<KR>인벤토리 커버</KR>
 			<ES>Cobertura de Inventorio</ES>
@@ -1957,7 +1983,7 @@
 			<RU>Иконки Героев</RU>
 			<SE>Hjälteikoner</SE>
 			<DE>Heldenikonen</DE>
-			<VN>Hero Icons</VN>
+			<VN>Hero Icon</VN>
 			<CN>显示英雄头像</CN>
 			<KR>영웅 아이콘</KR>
 			<ES>Iconos de Héroes</ES>
@@ -1968,7 +1994,7 @@
 			<RU>Иконка Рабочего</RU>
 			<SE>Peon-Ikon</SE>
 			<DE>Peon-Symbol</DE>
-			<VN>Peon Icon</VN>
+			<VN>Dân Icon</VN>
 			<CN>显示工人头像</CN>
 			<KR>피언 아이콘</KR>
 			<ES>Icono de Peón</ES>
@@ -1979,8 +2005,8 @@
 			<RU>Портрет</RU>
 			<SE>Porträtt</SE>
 			<DE>Porträt</DE>
-			<VN>Portrait</VN>
-			<CN>显示模型立绘</CN>
+			<VN>Chân dung</VN>
+			<CN>显示模型肖像</CN>
 			<KR>포트레잇</KR>
 			<ES>Retrato</ES>
 		</PortraitText>
@@ -1990,8 +2016,8 @@
 			<RU>Консоль</RU>
 			<SE>Konsol</SE>
 			<DE>Konsole</DE>
-			<VN>Console</VN>
-			<CN>显示控制面板框</CN>
+			<VN>Khung giao diện chính</VN>
+			<CN>显示控制台</CN>
 			<KR>제어판 상자 표시</KR>
 			<ES>Consola</ES>
 		</SimpleConsoleText>
@@ -2001,7 +2027,7 @@
 			<RU>Панель Ресурсов</RU>
 			<SE>Resursfält</SE>
 			<DE>Ressourcenleiste</DE>
-			<VN>Resource Bar</VN>
+			<VN>Thanh tài nguyên</VN>
 			<CN>显示资源栏</CN>
 			<KR>리소스 표시줄</KR>
 			<ES>Barra de Recursos</ES>
@@ -2012,7 +2038,7 @@
 			<RU>Панель Верхнего Меню</RU>
 			<SE>Övre Menyraden</SE>
 			<DE>Obere Menüleiste</DE>
-			<VN>Upper Menu Bar</VN>
+			<VN>Thanh Menu trái</VN>
 			<CN>显示上方菜单栏</CN>
 			<KR>상단 메뉴 모음</KR>
 			<ES>Barra de Menú Superior</ES>
@@ -2034,7 +2060,7 @@
 			<RU>Кнопки Миникарты</RU>
 			<SE>Minikarta Knappar</SE>
 			<DE>Minikarte Buttons</DE>
-			<VN>Minimap Buttons</VN>
+			<VN>Các nút chỉnh Minimap</VN>
 			<CN>显示小地图按钮</CN>
 			<KR>미니맵 버튼</KR>
 			<ES>Botones del Minimapa</ES>
@@ -2045,7 +2071,7 @@
 			<RU>Инфо Панель</RU>
 			<SE>Info Bar</SE>
 			<DE>Info Bar</DE>
-			<VN>Info Bar</VN>
+			<VN>Bảng chỉ số</VN>
 			<CN>显示单位信息栏</CN>
 			<KR>디스플레이 유닛 정보 표시</KR>
 			<ES>Barra de Información</ES>
@@ -2056,22 +2082,22 @@
 			<RU>Подсказка</RU>
 			<SE>Verktygstips</SE>
 			<DE>Tooltip</DE>
-			<VN>Tooltip</VN>
+			<VN>Mô tả chung</VN>
 			<CN>显示工具提示</CN>
 			<KR>툴팁 표시</KR>
 			<ES>Ayuda</ES>
 		</TooltipText>
 
-		<IsBuffBarBoxText>
-			<EN>Buff Bar</EN>
-			<RU>Бафф Бар</RU>
-			<SE>Buff Bar</SE>
-			<DE>Buff Bar</DE>
-			<VN>Thanh Buff</VN>
-			<CN>增益酒吧</CN>
-			<KR>버프 바</KR>
-			<ES>Barra de Conjuros Benéficos</ES>
-		</IsBuffBarBoxText>
+    <BuffUI>
+			<EN>Buff UI</EN>
+			<RU>Бафф Интерфейс</RU>
+			<SE>Buff UI</SE>
+			<DE>Buff UI</DE>
+			<VN>Buff UI</VN>
+			<CN>Buff UI</CN>
+			<KR>Buff UI</KR>
+			<ES>Buff UI</ES>
+		</BuffUI>
 
 		<IsUpgradedBuffBarText>
 			<EN>Upgraded Buff Bar</EN>
@@ -2079,7 +2105,7 @@
 			<SE>Uppgraderad Buff Bar</SE>
 			<DE>Verbesserte Buff Bar</DE>
 			<VN>Thanh Buff chi tiết</VN>
-			<CN>升级的增益条</CN>
+			<CN>显示升级版BUFF栏</CN>
 			<KR>업그레이드 된 버프 바</KR>
 			<ES>Barra de Conjuros Benéficos Mejorada</ES>
 		</IsUpgradedBuffBarText>
@@ -2090,12 +2116,34 @@
 			<SE>Draw Buff Duration</SE>
 			<DE>Draw Buff Zeichnen</DE>
 			<VN>Thời gian còn lại của Buff</VN>
-			<CN>绘制增益持续时间</CN>
+			<CN>显示BUFF持续时间</CN>
 			<KR>버프 지속시간 보이기</KR>
 			<ES>Dibujar Duración de Conjuro Benéfico</ES>
 		</IsBuffDrawDurationText>
 
-		<TEXT_BLOCK>
+    <DrawAuraDurationText>
+      <EN>Draw Aura Duration</EN>
+      <RU>Прорисовка Длительности Ауры</RU>
+      <SE>Draw Aura Duration</SE>
+      <DE>Draw Aura Zeichnen</DE>
+      <VN>Thời gian còn lại của Aura</VN>
+      <CN>显示AURA持续时间</CN>
+      <KR>영기 지속시간 보이기</KR>
+      <ES>Dibujar Duración de Aura Benéfico</ES>
+    </DrawAuraDurationText>
+
+    <EnableFade>
+      <EN>Enable Fade</EN>
+      <RU>Включить Мерцание</RU>
+      <SE>Enable Fade</SE>
+      <DE>Enable Fade</DE>
+      <VN>Enable Fade</VN>
+      <CN>Enable Fade</CN>
+      <KR>Enable Fade</KR>
+      <ES>Enable Fade</ES>
+    </EnableFade>
+
+    <TEXT_BLOCK>
 			<EN>TEXT</EN>
 			<RU>TEXT</RU>
 			<SE>TEXT</SE>
@@ -2103,7 +2151,7 @@
 			<VN>TEXT</VN>
 			<CN>TEXT</CN>
 			<KR>TEXT</KR>
-			<ES>TEXTO</ES>
+			<ES>TEXT</ES>
 		</TEXT_BLOCK>
 
 		<Language>
