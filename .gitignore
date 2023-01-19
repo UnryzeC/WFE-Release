@@ -1,5 +1,6 @@
 # Object file
 *.o
 
-# Ada Library Information
-*.ali
+# Disable Folder Download
+
+TypeData/
