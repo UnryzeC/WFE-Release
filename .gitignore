@@ -4,3 +4,9 @@
 # Disable Folder Download
 
 Files/*.
+
+
+# Disable .git files download
+.gitattributes
+.gitignore
+.md
