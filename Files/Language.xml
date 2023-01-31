@@ -357,7 +357,7 @@
       <RU>Соотношение Сторон:</RU>
       <SE>Bildförhållande:</SE>
       <DE>Seitenverhältnis:</DE>
-      <VN>Tỷ lệ khung hình:</VN>
+      <VN>Tỷ lệ màn hình:</VN>
       <CN>纵横比:</CN>
       <KR>종횡비:</KR>
       <ES>Relación de Aspecto:</ES>
@@ -368,7 +368,7 @@
       <RU>Авто-Определение Соотношения Сторон</RU>
       <SE>Autoupptäcka Bildförhållande</SE>
       <DE>Seitenverhältnis Automatisch Erkennen</DE>
-      <VN>Tự động phát hiện tỷ lệ khung hình</VN>
+      <VN>Tự phát hiện tỷ lệ màn hình</VN>
       <CN>自动检测纵横比</CN>
       <KR>종횡비 자동 감지</KR>
       <ES>Auto-detección de Relación de Aspecto</ES>
@@ -654,7 +654,7 @@
       <RU>Быстрое Меню</RU>
       <SE>Snabbmeny</SE>
       <DE>Schnelles Menü</DE>
-      <VN>Thực đơn nhanh</VN>
+      <VN>Menu nhanh</VN>
       <CN>快捷菜单</CN>
       <KR>빠른 메뉴</KR>
       <ES>Menú Rápido</ES>
@@ -1028,7 +1028,7 @@
 			<RU>ФПС Разблокировщик:</RU>
 			<SE>FPS Unlocker:</SE>
 			<DE>FPS Unlocker:</DE>
-			<VN>FPS Trình mở khóa:</VN>
+			<VN>Mở khóa FPS:</VN>
 			<CN>FPS 解锁器:</CN>
 			<KR>FPS 잠금해제기:</KR>
 			<ES>FPS Desbloqueador:</ES>
@@ -2148,7 +2148,7 @@
 			<RU>Бафф Интерфейс</RU>
 			<SE>Buff UI</SE>
 			<DE>Buff UI</DE>
-			<VN>giao diện người dùng đệm</VN>
+			<VN>Giao diện thanh Buff</VN>
 			<CN>BUFF 用户接口</CN>
 			<KR>버프 UI</KR>
 			<ES>Buff UI</ES>
