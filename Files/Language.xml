@@ -5,7 +5,7 @@
 			<Locale>RU</Locale>
 			<Locale>SE</Locale>
 			<Locale>DE</Locale>
-      		<Locale>VN</Locale>
+      <Locale>VN</Locale>
 			<Locale>CN</Locale>
 			<Locale>KR</Locale>
 			<Locale>ES</Locale>
@@ -111,14 +111,14 @@
 		</UpdateRequest>
 
 		<CustomHealthManaTextCB>
-			<EN>Custom Health/Mana Text:</EN>
-			<RU>Пользовательский Текст Зоровья/Маны:</RU>
-			<SE>Anpassad Hälsa/Mana Text:</SE>
-			<DE>Benutzerdefinierter Gesundheits/Mana Text:</DE>
-			<VN>Tùy chỉnh text hiển thị Máu/Mana:</VN>
-			<CN>自定义生命值/魔法值文本:</CN>
+			<EN>Custom Health/Mana Text</EN>
+			<RU>Пользовательский Текст Зоровья/Маны</RU>
+			<SE>Anpassad Hälsa/Mana Text</SE>
+			<DE>Benutzerdefinierter Gesundheits/Mana Text</DE>
+			<VN>Tùy chỉnh text hiển thị Máu/Mana</VN>
+			<CN>自定义生命值/魔法值文本</CN>
 			<KR>사용자 정의 체력/마나 텍스트</KR>
-			<ES>Texto de Vida/Mana Personalizado:</ES>
+			<ES>Texto de Vida/Mana Personalizado</ES>
 		</CustomHealthManaTextCB>
 
 		<PercentageText>
@@ -155,14 +155,14 @@
 		</HP_MP_TruncateDigitsCB>
 
 		<CustomBarsCB>
-			<EN>Custom Bars:</EN>
-			<RU>Пользовательские Полосы:</RU>
-			<SE>Anpassade Barer:</SE>
-			<DE>Benutzerdefinierte Balken:</DE>
-			<VN>Tùy chỉnh thanh Máu/Mana:</VN>
-			<CN>自定义条块:</CN>
+			<EN>Custom Bars</EN>
+			<RU>Пользовательские Полосы</RU>
+			<SE>Anpassade Barer</SE>
+			<DE>Benutzerdefinierte Balken</DE>
+			<VN>Tùy chỉnh thanh Máu/Mana</VN>
+			<CN>自定义条块</CN>
 			<KR>커스텀 바</KR>
-			<ES>Barras Personalizadas:</ES>
+			<ES>Barras Personalizadas</ES>
 		</CustomBarsCB>
 
 		<Extended>
@@ -214,7 +214,7 @@
 			<RU>Клавиши</RU>
 			<SE>Kommandon</SE>
 			<DE>Tasten</DE>
-            <VN>Keys</VN>
+      <VN>Keys</VN>
 			<CN>按键</CN>
 			<KR>키</KR>
 			<ES>Teclas</ES>
@@ -297,6 +297,17 @@
 			<ES>Opciones</ES>
 		</SettingsButton>
 
+    <SlimCursor>
+      <EN>Slim Cursor</EN>
+      <RU>Тонкий Курсор</RU>
+      <SE>Smal Markör</SE>
+      <DE>Schlanker Cursor</DE>
+      <VN>Con trỏ mỏng</VN>
+      <CN>超薄光标</CN>
+      <KR>슬림 커서</KR>
+      <ES>Cursor Delgado</ES>
+    </SlimCursor>
+    
 		<HotKeysButton>
 			<EN>HotKeys</EN>
 			<RU>Хоткеи</RU>
@@ -340,6 +351,28 @@
 			<KR>인터페이스 업그레이드</KR>
 			<ES>Interfaz Mejorada</ES>
 		</UpgradedInterface>
+
+    <AspectRatioL>
+      <EN>Aspect Ratio:</EN>
+      <RU>Соотношение Сторон:</RU>
+      <SE>Bildförhållande:</SE>
+      <DE>Seitenverhältnis:</DE>
+      <VN>Tỷ lệ khung hình:</VN>
+      <CN>纵横比:</CN>
+      <KR>종횡비:</KR>
+      <ES>Relación de Aspecto:</ES>
+    </AspectRatioL>
+
+    <AutoDetectAspectRatioText>
+      <EN>Auto-Detect Aspect Ratio</EN>
+      <RU>Авто-Определение Соотношения Сторон</RU>
+      <SE>Autoupptäcka Bildförhållande</SE>
+      <DE>Seitenverhältnis Automatisch Erkennen</DE>
+      <VN>Tự động phát hiện tỷ lệ khung hình</VN>
+      <CN>自动检测纵横比</CN>
+      <KR>종횡비 자동 감지</KR>
+      <ES>Auto-detección de Relación de Aspecto</ES>
+    </AutoDetectAspectRatioText>
 
 		<HeroOverheadTip>
 			<EN>Hero Overhead Tip</EN>
@@ -616,26 +649,37 @@
 			<ES>Notificación de Carga</ES>
 		</LoadingNotification>
 
+    <FastMenu>
+      <EN>Fast Menu</EN>
+      <RU>Быстрое Меню</RU>
+      <SE>Snabbmeny</SE>
+      <DE>Schnelles Menü</DE>
+      <VN>Thực đơn nhanh</VN>
+      <CN>快捷菜单</CN>
+      <KR>빠른 메뉴</KR>
+      <ES>Menú Rápido</ES>
+    </FastMenu> 
+    
 		<ManaBarTip>
 			<EN>Can only be turned on/off in Lobby/Menu.</EN>
 			<RU>Может быть вкл./выкл. только в Лобби/Меню.</RU>
 			<SE>Kan bara sättas på/av i Lobby/Meny.</SE>
 			<DE>Kann nur in der Lobby/Menü ein-/ausgeschaltet werden.</DE>
-            <VN>Chỉ có thể tắt/mở trong phòng chờ/Menu.</VN>
+      <VN>Chỉ có thể tắt/mở trong phòng chờ/Menu.</VN>
 			<CN>仅可在【大厅/菜单】中【开启/关闭】</CN>
 			<KR>로딩 메뉴에서만 설정/해제할 수 있습니다.</KR>
 			<ES>Solo puede ser activado/desactivado en el Lobby/Menú</ES>
 		</ManaBarTip>
 
 		<CooldownUI>
-			<EN>Cooldown UI:</EN>
-			<RU>UI Перезарядки:</RU>
-			<SE>Svalna UI:</SE>
-			<DE>Abkühlen UI:</DE>
-			<VN>Thời gian hồi skill:</VN>
-			<CN>冷却时间UI:</CN>
-			<KR>쿨타임 UI:</KR>
-			<ES>IU de Enfriamiento:</ES>
+			<EN>Cooldown UI</EN>
+			<RU>UI Перезарядки</RU>
+			<SE>Svalna UI</SE>
+			<DE>Abkühlen UI</DE>
+			<VN>Thời gian hồi skill</VN>
+			<CN>冷却时间UI</CN>
+			<KR>쿨타임 UI</KR>
+			<ES>IU de Enfriamiento</ES>
 		</CooldownUI>
 
 		<ShowIndicator>
@@ -782,14 +826,14 @@
 		</AggressiveHPBar>
 
 		<CustomIndicatorColoursText>
-			<EN>Custom Indicator Colours:</EN>
-			<RU>Цвета Настраиваемых Индикаторов:</RU>
-			<SE>Anpassade Indikatorfärger:</SE>
-			<DE>Benutzerdefinierte Indikatorfarben:</DE>
-			<VN>Màu sắc vòng phạm vi:</VN>
-			<CN>自定义指示器颜色:</CN>
-			<KR>사용자 지정 표시 색상:</KR>
-			<ES>Indicador de Colores Personalizados:</ES>
+			<EN>Custom Indicator Colours</EN>
+			<RU>Цвета Настраиваемых Индикаторов</RU>
+			<SE>Anpassade Indikatorfärger</SE>
+			<DE>Benutzerdefinierte Indikatorfarben</DE>
+			<VN>Màu sắc vòng phạm vi</VN>
+			<CN>自定义指示器颜色</CN>
+			<KR>사용자 지정 표시 색상</KR>
+			<ES>Indicador de Colores Personalizados</ES>
 		</CustomIndicatorColoursText>
 		
 		<AttackIndicatorColourText>
@@ -826,14 +870,14 @@
 		</SightIndicatorColourLabelText>
 
 		<DamageDraw>
-			<EN>Damage Draw:</EN>
-			<RU>Прорисовка Урона:</RU>
-			<SE>Siktradie:</SE>
-			<DE>Schadensziehung:</DE>
-			<VN>Hiển thị sát thương:</VN>
-			<CN>显示伤害数值:</CN>
-			<KR>데미지 표시:</KR>
-			<ES>Dibujo de Daño:</ES>
+			<EN>Damage Draw</EN>
+			<RU>Прорисовка Урона</RU>
+			<SE>Siktradie</SE>
+			<DE>Schadensziehung</DE>
+			<VN>Hiển thị sát thương</VN>
+			<CN>显示伤害数值</CN>
+			<KR>데미지 표시</KR>
+			<ES>Dibujo de Daño</ES>
 		</DamageDraw>
 
 		<PhysicalColour>
@@ -881,14 +925,14 @@
 		</MagicalOffset>
 
 		<InstantRMC>
-			<EN>Repeat Right Mouse Click:</EN>
-			<RU>Повтор Правой Кнопки Мыши:</RU>
-			<SE>Upprepa Högerklick:</SE>
-			<DE>Wiederholen Rechtsklick:</DE>
-			<VN>Lặp lại click chuột:</VN>
-			<CN>按住鼠标右键重复点击:</CN>
-			<KR>우클릭 오토마우스:</KR>
-			<ES>Repetir Click Derecho:</ES>
+			<EN>Repeat Right Mouse Click</EN>
+			<RU>Повтор Правой Кнопки Мыши</RU>
+			<SE>Upprepa Högerklick</SE>
+			<DE>Wiederholen Rechtsklick</DE>
+			<VN>Lặp lại click chuột</VN>
+			<CN>按住鼠标右键重复点击</CN>
+			<KR>우클릭 오토마우스</KR>
+			<ES>Repetir Click Derecho</ES>
 		</InstantRMC>
 
 		<EnforceHotkeys>
@@ -969,25 +1013,25 @@
 		</WriteMagicResist>
 
 		<DisplaySettings>
-			<EN>Display:</EN>
-			<RU>Изображение:</RU>
-			<SE>Förevisa:</SE>
-			<DE>Anzeige:</DE>
-			<VN>Màn hình:</VN>
-			<CN>显示器:</CN>
-			<KR>디스플레이:</KR>
-			<ES>Pantalla:</ES>
+			<EN>Display</EN>
+			<RU>Изображение</RU>
+			<SE>Förevisa</SE>
+			<DE>Anzeige</DE>
+			<VN>Màn hình</VN>
+			<CN>显示器</CN>
+			<KR>디스플레이</KR>
+			<ES>Pantalla</ES>
 		</DisplaySettings>
 
 		<FPSStatusLabel>
-			<EN>Status:</EN>
-			<RU>Статус:</RU>
-			<SE>Status:</SE>
-			<DE>Status:</DE>
-			<VN>Kiểu:</VN>
-			<CN>状态:</CN>
-			<KR>스테이터스:</KR>
-			<ES>Estado:</ES>
+			<EN>FPS Unlocker:</EN>
+			<RU>ФПС Разблокировщик:</RU>
+			<SE>FPS Unlocker:</SE>
+			<DE>FPS Unlocker:</DE>
+			<VN>FPS Trình mở khóa:</VN>
+			<CN>FPS 解锁器:</CN>
+			<KR>FPS 잠금해제기:</KR>
+			<ES>FPS Desbloqueador:</ES>
 		</FPSStatusLabel>
 
 		<FPSActiveInLobbyL>
@@ -1087,14 +1131,14 @@
 		</RefreshGraphicsSettingsB>
     
 		<DelaySettings>
-			<EN>Delay (ms):</EN>
-			<RU>Задержка (мс):</RU>
-			<SE>Dröjsmål (ms):</SE>
-			<DE>Verzögerung (ms):</DE>
-			<VN>Độ trễ (ms):</VN>
-			<CN>延迟 (毫秒):</CN>
-			<KR>딜레이 (ms):</KR>
-			<ES>Retraso (ms):</ES>
+			<EN>Delay (ms)</EN>
+			<RU>Задержка (мс)</RU>
+			<SE>Dröjsmål (ms)</SE>
+			<DE>Verzögerung (ms)</DE>
+			<VN>Độ trễ (ms)</VN>
+			<CN>延迟 (毫秒)</CN>
+			<KR>딜레이 (ms)</KR>
+			<ES>Retraso (ms)</ES>
 		</DelaySettings>
 
 		<Action>
@@ -1459,8 +1503,19 @@
 			<KR>글자 지우기:</KR>
 			<ES>Limpiar mensajes:</ES>
 		</ClearMessagesL>
-		
-		<CameraL>
+
+    <ClearChatL>
+      <EN>Clear Chat:</EN>
+      <RU>Очистить Чат:</RU>
+      <SE>Rensa Chatt:</SE>
+      <DE>Chat Löschen:</DE>
+      <VN>Xóa cuộc trò chuyện:</VN>
+      <CN>清除聊天:</CN>
+      <KR>채팅 지우기:</KR>
+      <ES>Limpiar Chat:</ES>
+    </ClearChatL> 
+    
+    <CameraL>
 			<EN>Camera:</EN>
 			<RU>Камера:</RU>
 			<SE>Kamera:</SE>
@@ -2093,9 +2148,9 @@
 			<RU>Бафф Интерфейс</RU>
 			<SE>Buff UI</SE>
 			<DE>Buff UI</DE>
-			<VN>Buff UI</VN>
-			<CN>Buff UI</CN>
-			<KR>Buff UI</KR>
+			<VN>giao diện người dùng đệm</VN>
+			<CN>BUFF 用户接口</CN>
+			<KR>버프 UI</KR>
 			<ES>Buff UI</ES>
 		</BuffUI>
 
@@ -2135,12 +2190,12 @@
     <EnableFade>
       <EN>Enable Fade</EN>
       <RU>Включить Мерцание</RU>
-      <SE>Enable Fade</SE>
-      <DE>Enable Fade</DE>
-      <VN>Enable Fade</VN>
-      <CN>Enable Fade</CN>
-      <KR>Enable Fade</KR>
-      <ES>Enable Fade</ES>
+      <SE>Aktivera Tona</SE>
+      <DE>Verblassen Aktivieren</DE>
+      <VN>Bật mờ dần</VN>
+      <CN>启用淡入淡出</CN>
+      <KR>페이드 활성화</KR>
+      <ES>Habilitar Fundido</ES>
     </EnableFade>
 
     <TEXT_BLOCK>
