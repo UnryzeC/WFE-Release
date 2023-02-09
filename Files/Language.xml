@@ -89,14 +89,14 @@
 		</DownloadRequest>
 
 		<CheckUpdates>
-			<EN>Check Updates</EN>
-			<RU>Проверять Обновления</RU>
-			<SE>Kontrollera Uppdateringar</SE>
-			<DE>Auf Updates Prüfen</DE>
-			<VN>Kiểm tra cập nhật</VN>
-			<CN>检查更新</CN>
-			<KR>업데이트 검사</KR>
-			<ES>Buscar Actualizaciones</ES>
+			<EN>Auto-Updater</EN>
+			<RU>Авто-Обновление</RU>
+			<SE>Auto-Updater</SE>
+			<DE>Auto-Updater</DE>
+			<VN>Tự động cập nhật</VN>
+			<CN>自动更新程序</CN>
+			<KR>자동 업데이터</KR>
+			<ES>Auto-Actualizador</ES>
 		</CheckUpdates>
 
 		<UpdateRequest>
@@ -332,7 +332,7 @@
 
 		<SmartCastToolTip>
 			<EN>Smartcast On/Off</EN>
-			<RU>Смарткаст вкл/выкл</RU>
+			<RU>Смарткаст Вкл/Выкл</RU>
 			<SE>SnabbTangent På/Av</SE>
 			<DE>Smartcast Ein/Aus</DE>
 			<VN>Tắt/mở xài nhanh</VN>
@@ -1129,6 +1129,17 @@
 			<KR>그래픽 설정 새로 고침</KR>
 			<ES>Refrescar Configuración de Gráficos</ES>
 		</RefreshGraphicsSettingsB>
+
+    <AutoUpdateL>
+      <EN>Auto Update:</EN>
+      <RU>Авто Обновление:</RU>
+      <SE>Autoupptäcka Uppdatera:</SE>
+      <DE>Automatisch Aktualisieren:</DE>
+      <VN>Cập nhật tự động:</VN>
+      <CN>自动更新:</CN>
+      <KR>자동 업데이트:</KR>
+      <ES>Auto Actualización:</ES>
+    </AutoUpdateL>    
     
 		<DelaySettings>
 			<EN>Delay (ms)</EN>
@@ -1350,6 +1361,72 @@
 			<ES>Libro de Hechizo/Modo de Aprender:</ES>
 		</SpellBookModeL>
 
+    <Extended>
+      <EN>Extended</EN>
+      <RU>Расширенные</RU>
+      <SE>Förlängd</SE>
+      <DE>Erweitert</DE>
+      <VN>Mở Rộng</VN>
+      <CN>扩展</CN>
+      <KR>펼친</KR>
+      <ES>Extendido</ES>
+    </Extended>    
+    
+    <Settings>
+      <EN>Settings</EN>
+      <RU>Настройки</RU>
+      <SE>Inställningar</SE>
+      <DE>Einstellungen</DE>
+      <VN>Cài đặt</VN>
+      <CN>设置</CN>
+      <KR>설정</KR>
+      <ES>Opciones</ES>
+    </Settings> 
+    
+    <Heroes>
+      <EN>Heroes</EN>
+      <RU>Герои</RU>
+      <SE>Hjältar</SE>
+      <DE>Helden</DE>
+      <VN>các anh hùng</VN>
+      <CN>大侠</CN>
+      <KR>히어로즈</KR>
+      <ES>Héroes</ES>
+    </Heroes>
+
+    <MoveCameraToolTip>
+      <EN>Move Camera On/Off</EN>
+      <RU>Движение Камеры Вкл/Выкл</RU>
+      <SE>Flytta Kameran På/Av</SE>
+      <DE>Bewege die Kamera Ein/Aus</DE>
+      <VN>Tắt/mở di chuyển máy ảnh</VN>
+      <CN>移动相机【开启/关闭】</CN>
+      <KR>카메라 이동 켜기/끄기</KR>
+      <ES>Mover cámara activado/desactivado</ES>
+    </MoveCameraToolTip>
+    
+    <MoveCameraTimeout>
+      <EN>Camera Move Timeout (ms):</EN>
+      <RU>Тайм-аут перемещения камеры (мс):</RU>
+      <SE>Timeout för kameraflyttning (ms):</SE>
+      <DE>Timeout für Kamerabewegung (ms):</DE>
+      <VN>Hết thời gian di chuyển máy ảnh (ms):</VN>
+      <CN>相机移动超时 (ms):</CN>
+      <KR>카메라 이동 시간 초과 (ms):</KR>
+      <ES>Tiempo de espera de movimiento de cámara (ms):</ES>
+    </MoveCameraTimeout>
+
+    <MoveCameraControl>
+      <EN>Camera Move Control:</EN>
+      <RU>Контроль Движения Камеры:</RU>
+      <SE>Kamerarörelsekontroll:</SE>
+      <DE>Steuerung der Kamerabewegung:</DE>
+      <VN>Điều khiển di chuyển máy ảnh:</VN>
+      <CN>相机移动控制:</CN>
+      <KR>카메라 이동 제어:</KR>
+      <ES>Control de Movimiento de Cámara:</ES>
+    </MoveCameraControl>    
+    
 		<NeutralUnitModeL>
 			<EN>Neutral Unit Mode:</EN>
 			<RU>Режим Нейтрального Юнита:</RU>
@@ -2209,6 +2286,17 @@
 			<ES>TEXT</ES>
 		</TEXT_BLOCK>
 
+    <Profile>
+      <EN>Profile:</EN>
+      <RU>Профиль:</RU>
+      <SE>Profil:</SE>
+      <DE>Profil:</DE>
+      <VN>Hồ sơ:</VN>
+      <CN>轮廓:</CN>
+      <KR>프로필:</KR>
+      <ES>Perfil:</ES>
+    </Profile>
+    
 		<Language>
 			<EN>Language:</EN>
 			<RU>Язык:</RU>
