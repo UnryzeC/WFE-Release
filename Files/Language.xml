@@ -5,7 +5,7 @@
 			<Locale>RU</Locale>
 			<Locale>SE</Locale>
 			<Locale>DE</Locale>
-      <Locale>VN</Locale>
+			<Locale>VN</Locale>
 			<Locale>CN</Locale>
 			<Locale>KR</Locale>
 			<Locale>ES</Locale>
@@ -165,17 +165,6 @@
 			<ES>Barras Personalizadas</ES>
 		</CustomBarsCB>
 
-		<Extended>
-			<EN>Extended</EN>
-			<RU>Расширенный</RU>
-			<SE>Förlängd</SE>
-			<DE>Erweitert</DE>
-			<VN>Hiển thị cấp độ</VN>
-			<CN>扩展的</CN>
-			<KR>확장</KR>
-			<ES>Extendida</ES>
-		</Extended>
-
 		<PlayerColour>
 			<EN>Player Colour</EN>
 			<RU>Цвет Игрока</RU>
@@ -214,7 +203,7 @@
 			<RU>Клавиши</RU>
 			<SE>Kommandon</SE>
 			<DE>Tasten</DE>
-      <VN>Keys</VN>
+			<VN>Keys</VN>
 			<CN>按键</CN>
 			<KR>키</KR>
 			<ES>Teclas</ES>
@@ -286,27 +275,16 @@
 			<ES>Texto:</ES>
 		</MSGTextL>
 
-		<SettingsButton>
-			<EN>Settings</EN>
-			<RU>Настройки</RU>
-			<SE>Inställningar</SE>
-			<DE>Einstellungen</DE>
-			<VN>Cài đặt</VN>
-			<CN>设置</CN>
-			<KR>세팅</KR>
-			<ES>Opciones</ES>
-		</SettingsButton>
-
-    <SlimCursor>
-      <EN>Slim Cursor</EN>
-      <RU>Тонкий Курсор</RU>
-      <SE>Smal Markör</SE>
-      <DE>Schlanker Cursor</DE>
-      <VN>Con trỏ mỏng</VN>
-      <CN>超薄光标</CN>
-      <KR>슬림 커서</KR>
-      <ES>Cursor Delgado</ES>
-    </SlimCursor>
+		<SlimCursor>
+			<EN>Slim Cursor</EN>
+			<RU>Тонкий Курсор</RU>
+			<SE>Smal Markör</SE>
+			<DE>Schlanker Cursor</DE>
+			<VN>Con trỏ mỏng</VN>
+			<CN>超薄光标</CN>
+			<KR>슬림 커서</KR>
+			<ES>Cursor Delgado</ES>
+		</SlimCursor>
     
 		<HotKeysButton>
 			<EN>HotKeys</EN>
@@ -352,27 +330,27 @@
 			<ES>Interfaz Mejorada</ES>
 		</UpgradedInterface>
 
-    <AspectRatioL>
-      <EN>Aspect Ratio:</EN>
-      <RU>Соотношение Сторон:</RU>
-      <SE>Bildförhållande:</SE>
-      <DE>Seitenverhältnis:</DE>
-      <VN>Tỷ lệ màn hình:</VN>
-      <CN>纵横比:</CN>
-      <KR>종횡비:</KR>
-      <ES>Relación de Aspecto:</ES>
-    </AspectRatioL>
+		<AspectRatioL>
+			<EN>Aspect Ratio:</EN>
+			<RU>Соотношение Сторон:</RU>
+			<SE>Bildförhållande:</SE>
+			<DE>Seitenverhältnis:</DE>
+			<VN>Tỷ lệ màn hình:</VN>
+			<CN>纵横比:</CN>
+			<KR>종횡비:</KR>
+			<ES>Relación de Aspecto:</ES>
+		</AspectRatioL>
 
-    <AutoDetectAspectRatioText>
-      <EN>Auto-Detect Aspect Ratio</EN>
-      <RU>Авто-Определение Соотношения Сторон</RU>
-      <SE>Autoupptäcka Bildförhållande</SE>
-      <DE>Seitenverhältnis Automatisch Erkennen</DE>
-      <VN>Tự phát hiện tỷ lệ màn hình</VN>
-      <CN>自动检测纵横比</CN>
-      <KR>종횡비 자동 감지</KR>
-      <ES>Auto-detección de Relación de Aspecto</ES>
-    </AutoDetectAspectRatioText>
+		<AutoDetectAspectRatioText>
+			<EN>Auto-Detect Aspect Ratio</EN>
+			<RU>Авто-Определение Соотношения Сторон</RU>
+			<SE>Autoupptäcka Bildförhållande</SE>
+			<DE>Seitenverhältnis Automatisch Erkennen</DE>
+			<VN>Tự phát hiện tỷ lệ màn hình</VN>
+			<CN>自动检测纵横比</CN>
+			<KR>종횡비 자동 감지</KR>
+			<ES>Auto-detección de Relación de Aspecto</ES>
+		</AutoDetectAspectRatioText>
 
 		<HeroOverheadTip>
 			<EN>Hero Overhead Tip</EN>
@@ -649,23 +627,23 @@
 			<ES>Notificación de Carga</ES>
 		</LoadingNotification>
 
-    <FastMenu>
-      <EN>Fast Menu</EN>
-      <RU>Быстрое Меню</RU>
-      <SE>Snabbmeny</SE>
-      <DE>Schnelles Menü</DE>
-      <VN>Menu nhanh</VN>
-      <CN>快捷菜单</CN>
-      <KR>빠른 메뉴</KR>
-      <ES>Menú Rápido</ES>
-    </FastMenu> 
+		<FastMenu>
+			<EN>Fast Menu</EN>
+			<RU>Быстрое Меню</RU>
+			<SE>Snabbmeny</SE>
+			<DE>Schnelles Menü</DE>
+			<VN>Menu nhanh</VN>
+			<CN>快捷菜单</CN>
+			<KR>빠른 메뉴</KR>
+			<ES>Menú Rápido</ES>
+		</FastMenu>
     
 		<ManaBarTip>
 			<EN>Can only be turned on/off in Lobby/Menu.</EN>
 			<RU>Может быть вкл./выкл. только в Лобби/Меню.</RU>
 			<SE>Kan bara sättas på/av i Lobby/Meny.</SE>
 			<DE>Kann nur in der Lobby/Menü ein-/ausgeschaltet werden.</DE>
-      <VN>Chỉ có thể tắt/mở trong phòng chờ/Menu.</VN>
+			<VN>Chỉ có thể tắt/mở trong phòng chờ/Menu.</VN>
 			<CN>仅可在【大厅/菜单】中【开启/关闭】</CN>
 			<KR>로딩 메뉴에서만 설정/해제할 수 있습니다.</KR>
 			<ES>Solo puede ser activado/desactivado en el Lobby/Menú</ES>
@@ -1130,16 +1108,16 @@
 			<ES>Refrescar Configuración de Gráficos</ES>
 		</RefreshGraphicsSettingsB>
 
-    <AutoUpdateL>
-      <EN>Auto Update:</EN>
-      <RU>Авто Обновление:</RU>
-      <SE>Autoupptäcka Uppdatera:</SE>
-      <DE>Automatisch Aktualisieren:</DE>
-      <VN>Cập nhật tự động:</VN>
-      <CN>自动更新:</CN>
-      <KR>자동 업데이트:</KR>
-      <ES>Auto Actualización:</ES>
-    </AutoUpdateL>    
+		<AutoUpdateL>
+			<EN>Auto Update:</EN>
+			<RU>Авто Обновление:</RU>
+			<SE>Autoupptäcka Uppdatera:</SE>
+			<DE>Automatisch Aktualisieren:</DE>
+			<VN>Cập nhật tự động:</VN>
+			<CN>自动更新:</CN>
+			<KR>자동 업데이트:</KR>
+			<ES>Auto Actualización:</ES>
+		</AutoUpdateL>
     
 		<DelaySettings>
 			<EN>Delay (ms)</EN>
@@ -1175,14 +1153,14 @@
 		</GameStartDelay>
 
 		<CamSteps>
-			<EN>Camera Steps:</EN>
-			<RU>Шаги Камеры:</RU>
-			<SE>Kamera Steg:</SE>
-			<DE>Kamera-Stufen:</DE>
-			<VN>Bước Camera:</VN>
-			<CN>镜头设置:</CN>
-			<KR>카메라 설정:</KR>
-			<ES>Pasos de Cámara:</ES>
+			<EN>Camera Steps</EN>
+			<RU>Шаги Камеры</RU>
+			<SE>Kamera Steg</SE>
+			<DE>Kamera-Stufen</DE>
+			<VN>Bước Camera</VN>
+			<CN>镜头设置</CN>
+			<KR>카메라 설정</KR>
+			<ES>Pasos de Cámara</ES>
 		</CamSteps>
 
 		<Distance>
@@ -1333,7 +1311,7 @@
 			<RU>Клавиша Каста на Себя:</RU>
 			<SE>Själv Snabb Tangent:</SE>
 			<DE>Selbst-Cast Taste:</DE>
-			<VN>Self Cast Key:</VN>
+			<VN>Sử dụng vào bản thân:</VN>
 			<CN>对自身施法按键:</CN>
 			<KR>자신에게 사용:</KR>
 			<ES>Tecla de autolanzamiento:</ES>
@@ -1361,71 +1339,71 @@
 			<ES>Libro de Hechizo/Modo de Aprender:</ES>
 		</SpellBookModeL>
 
-    <Extended>
-      <EN>Extended</EN>
-      <RU>Расширенные</RU>
-      <SE>Förlängd</SE>
-      <DE>Erweitert</DE>
-      <VN>Mở Rộng</VN>
-      <CN>扩展</CN>
-      <KR>펼친</KR>
-      <ES>Extendido</ES>
-    </Extended>    
+		<Extended>
+			<EN>Extended</EN>
+			<RU>Расширенные</RU>
+			<SE>Förlängd</SE>
+			<DE>Erweitert</DE>
+			<VN>Mở Rộng</VN>
+			<CN>扩展</CN>
+			<KR>펼친</KR>
+			<ES>Extendido</ES>
+		</Extended> 
     
-    <Settings>
-      <EN>Settings</EN>
-      <RU>Настройки</RU>
-      <SE>Inställningar</SE>
-      <DE>Einstellungen</DE>
-      <VN>Cài đặt</VN>
-      <CN>设置</CN>
-      <KR>설정</KR>
-      <ES>Opciones</ES>
-    </Settings> 
+		<Settings>
+			<EN>Settings</EN>
+			<RU>Настройки</RU>
+			<SE>Inställningar</SE>
+			<DE>Einstellungen</DE>
+			<VN>Cài đặt</VN>
+			<CN>设置</CN>
+			<KR>세팅</KR>
+			<ES>Opciones</ES>
+		</Settings>
     
-    <Heroes>
-      <EN>Heroes</EN>
-      <RU>Герои</RU>
-      <SE>Hjältar</SE>
-      <DE>Helden</DE>
-      <VN>các anh hùng</VN>
-      <CN>大侠</CN>
-      <KR>히어로즈</KR>
-      <ES>Héroes</ES>
-    </Heroes>
+		<Heroes>
+			<EN>Heroes</EN>
+			<RU>Герои</RU>
+			<SE>Hjältar</SE>
+			<DE>Helden</DE>
+			<VN>Các Hero</VN>
+			<CN>大侠</CN>
+			<KR>히어로즈</KR>
+			<ES>Héroes</ES>
+		</Heroes>
 
-    <MoveCameraToolTip>
-      <EN>Move Camera On/Off</EN>
-      <RU>Движение Камеры Вкл/Выкл</RU>
-      <SE>Flytta Kameran På/Av</SE>
-      <DE>Bewege die Kamera Ein/Aus</DE>
-      <VN>Tắt/mở di chuyển máy ảnh</VN>
-      <CN>移动相机【开启/关闭】</CN>
-      <KR>카메라 이동 켜기/끄기</KR>
-      <ES>Mover cámara activado/desactivado</ES>
-    </MoveCameraToolTip>
+		<MoveCameraToolTip>
+			<EN>Move Camera On/Off</EN>
+			<RU>Движение Камеры Вкл/Выкл</RU>
+			<SE>Flytta Kameran På/Av</SE>
+			<DE>Bewege die Kamera Ein/Aus</DE>
+			<VN>Tắt/mở di chuyển máy ảnh</VN>
+			<CN>移动相机【开启/关闭】</CN>
+			<KR>카메라 이동 켜기/끄기</KR>
+			<ES>Mover cámara activado/desactivado</ES>
+		</MoveCameraToolTip>
     
-    <MoveCameraTimeout>
-      <EN>Camera Move Timeout (ms):</EN>
-      <RU>Тайм-аут перемещения камеры (мс):</RU>
-      <SE>Timeout för kameraflyttning (ms):</SE>
-      <DE>Timeout für Kamerabewegung (ms):</DE>
-      <VN>Hết thời gian di chuyển máy ảnh (ms):</VN>
-      <CN>相机移动超时 (ms):</CN>
-      <KR>카메라 이동 시간 초과 (ms):</KR>
-      <ES>Tiempo de espera de movimiento de cámara (ms):</ES>
-    </MoveCameraTimeout>
+		<MoveCameraTimeout>
+			<EN>Camera Move Timeout (ms):</EN>
+			<RU>Тайм-аут перемещения камеры (мс):</RU>
+			<SE>Timeout för kameraflyttning (ms):</SE>
+			<DE>Timeout für Kamerabewegung (ms):</DE>
+			<VN>Thời gian di chuyển Camera (ms):</VN>
+			<CN>相机移动超时 (ms):</CN>
+			<KR>카메라 이동 시간 초과 (ms):</KR>
+			<ES>Tiempo de espera de movimiento de cámara (ms):</ES>
+		</MoveCameraTimeout>
 
-    <MoveCameraControl>
-      <EN>Camera Move Control:</EN>
-      <RU>Контроль Движения Камеры:</RU>
-      <SE>Kamerarörelsekontroll:</SE>
-      <DE>Steuerung der Kamerabewegung:</DE>
-      <VN>Điều khiển di chuyển máy ảnh:</VN>
-      <CN>相机移动控制:</CN>
-      <KR>카메라 이동 제어:</KR>
-      <ES>Control de Movimiento de Cámara:</ES>
-    </MoveCameraControl>    
+		<MoveCameraControl>
+			<EN>Camera Move Control:</EN>
+			<RU>Контроль Движения Камеры:</RU>
+			<SE>Kamerarörelsekontroll:</SE>
+			<DE>Steuerung der Kamerabewegung:</DE>
+			<VN>Kiểu di chuyển Camera:</VN>
+			<CN>相机移动控制:</CN>
+			<KR>카메라 이동 제어:</KR>
+			<ES>Control de Movimiento de Cámara:</ES>
+		</MoveCameraControl>
     
 		<NeutralUnitModeL>
 			<EN>Neutral Unit Mode:</EN>
@@ -1581,18 +1559,18 @@
 			<ES>Limpiar mensajes:</ES>
 		</ClearMessagesL>
 
-    <ClearChatL>
-      <EN>Clear Chat:</EN>
-      <RU>Очистить Чат:</RU>
-      <SE>Rensa Chatt:</SE>
-      <DE>Chat Löschen:</DE>
-      <VN>Xóa cuộc trò chuyện:</VN>
-      <CN>清除聊天:</CN>
-      <KR>채팅 지우기:</KR>
-      <ES>Limpiar Chat:</ES>
-    </ClearChatL> 
+		<ClearChatL>
+			<EN>Clear Chat:</EN>
+			<RU>Очистить Чат:</RU>
+			<SE>Rensa Chatt:</SE>
+			<DE>Chat Löschen:</DE>
+			<VN>Xóa cuộc trò chuyện:</VN>
+			<CN>清除聊天:</CN>
+			<KR>채팅 지우기:</KR>
+			<ES>Limpiar Chat:</ES>
+		</ClearChatL>
     
-    <CameraL>
+    	<CameraL>
 			<EN>Camera:</EN>
 			<RU>Камера:</RU>
 			<SE>Kamera:</SE>
@@ -2220,7 +2198,7 @@
 			<ES>Ayuda</ES>
 		</TooltipText>
 
-    <BuffUI>
+    	<BuffUI>
 			<EN>Buff UI</EN>
 			<RU>Бафф Интерфейс</RU>
 			<SE>Buff UI</SE>
@@ -2253,29 +2231,29 @@
 			<ES>Dibujar Duración de Conjuro Benéfico</ES>
 		</IsBuffDrawDurationText>
 
-    <DrawAuraDurationText>
-      <EN>Draw Aura Duration</EN>
-      <RU>Прорисовка Длительности Ауры</RU>
-      <SE>Draw Aura Duration</SE>
-      <DE>Draw Aura Zeichnen</DE>
-      <VN>Thời gian còn lại của Aura</VN>
-      <CN>显示AURA持续时间</CN>
-      <KR>영기 지속시간 보이기</KR>
-      <ES>Dibujar Duración de Aura Benéfico</ES>
-    </DrawAuraDurationText>
+		<DrawAuraDurationText>
+			<EN>Draw Aura Duration</EN>
+			<RU>Прорисовка Длительности Ауры</RU>
+			<SE>Draw Aura Duration</SE>
+			<DE>Draw Aura Zeichnen</DE>
+			<VN>Thời gian còn lại của Aura</VN>
+			<CN>显示AURA持续时间</CN>
+			<KR>영기 지속시간 보이기</KR>
+			<ES>Dibujar Duración de Aura Benéfico</ES>
+		</DrawAuraDurationText>
 
-    <EnableFade>
-      <EN>Enable Fade</EN>
-      <RU>Включить Мерцание</RU>
-      <SE>Aktivera Tona</SE>
-      <DE>Verblassen Aktivieren</DE>
-      <VN>Bật mờ dần</VN>
-      <CN>启用淡入淡出</CN>
-      <KR>페이드 활성화</KR>
-      <ES>Habilitar Fundido</ES>
-    </EnableFade>
+		<EnableFade>
+			<EN>Enable Fade</EN>
+			<RU>Включить Мерцание</RU>
+			<SE>Aktivera Tona</SE>
+			<DE>Verblassen Aktivieren</DE>
+			<VN>Bật mờ dần</VN>
+			<CN>启用淡入淡出</CN>
+			<KR>페이드 활성화</KR>
+			<ES>Habilitar Fundido</ES>
+		</EnableFade>
 
-    <TEXT_BLOCK>
+    	<TEXT_BLOCK>
 			<EN>TEXT</EN>
 			<RU>TEXT</RU>
 			<SE>TEXT</SE>
@@ -2286,17 +2264,17 @@
 			<ES>TEXT</ES>
 		</TEXT_BLOCK>
 
-    <Profile>
-      <EN>Profile:</EN>
-      <RU>Профиль:</RU>
-      <SE>Profil:</SE>
-      <DE>Profil:</DE>
-      <VN>Hồ sơ:</VN>
-      <CN>轮廓:</CN>
-      <KR>프로필:</KR>
-      <ES>Perfil:</ES>
-    </Profile>
-    
+		<Profile>
+			<EN>Profile:</EN>
+			<RU>Профиль:</RU>
+			<SE>Profil:</SE>
+			<DE>Profil:</DE>
+			<VN>Hồ sơ:</VN>
+			<CN>轮廓:</CN>
+			<KR>프로필:</KR>
+			<ES>Perfil:</ES>
+		</Profile>
+
 		<Language>
 			<EN>Language:</EN>
 			<RU>Язык:</RU>
