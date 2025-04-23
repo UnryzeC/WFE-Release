@@ -1,6 +1,6 @@
 # WFE - Warcraft Feature Extender
 
-![WFE_Main_Picture](![image](https://github.com/user-attachments/assets/4f5ec864-9351-4bfd-9ae0-2e0255e48b9a))
+![WFE_Main_Picture]([image](https://github.com/user-attachments/assets/4f5ec864-9351-4bfd-9ae0-2e0255e48b9a))
 
 ## Contents
 - [About](#about)
