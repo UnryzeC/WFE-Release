@@ -1,6 +1,6 @@
 # WFE - Warcraft Feature Extender
 
-![WFE_Main_Picture](https://user-images.githubusercontent.com/95709901/154843938-b174a754-64f2-4f9d-90fe-bab9be178aab.png)
+![WFE_Main_Picture](![image](https://github.com/user-attachments/assets/4f5ec864-9351-4bfd-9ae0-2e0255e48b9a))
 
 ## Contents
 - [About](#about)
@@ -61,17 +61,21 @@ Reserved for in-depth explanation...
 Note: I strongly advice to extract WFE to a SEPARATE folder, as it prevents any possible collisions with other applications that may read/access any of the WFE files.
 Example: When WFE is in root Warcraft 3 folder, test commands won't work as for some reason Localisation and TestCommands are being accessed by it, probably as the game tries to read any .ini files, hence creating the issue.
 
-#### 2. Launch WFEApp.exe and choose desired parameters and click Save:
+#### 2. Launch WFEApp.exe:
 
-* Default config settings are saved in WFEConfigBase.ini
+* Rename WFEConfigBase.ini to preferred one in the Profile field:
 
-![WFE_Config_Base](https://user-images.githubusercontent.com/95709901/154843693-ffbf08bb-b8b5-4fba-93b5-528632fbf294.png)
+![image](https://github.com/user-attachments/assets/0333114f-2aab-4844-b768-9f208248b89e)
 
-If WFEConfig.ini is not present, WFE will use it as a main config file instead.
+* Now click "+" this will generate profile:
 
-* If WFEConfig.ini is present or Save button was used to create WFEConfig.ini, then all the new parameters will be written to it.
+![image](https://github.com/user-attachments/assets/4cde1e45-fc9c-41d7-841c-abc55656aaf2)
 
-![WFE_Config_Example](https://user-images.githubusercontent.com/95709901/154843696-f0229a09-e30e-42e7-9501-9885975c03b6.png)
+* Now clicking Save will generate/update YOUR_PROFILE_NAME.ini in the Profiles folder:
+
+![WFE_Config_Example](https://github.com/user-attachments/assets/58524265-705b-414b-9d29-f648f834ff45)
+
+Any subsequent Save clicks will simply update this file and update settings in-game.
 
 #### 3. Setting up Path to the Game:
 
