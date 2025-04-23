@@ -61,7 +61,7 @@ Reserved for in-depth explanation...
 Note: I strongly advice to extract WFE to a SEPARATE folder, as it prevents any possible collisions with other applications that may read/access any of the WFE files.
 Example: When WFE is in root Warcraft 3 folder, test commands won't work as for some reason Localisation and TestCommands are being accessed by it, probably as the game tries to read any .ini files, hence creating the issue.
 
-#### 2. Launch WFE.exe and choose desired parameters and click Save:
+#### 2. Launch WFEApp.exe and choose desired parameters and click Save:
 
 * Default config settings are saved in WFEConfigBase.ini
 
@@ -85,11 +85,11 @@ If WFEConfig.ini is not present, WFE will use it as a main config file instead.
 
 ![WFE_Game_Path_Custom_Launcher_Option](https://user-images.githubusercontent.com/95709901/154843686-6f3cf12c-4fb1-4e19-b032-1d641e9c8900.png)
 
-Note: this is not mandatory, if you don't want to use WFE.exe as a launcher, as you can simply inject/use auto-injector to activate WFE library instead.
+Note: this is not mandatory, if you don't want to use WFEApp.exe as a launcher, as you can simply inject/use auto-injector to activate WFE library instead.
 
 #### 4. Setting up Injector.
 
-Note: do not let the name scare you, as WFE.exe needs to know what game to find and inject library to. This is an important step, so please read carefully!
+Note: do not let the name scare you, as WFEApp.exe needs to know what game to find and inject library to. This is an important step, so please read carefully!
 
 ##### 4.1 Configuring Process Name:
 
