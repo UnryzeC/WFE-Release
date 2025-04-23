@@ -8,7 +8,6 @@
 - [Features](#features)
 - [How to use](#how-to-use)
   - [Method 1](#method-1)
-  - [Method 2](#method-1)
 - [Credits](#credits)
 - [FAQ](#faq)
 - [Contacts](#contacts)
@@ -129,7 +128,7 @@ If Auto Injector IS NOT enabled:
 
 If Auto Injector is enabled:
 * Simply launch the game as usual.
-Note: as mentioned in Auto Injector, WFE.exe will inject the library itself.
+Note: as mentioned in Auto Injector, WFEApp.exe will inject the library itself.
 
 #### 5.2 Launch Method:
 
@@ -151,13 +150,6 @@ Auto-Inject will inject main library to the specified Process from Process Name 
 * Click Save.
 This will update data in config and in-game.
 You don't have to click Inject again.
-
-### Method #2:
-#### 1. Extract all files to the MAIN folder of Warcraft 3.
-#### 2. Launch WFE.exe and choose parameters you desire and then push Okay to save changes to conf.ini or simply edit conf.ini directly.
-
-![WFE_Config_Example](https://user-images.githubusercontent.com/95709901/154843696-f0229a09-e30e-42e7-9501-9885975c03b6.png)
-#### 3. Launch Warcraft 3 and enjoy!
 
 ## Credits
 
