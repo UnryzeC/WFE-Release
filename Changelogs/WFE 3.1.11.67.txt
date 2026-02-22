@@ -1,0 +1,11 @@
+WFE 3.1.11.67
+
+1. Fixed Heroes binds not selecting paused heroes.
+2. Fixed incorrect Registry id for maxfps (it does not really affect anything, but still, thanks to DiX998 for finding this issue).
+3. Fixed WFE binds with/without autocast clicking "through" minimap and moving camera to that spot. (Note: this does not fix the basic normal clicks, since again, those are caused by Blizzard's problematic click handling).
+4. Fixed lockfb registry Id on 1.28f, its ID apparently was changed on 1.28a and above.
+	Note: this id change was hitting Lighting option instead.
+5. Fixed Buff Duration text size not changing if "Draw Indicator" was disabled.
+6. WFEApp's size was adjusted to 600pixels.
+7. WFEApp's height can now be resized.
+8. Some buttons in main menu were slightly shrinked to fit the new size.

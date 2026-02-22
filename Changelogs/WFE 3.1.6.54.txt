@@ -1,0 +1,17 @@
+WFE 3.1.6.54
+
+1. Fixed Cooldown UI and Buff UI refresh time not setting to lower than 100.
+2. Moved Upgraded UI to its own section, due to a massive overhaul.
+3. Added Auto Detect Aspect Ratio flag option to Upgraded UI section.
+4. Added Aspect Ratio combobox option to Upgraded UI section.
+5. Default Aspect Ratio of Upgraded UI has been set to 16:9.
+	Note: 4:3 for now uses 16:9 values, as I cannot really test 4:3.
+6. Fixed broken CCoccupUI with night elf gold mines.
+7. Fixed Buff UI not recreating after first map.
+8. Added Fast Menu setting to Settings Section.
+	Note: this simply makes page transitions nearly instant, no more .67 to 1. waits between pages!
+	Note: thanks fenathesnake for the idea.
+9. Added Slim Cursor option to Upgraded UI section.
+	Note: this now will also work in main menu and can be adjusted with Aspect Ratio option.
+10. Check Updates option in WFE now is "Off" by default.
+	Note: this was done for Windows 7 users, on which WebClient no longer works, as Microsoft has abandoned support for this OS.

@@ -1,0 +1,10 @@
+WFE 3.1.7.55
+
+1. Fixed not working map size limit remover for patches 1.27b and 1.28f.
+2. Fixed 16:10 resolution not being auto-detected.
+	Note: 16:10 will use 16:9 data.
+3. Changed "Status" text to "FPS Unlocker".
+4. Removed "New" and "Legacy" options from FPS Unlocker, as Legacy no longer does anything.
+	Note: now it's back to On/Off option. To actually limit FPS to your screen refresh rate, please use V-Sync.
+	Note 2: V-Sync only works with DirextX9 and is automatically activated on patches 1.26a and lower as they use DirectX8 by default.
+5. Fixed "broken" UI in Replay mode, now it's fully resizing/redrawing itself as in normal games.

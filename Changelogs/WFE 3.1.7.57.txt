@@ -1,0 +1,5 @@
+WFE 3.1.7.57
+
+1. Fixed Show/Hide Multiboard Hotkey not working.
+2. Fixed Damage Draw not working.
+3. Moved all Graphics Section settings to GRAPHICS section in config.

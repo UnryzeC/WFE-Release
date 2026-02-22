@@ -1,0 +1,7 @@
+WFE 3.1.10.65
+
+1. Major code refresh/remake for a minor performance uplift, this could create some new fatal errors (but highly unlikely).
+2. Fixed Fatal Error whenever decaying unit was selected via Unit Autoselection/Selection.
+	Note: this time for sure. :/
+3. Fixed "Enable" flag in Hero Binds always defaulting to true.
+4. "Profiles" folder will be automatically created, if it did not exist at all, or if for some reason it was not moved by user/updater.

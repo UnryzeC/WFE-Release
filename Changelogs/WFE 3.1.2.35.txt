@@ -1,0 +1,16 @@
+WFE 3.1.2.35
+
+Hiveworkshop: https://www.hiveworkshop.com/threads/wfe-warcraft-feature-extender.310863/
+Github: https://github.com/UnryzeC/WFE-Release/releases
+
+Changelog:
+
+1. All Frame-related code has been refactored and re-optimised.
+	Note: this could lead to some specific function causing fatal error, if it happens, it will be fixed, however most likely that won't happen.
+2. Increased the width of Handle Counter frame, since it was a bit too small for screen sizes below mine.
+3. Fixed Multiboard Display/Suppress issue within WFE frame control.
+4. Multiboard now has smart position, and won't be "jumping" from one position to another whenever it's redrawn/updated via BJ functions.
+5. Multiboard Displace option replaced with Leaderboard (now you can hide/show) Leaderboard.
+6. HP/HP and Cooldown Label priorities reduced from 10000 to 5000, now Cursor should be above them.
+7. Feature Hero Overhead Tip now properly works, it won't hide ALL overhead tips, but only on heroes, as it was supposed to.
+8. @copy command will no longer change the player owner of the newly created unit to the command issuer, the original owning player will stay its owner.

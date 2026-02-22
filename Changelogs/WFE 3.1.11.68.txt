@@ -1,0 +1,4 @@
+WFE 3.1.11.68
+
+1. Fixed Mouse Lock not properly working with Top (in borderless mode) and Bottom (in both modes) parts of the window.
+2. Added PT (Portuguese) language, thanks nuzamacuxe.

@@ -1,0 +1,20 @@
+WFE 3.1.5.49
+
+1. Added "Move Camera" flag to "Save Unit" section, which has 3 states:
+	1) Off.
+	2) Always. Meaning it will move the camera when autoselect is on or when hotkey was issued.
+	3) On Key. Meaning it will move the camera when and only when the hotkey was issued.
+2. Fixed accidentally broken support for 1.27a.
+3. Updated Chinese localisation. (thanks EdgarL).
+4. BuffBar Section renamed into Buff UI.
+5. Buff UI Section reworked completely and now it's similar to Cooldown UI in terms of control.
+6. Added new options to Buff UI Section:
+	1) Show Indicator - this will draw a duration indicator, like in Diablo 3. (This will currenly only work, if Upgraded Buff Bar is enabled).
+	2) Enable Fade - this will enable/disable the blinking (fading) animation of buffs. (By default it's turned on).
+	3) Refresh Time (ms) - this, like in Cooldown UI will control the frequency of Buff updates.
+	4) Text Size - this, like in Cooldown UI, will control the text size of the duration time. (This will currenly only work, if Upgraded Buff Bar is enabled).
+	5) Draw Aura Duration - when enabled, this will draw duration for buffs that were acquired through auras.
+7. Buff UI is now in a separate configuration section, namely BUFFUI akin to COOLDOWNUI.
+8. Buff UI will also accurately draw total DoT duration (since these buffs are also 2 second long, that get refreshed every 1 second until the original buff is over, which is not drawn).
+9. Reworked Cooldown UI Section and moved it to Interface Section.
+10. Fixed issue with Leaderboards being always drawn/hidden when Leaderboard option was enabled/disabled, which was bypassing whatever was set by the currently playing map.

@@ -1,0 +1,4 @@
+WFE 3.1.7.56
+
+1. Fixed FPS Limiter option base setting, it was not correctly reading/resetting, if previous option was not "Off".
+2. Fixed broken Map Size Limit Remover on 1.27a.

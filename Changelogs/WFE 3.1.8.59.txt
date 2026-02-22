@@ -1,0 +1,13 @@
+WFE 3.1.8.59
+
+1. Added "Auto-Update" in Graphics Section.
+2. All Graphics related options now also use GRAPHICS section in config.
+3. Added Profile Combo Box in Main Section.
+	Note: Now you can switch between profiles.
+4. Profiles can be added (created) via "+" and removed via "-" buttons near Profile label.
+5. Adding/Removing/Changing profiles will also update settings for all Warcraft 3 processes to the newly selected Profile.
+6. Added Heroes section in Key Binds.
+	Note: this option overrides default F1-F7 logic, allowing you to remap or disable them.
+7. Added Camera Move Timeout option in Heroes Section. This controls how much time you have for tapping (double key pressing) to cause camera movementt towards hero.
+8. Added Camera Move Control option in Heroes Section. This allows you to select one of three modes: Tap (original and default), press and hold.
+9. Fixed Fatal Error if Unit Select/Autoselect was used on a removed unit.

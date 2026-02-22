@@ -1,0 +1,12 @@
+WFE 3.1.9.62
+
+1. Fixed Fatal Error whenever decaying unit was selected via Unit Autoselection/Selection.
+2. Added Enable setting in Heroes Section, by default this option is disabled.
+	Note 1: this was added to offset some weird Platforms that use 1.28f that for some reason cause the game to crash.
+	Note 2: this does NOT happen on pure 1.28f.
+3. Fixed Default Profile not being selected on first launch, causing fake errors.
+4. Profiles can now be renamed, once you press Enter, its name will update, while retaining previous settings.
+	Note: WFEConfigDefault.ini CAN be removed/renamed too, but it's not advised to do so.
+5. Fixed negative HP values, when unit would exceed int32 hp limit (aka. 2,147,483,647).
+	Note: yes, there are horrendous maps that use such values for no apparent reason.
+6. Updated Chinese localisation (thanks EdgarL).

@@ -1,0 +1,11 @@
+WFE 3.1.4.47
+
+1. Whole UI has been reworked and brought to nearly identical level with Reforged.
+2. Cursor size has been adjusted to the widescreen.
+3. Fixed cooldown not being drawn for enemy shops that can be accessed.
+4. Graphics settings are no longer automatically updated, a separate button has been added in WFEApp.exe, press "Refresh Graphics Settings" button each time you wish to enable/disable DirectX9 or V-Sync.
+5. Buff Duration text priority lowered from 10000 to 5000, now cursor will be drawn over it.
+6. Updated Buff Bar for Upgraded Interface, now it's more compact.
+7. Decreased default font size of Buff Duration Draw text frame from .013 to .0105.
+	Note: this change is "reverted" if Upgraded Buff Bar option is enabled, as it doesn't need font size limit.
+8. Increased the size of the Buff Icons for when Upgraded Buff Bar is enabled.

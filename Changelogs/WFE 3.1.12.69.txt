@@ -1,0 +1,15 @@
+WFE 3.1.12.69
+
+1. Fixed Cooldown UI time not getting hidden, when whole option is disabled.
+2. Added "Display Time" option in Cooldown UI, when enabled, will draw cooldown text.
+3. Fixed BLP limit remover not auto-updating regardless, now it updates regardless of if Graphics Auto Updater was selected or not.
+4. WFEApp will now use Warcraft III install path from registry (war3.exe or Warcraft III.exe, based on which exe exists in this order), if no game path was specified.
+5. @learn and @unlearn commands can now process ability list, example: @learn AUau,AOws,AHbz will learn/unlearn -> Unholy Aura, War Stomp and Blizzard.
+6. New Command: @setabilitylevel - sets ability's level to input amount by RAW-code or by id. Example: @setabilitylevel AOws 2, this will set War Stomp to level 2.
+	Note: instead of AOws you can also use its id: 1095726963, etc.
+7. @id command will now print ability/item/unit's owner (aka whoever sells it, or whichever spellbook it belongs to).
+	Example: Spell Book->Roar [ 'Aspb'->'Aroa' | 1098084450->1098018657 ].
+8. Potentially fully fixed Minimap "pass-through" target (attack/spell/build, etc.) command, that would sometimes result in camera moving to the clicked area.
+9. New @printstringdata command, this will check all Jass Strings and print them to a StringData.txt along with total length of all texts and how much memory they occupy.
+10. Fixed Custom Stat Bars not working properly with units/destructables that use negative width.
+11. Level Frame will now fully scretch horizontally, based on hp/mp bar heights.

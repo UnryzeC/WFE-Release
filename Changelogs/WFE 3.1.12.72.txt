@@ -1,0 +1,33 @@
+WFE 3.1.12.72
+
+1. Fixed Cooldown UI time not getting hidden, when whole option is disabled.
+2. Added "Display Time" option in Cooldown UI, when enabled, will draw cooldown text.
+3. Fixed BLP limit remover not auto-updating regardless, now it updates regardless of if Graphics Auto Updater was selected or not.
+4. WFEApp will now use Warcraft III install path from registry (war3.exe or Warcraft III.exe, based on which exe exists in this order), if no game path was specified.
+5. @learn and @unlearn commands can now process ability list, example: @learn AUau,AOws,AHbz will learn/unlearn -> Unholy Aura, War Stomp and Blizzard.
+6. New Command: @setabilitylevel - sets ability's level to input amount by RAW-code or by id. Example: @setabilitylevel AOws 2, this will set War Stomp to level 2.
+	Note: instead of AOws you can also use its id: 1095726963, etc.
+7. @id command will now print ability/item/unit's owner (aka whoever sells it, or whichever spellbook it belongs to).
+	Example: Spell Book->Roar [ 'Aspb'->'Aroa' | 1098084450->1098018657 ].
+8. Potentially fully fixed Minimap "pass-through" target (attack/spell/build, etc.) command, that would sometimes result in camera moving to the clicked area.
+9. New @printstringdata command, this will check all Jass Strings and print them to a StringData.txt along with total length of all texts and how much memory they occupy.
+10. Fixed Custom Stat Bars not working properly with units/destructables that use negative width.
+11. Level Frame will now fully scretch horizontally, based on hp/mp bar heights.
+12. @handlecounter and @printhandles now also show/print Handle Index (this shows how many indexes are used for Jass variables).
+	Note: if this number keeps rising, this means you have "local handle" leak.
+13. Removed WFESettingsBase.ini.
+14. Removed WFEConfigBase.ini.
+15. Removed WFEAppStyleDefault.ini.
+16. Fixed issue causing Hotkeys to break, this was related to utilising std::vector copy over just using a pointer.
+	Note: this was a horrible thing to have to begin with, it was a leftover of my ancient code... ;/
+17. Fixed FPS Limit and Refresh Rate defaulting to 64 on save, if Display option was disabled.
+	Note: it will only save if option is enabled.
+18. Fixed HP/MP text still showing percent / regen even when main option was disabled.
+	Note: originally another option was planned to act as draw yes/no and menu enabling/disabling custom HP/MP text instead.
+19. Added CLayer::CalculateDepth hook to make portrait unclippable by terrain and such.
+	Thanks to sotzaii_shuen for the find.
+20. Fixed Auto Injector conflicting with UjAPI, aka if game was launched with injected UjAPI.
+	Note: both libraries hook statbars, thus secondary dll (wfe) always tried to hook function that was mid-hooked.
+21. Library now has module tracking to prevent secondary library from loading, and it's able to see newer modules if they were loaded and so on.
+  Note: this only will work starting this version with all libraries equal or higher version than this.
+    Modules: AngelScript, FastMenu, FPSUnlocker, UnlockMapSize, MultiWindow, RepplaySpeedUnlocker, UjAPI and WFE.
