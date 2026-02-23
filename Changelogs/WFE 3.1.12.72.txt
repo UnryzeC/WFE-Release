@@ -1,5 +1,3 @@
-WFE 3.1.12.72
-
 1. Fixed Cooldown UI time not getting hidden, when whole option is disabled.
 2. Added "Display Time" option in Cooldown UI, when enabled, will draw cooldown text.
 3. Fixed BLP limit remover not auto-updating regardless, now it updates regardless of if Graphics Auto Updater was selected or not.
@@ -30,4 +28,5 @@ WFE 3.1.12.72
 	Note: both libraries hook statbars, thus secondary dll (wfe) always tried to hook function that was mid-hooked.
 21. Library now has module tracking to prevent secondary library from loading, and it's able to see newer modules if they were loaded and so on.
   Note: this only will work starting this version with all libraries equal or higher version than this.
+
     Modules: AngelScript, FastMenu, FPSUnlocker, UnlockMapSize, MultiWindow, RepplaySpeedUnlocker, UjAPI and WFE.
