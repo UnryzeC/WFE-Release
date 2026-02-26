@@ -2,3 +2,4 @@
   Note: it was different only on this patch.
 2. Fixed unpause command not working.
   Note: whole pause/unpause logic was streamlined and reworked.
+3. Rollbacked old QuickMessageSend handling, new one was too fast for game to process...
