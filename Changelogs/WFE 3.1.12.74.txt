@@ -1,0 +1,2 @@
+1. Returned hp/mp regen hiding if its value is 0.
+2. Fixed Level Frame position, now it should fully align to hp/mp bars.
