@@ -1,0 +1,4 @@
+1. Fixed crash on shop selection in some maps.
+  Note: this was related to how Cooldown was processed by WFE, it's now more lenient.
+2. Added OnCreateAutocastIndicator hook, so now buttons that have autocast indicator are instantly scaled, without the need to press "save" again in the app.
+3. Removed half of the CTextFrames used for Cooldown text shadow (border). (It's an inefficient way to draw border around the cooldown, but for now that's the only solution).
