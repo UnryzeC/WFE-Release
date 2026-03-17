@@ -1,0 +1,11 @@
+1. Removed SetTimer for Cooldown UI draw.
+  Note: this makes Refresh Time deprecated.
+2. Removed SetTimer for Buff UI Draw.
+  Note: this makes Refresh Time deprecated.
+3. Removed SetTimer for DrawIndicators.
+  This did not have Refresh Time, so no change to its logic.
+4. Fixed fatal error on exiting Score Screen if Custom Bars were enabled.
+  Note: additional cleanup was added, which seemingly fixed this issue.
+5. Fixed Mouse Lock not clipping properly, being too close to the edges.
+6. Removed blocking code from @nocd test command, that was an oopsie.
+7. Buff UI internal setting reading updated to be more lenient and impact less of the performance.
