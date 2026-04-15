@@ -1,0 +1,5 @@
+1. Removed CImage* from WFEIndicator.
+2. Added Id to WFEIndicator.
+3. All logic is now handled by getting CImage* via index, instead of directly relying on the pointer, as this did not work well whenever m_images was resized.
+4. Fixed OnClipCursorBorders for some edge case resolutions such as 1368x768 (or something like that), where it would not properly work.
+5. Fixed incorrect CUnit::SetOwner offest for 1.28.5, which was wrong for years.
