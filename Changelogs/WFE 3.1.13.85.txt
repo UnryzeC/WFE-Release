@@ -5,3 +5,4 @@
 5. Fixed incorrect CUnit::SetOwner offest for 1.28.5, which was wrong for years.
 6. Fixed Memory Usage checker, now it uses PrivateUsage, which is more correct than WorkingSetSize, as it doesn't care about paging, whereas WorkingSetSize does and lowers memory usage whenever something is paged.
   Note: Windows is also using WorkingSetSize to show memory usage, which in fact is not correct.
+7. Fixed crash from changing Leaderboard/Multiboard state while being in a game lobby via hotkeys.
