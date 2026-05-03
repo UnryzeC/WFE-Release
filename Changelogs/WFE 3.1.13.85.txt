@@ -3,3 +3,5 @@
 3. All logic is now handled by getting CImage* via index, instead of directly relying on the pointer, as this did not work well whenever m_images was resized.
 4. Fixed OnClipCursorBorders for some edge case resolutions such as 1368x768 (or something like that), where it would not properly work.
 5. Fixed incorrect CUnit::SetOwner offest for 1.28.5, which was wrong for years.
+6. Fixed Memory Usage checker, now it uses PrivateUsage, which is more correct than WorkingSetSize, as it doesn't care about paging, whereas WorkingSetSize does and lowers memory usage whenever something is paged.
+  Note: Windows is also using WorkingSetSize to show memory usage, which in fact is not correct.
