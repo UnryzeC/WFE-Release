@@ -7,3 +7,10 @@
   Note: Windows is also using WorkingSetSize to show memory usage, which in fact is not correct.
 7. Fixed crash from changing Leaderboard/Multiboard state while being in a game lobby via hotkeys.
 8. Fixed Cooldown UI "getting stuck" whenever another unit is selected or save is issued when no appropriate button is available for cooldown.
+9. Internal code for camera was adjusted, some hacky methods that relied on Jass Natives were removed to work instead with camera values directly.
+10. Internal code for CustomStatBar adjusted to yet again first call for original CStatBar::UpdateForUnit and only then do custom logic. Without original called function, sometimes refCount would desync and cause a desync for players (this was rare, but thanks for some reports was identified).
+11. Internal code for BuildDefenseData adjusted, now negative values are processed by game defined values from 0 to -20 armour, however the calculation of base and bonus was added, so you can still see how much % is contributed from what, meaning -4 base armour and -6 bonus armour each would display how much they "provide" for the -10 armour.
+
+App Changes:
+
+1. Reworked .exe lookup to be case insensitive, previous change removed checks for lower case if expected "normally" written exe was not found.
