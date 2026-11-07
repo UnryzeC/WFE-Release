@@ -1,0 +1,5 @@
+Changes:
+
+1. Added a small delay on library load, due to tons of internal optimisations, library was loading too fast, thus causing crash when hooks would activate too early.
+2. Enabled Animation Smoother by default, at some point this will have its own setting.
+3. Fully reworked how SmartCast is populated and processed, now it's faster and shouldn't have rare, but occurring key press issues.
